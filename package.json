@@ -8,10 +8,7 @@
     "test": "lab -l -t 80",
     "lint": "node_modules/eslint/bin/eslint.js plugins test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thirteen23/2da-bayzyen-server.git"
-  },
+  "repository": "git+https://github.com/thirteen23/2da-bayzyen-server.git",
   "author": "Anthony Shull <anthony.shull@thirteen23.com>",
   "license": "UNLICENSED",
   "bugs": {
