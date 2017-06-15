@@ -6,9 +6,15 @@ module.exports = function(callback) {
   server.connection({
     host: '0.0.0.0',
     port: 9001,
+    routes: {
+      cors: true,
+    },
   });
 
   server.register([
+    {
+      register: require('./plugins/auth'),
+    },
     {
       register: require('./plugins/bus'),
     },
