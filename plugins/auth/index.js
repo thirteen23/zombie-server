@@ -1,3 +1,5 @@
+const S = require('sanctuary');
+
 const KEY = 'Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace';
 const TOKEN = 'Thedevelopmentofmathematicsinthedirectionofgreaterexactnesshasledtolargetractsofitbecomingformalized';
 

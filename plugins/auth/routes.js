@@ -7,4 +7,8 @@ module.exports = [{
     auth: false,
   },
   handler: Handlers.authenticate,
+}, {
+  method: 'GET',
+  path: '/ping',
+  handler: Handlers.ping,
 }];
