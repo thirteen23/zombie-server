@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node start.js",
-    "test": "lab -l -t 80",
-    "lint": "node_modules/eslint/bin/eslint.js plugins test"
+    "test": "NODE_ENV=tst lab -l -t 80",
+    "lint": "NODE_ENV=tst node_modules/eslint/bin/eslint.js plugins test"
   },
   "repository": "git+https://github.com/thirteen23/2da-bayzyen-server.git",
   "author": "Anthony Shull <anthony.shull@thirteen23.com>",

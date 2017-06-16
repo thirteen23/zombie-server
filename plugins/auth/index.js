@@ -12,10 +12,10 @@ exports.register = (server, options, next) => {
     validateFunc: (decoded, request, callback) => {
       callback(null, S.equals(decoded.token, TOKEN));
     },
-    verifyOptions: { algorithms: ['HS256'] }
+    verifyOptions: {algorithms: ['HS256']},
   });
   server.route(require('./routes'));
   next();
 };
 
-exports.register.attributes = { name: 'auth' };
+exports.register.attributes = {name: 'auth'};

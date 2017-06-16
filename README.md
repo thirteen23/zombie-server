@@ -6,11 +6,11 @@
 
 ### Testing
 
-`$ NODE_ENV=tst npm test`
+`$ npm test`
 
 ### Linting
 
-`$ NODE_ENV=tst npm run lint`
+`$ npm run lint`
 
 ### Staging
 
