@@ -21,7 +21,9 @@
     "fluture": "^6.2.6",
     "fluture-sanctuary-types": "^1.2.0",
     "hapi": "^16.4.3",
+    "hapi-auth-jwt2": "^7.2.4",
     "joi": "^10.5.2",
+    "jsonwebtoken": "^7.4.1",
     "moment": "^2.18.1",
     "sanctuary": "^0.13.2",
     "uuid": "^3.0.1"
