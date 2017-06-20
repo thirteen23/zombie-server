@@ -1,0 +1,17 @@
+{
+	"wood_river": {
+		"name": "Wood River",
+		"lat": 38.83727,
+		"lng": -90.06489
+	},
+	"ponca_city": {
+		"name": "Ponca City",
+		"lat": 36.68240,
+		"lng": -97.09577
+	},
+	"borger": {
+		"name": "Borger",
+		"lat": 35.69825,
+		"lng": -101.36225
+	}
+}

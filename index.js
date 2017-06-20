@@ -1,7 +1,6 @@
 const Hapi = require('hapi');
-
-const KEY = 'Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace';
-const TOKEN = 'Thedevelopmentofmathematicsinthedirectionofgreaterexactnesshasledtolargetractsofitbecomingformalized';
+const config = require('config');
+const redis = require('redis');
 
 module.exports = function(callback) {
   const server = new Hapi.Server();
@@ -14,6 +13,8 @@ module.exports = function(callback) {
     },
   });
 
+  server.decorate('server', 'redis', redis.createClient(config.get('redis')));
+
   server.register([
     require('hapi-auth-jwt2'),
     {
@@ -22,6 +23,9 @@ module.exports = function(callback) {
     {
       register: require('./plugins/bus'),
     },
+    {
+      register: require('./plugins/locations'),
+    }
   ]);
 
   callback(null, server);

@@ -1,0 +1,5 @@
+{
+  "redis": {
+    "url": "redis://x:AQRCWOCBDJAFNFKE@sl-us-south-1-portal.1.dblayer.com:17108"
+  }
+}
