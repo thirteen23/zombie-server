@@ -10,10 +10,10 @@ const Refinery = $.RecordType({
 
 // getRefineries :: DB -> Future {Refineries}
 exports.getRefineries = (client) => {
-  return node((done) => client.hgetall('refineries', done));
-}
+  return node((done) => client.lrange('refineries', 0, -1, done));
+};
 
-// getRefinery :: DB -> String -> Future Refinery
+// getRefinery :: DB -> Int -> Future Refinery
 exports.getRefinery = (client, id) => {
-  return node((done) => client.hget('refineries', id, done));
-}
+  return node((done) => client.lindex('refineries', id, done));
+};

@@ -1,52 +1,51 @@
-{
-	"wichita_south": {
-		"name": "Wichita South",
-		"lat": 37.649479,
-		"lng": -97.243416
-	},
-	"wichita_north": {
-		"name": "Wichita North",
-		"lat": 37.754778,
-		"lng": -97.307716
-	},
-	"lincoln": {
-		"name": "Lincoln",
-		"lat": 40.697311,
-		"lng": -96.701556
-	},
-	"jefferson_city": {
-		"name": "Jefferson City",
-		"lat": 40.697311,
-		"lng": -96.701556
-	},
-	"mount_vernon": {
-		"name": "Mount Vernon",
-		"lat": 37.188784,
-		"lng": -93.78233
-	},
-	"hartford": {
-		"name": "Hartford",
-		"lat": 38.812039,
-		"lng": -90.094033
-	},
-	"glenpool": {
-		"name": "Glenpool",
-		"lat": 36.01302,
-		"lng": -95.994232
-	},
-	"oklahoma_city": {
-		"name": "Oklahoma City",
-		"lat": 35.478227,
-		"lng": -97.432008
-	},
-	"paola": {
-		"name": "Paola",
-		"lat": 38.50746,
-		"lng": -94.885962
-	},
-	"kansas_city": {
-		"name": "Kansas City",
-		"lat": 38.50746,
-		"lng": -94.885962
-	}
-}
+[{
+	"key": "1",
+  "name": "Wichita South",
+	"lat": 37.649479,
+	"lng": -97.243416
+}, {
+  "key": "2",
+	"name": "Wichita North",
+	"lat": 37.754778,
+	"lng": -97.307716
+}, {
+  "key": "3",
+	"name": "Lincoln",
+	"lat": 40.697311,
+	"lng": -96.701556
+}, {
+  "key": "4",
+	"name": "Jefferson City",
+	"lat": 40.697311,
+	"lng": -96.701556
+}, {
+  "key": "5",
+	"name": "Mount Vernon",
+	"lat": 37.188784,
+	"lng": -93.78233
+}, {
+  "key": "6",
+	"name": "Hartford",
+	"lat": 38.812039,
+	"lng": -90.094033
+}, {
+  "key": "7",
+	"name": "Glenpool",
+	"lat": 36.01302,
+	"lng": -95.994232
+}, {
+  "key": "8",
+	"name": "Oklahoma City",
+	"lat": 35.478227,
+	"lng": -97.432008
+}, {
+  "key": "9",
+	"name": "Paola",
+	"lat": 38.50746,
+	"lng": -94.885962
+}, {
+  "key": "10",
+	"name": "Kansas City",
+	"lat": 38.50746,
+	"lng": -94.885962
+}]

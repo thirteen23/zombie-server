@@ -10,10 +10,10 @@ const Refinery = $.RecordType({
 
 // getTerminals :: DB -> Future {Terminals}
 exports.getTerminals = (client) => {
-  return node((done) => client.hgetall('terminals', done));
-}
+  return node((done) => client.lrange('terminals', 0, -1, done));
+};
 
-// getTerminal :: DB -> String -> Future Terminal
+// getTerminal :: DB -> Int -> Future Terminal
 exports.getTerminal = (client, id) => {
-  return node((done) => client.hget('terminals', id, done));
+  return node((done) => client.lindex('terminals', id, done));
 }
