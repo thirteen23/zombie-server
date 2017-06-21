@@ -23,4 +23,7 @@ $ node seed.js
 
 ### Staging
 
-`$ now -e NODE_ENV=stg --docker`
+```sh
+$ NODE_ENV=stg node seed.js
+$ now -e NODE_ENV=stg --docker`
+```

@@ -10,4 +10,4 @@ COPY . /var/www/app
 
 EXPOSE 9001
 
-CMD NODE_ENV=prd npm run start
+CMD NODE_ENV=stg npm run start
