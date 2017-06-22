@@ -8,7 +8,7 @@ const Refinery = $.RecordType({
   longitude: $.FiniteNumber
 });
 
-// getRefineries :: DB -> Future {Refineries}
+// getRefineries :: DB -> Future [Refinery]
 exports.getRefineries = (client) => {
   return node((done) => client.lrange('refineries', 0, -1, done));
 };

@@ -1,4 +1,4 @@
-const { Future, node } = require('fluture');
+const { Future } = require('fluture');
 const { getRefineries, getRefinery } = require('./refineries');
 const { getTerminals, getTerminal } = require('./terminals');
 
