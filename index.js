@@ -1,6 +1,10 @@
+const path = require('path');
 const Hapi = require('hapi');
 const config = require('config');
 const redis = require('redis');
+const twilio = require('twilio');
+
+global.rootDir = path.resolve(__dirname);
 
 module.exports = function(callback) {
   const server = new Hapi.Server();
@@ -14,6 +18,8 @@ module.exports = function(callback) {
   });
 
   server.decorate('server', 'redis', redis.createClient(config.get('redis')));
+
+  server.decorate('server', 'twilio', new twilio(config.get('twilio').sid, config.get('twilio').secret));
 
   server.register([
     require('hapi-auth-jwt2'),

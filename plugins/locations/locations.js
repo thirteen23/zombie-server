@@ -19,4 +19,3 @@ const Location = $.RecordType({
   latitude: Latitude,
   longitude: Longitude,
 });
-

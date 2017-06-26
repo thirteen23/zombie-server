@@ -1,16 +1,19 @@
-const S = require('sanctuary');
+const path = require('path');
+const S = require(rootDir + '/sanctuary');
+
+const { toMaybe } = S;
 
 const KEY = 'Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace';
-const TOKEN = 'Thedevelopmentofmathematicsinthedirectionofgreaterexactnesshasledtolargetractsofitbecomingformalized';
 
 exports.KEY = KEY;
-exports.TOKEN = TOKEN;
 
 exports.register = (server, options, next) => {
   server.auth.strategy('jwt', 'jwt', true, {
     key: KEY,
-    validateFunc: (decoded, request, callback) => {
-      callback(null, S.equals(decoded.token, TOKEN));
+    validateFunc: (decoded, req, cb) => {
+      req.server.redis.get(decoded.uuid, (err, val) => {
+        cb(err, toMaybe(val).isJust);
+      });
     },
     verifyOptions: {algorithms: ['HS256']},
   });
