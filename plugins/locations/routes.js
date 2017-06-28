@@ -3,21 +3,21 @@ const Handlers = require('./handlers');
 module.exports = [{
   method: 'GET',
   path: '/locations',
-  handler: Handlers.getLocations
+  handler: Handlers.getLocations,
 }, {
   method: 'GET',
   path: '/refineries',
-  handler: Handlers.getRefineries
+  handler: Handlers.getRefineries,
 }, {
   method: 'GET',
   path: '/refineries/{id}',
-  handler: Handlers.getRefinery
+  handler: Handlers.getRefinery,
 }, {
   method: 'GET',
   path: '/terminals',
-  handler: Handlers.getTerminals
+  handler: Handlers.getTerminals,
 }, {
   method: 'GET',
   path: '/terminals/{id}',
-  handler: Handlers.getTerminal
+  handler: Handlers.getTerminal,
 }];

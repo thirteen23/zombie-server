@@ -1,7 +1,6 @@
-const path = require('path');
-const S = require(rootDir + '/sanctuary');
+const S = require('../../sanctuary');
 
-const { toMaybe } = S;
+const {toMaybe} = S;
 
 const KEY = 'Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace';
 

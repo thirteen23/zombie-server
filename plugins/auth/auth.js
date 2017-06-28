@@ -1,8 +1,7 @@
-const path = require('path');
-const S = require(rootDir + '/sanctuary');
-const { node } = require('fluture');
+const S = require('../../sanctuary');
+const {node} = require('fluture');
 
-const { curry3, equals } = S;
+const {curry3, equals} = S;
 
 // setCode :: DB -> uuid -> String
 exports.setCode = curry3((client, uuid, code) => {
@@ -19,7 +18,7 @@ exports.sendCode = curry3((client, phone, code) => {
     client.messages.create({
       body: `Your Bayzyen verification code is: ${code}`,
       from: '+17377779252',
-      to: phone
+      to: phone,
     }, (err, msg) => done(err, msg));
   });
 });

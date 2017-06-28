@@ -1,12 +1,12 @@
-const { Future } = require('fluture');
-const { getRefineries, getRefinery } = require('./refineries');
-const { getTerminals, getTerminal } = require('./terminals');
+const {Future} = require('fluture');
+const {getRefineries, getRefinery} = require('./refineries');
+const {getTerminals, getTerminal} = require('./terminals');
 
 exports.getLocations = (req, rep) => {
   const refineries = getRefineries(req.server.redis);
   const terminals = getTerminals(req.server.redis);
-  Future.of(refineries => terminals => {
-    return { refineries, terminals };
+  Future.of((refineries) => (terminals) => {
+    return {refineries, terminals};
   })
     .ap(refineries)
     .ap(terminals)

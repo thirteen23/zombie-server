@@ -1,11 +1,11 @@
 const $ = require('sanctuary-def');
-const { node } = require('fluture');
+const {node} = require('fluture');
 
 // Terminal :: Type
 const Refinery = $.RecordType({
   name: $.String,
   latitude: $.FiniteNumber,
-  longitude: $.FiniteNumber
+  longitude: $.FiniteNumber,
 });
 
 // getTerminals :: DB -> Future [Terminal]

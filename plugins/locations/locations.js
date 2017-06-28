@@ -4,14 +4,14 @@ const $ = require('sanctuary-def');
 const Latitude = $.NullaryType(
   'locations/Latitude',
   '',
-  x => typeof x === 'number' && x >= -90 && x <= 90
+  (x) => typeof x === 'number' && x >= -90 && x <= 90
 );
 
 // Longitude :: Type
 const Longitude = $.NullaryType(
   'locations/Longitude',
   '',
-  x => typeof x === 'number' && x >= -180 && x <= 180
+  (x) => typeof x === 'number' && x >= -180 && x <= 180
 );
 
 // Location :: Type
