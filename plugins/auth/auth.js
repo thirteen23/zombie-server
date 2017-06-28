@@ -1,6 +1,6 @@
 const path = require('path');
 const S = require(rootDir + '/sanctuary');
-const { node, tryP } = require('fluture');
+const { node } = require('fluture');
 
 const { curry3, equals } = S;
 
@@ -15,14 +15,12 @@ exports.setCode = curry3((client, uuid, code) => {
 
 // sendCode :: Twilio -> String -> String -> Future
 exports.sendCode = curry3((client, phone, code) => {
-  return tryP(() => {
-    return client.messages.create({
+  return node((done) => {
+    client.messages.create({
       body: `Your Bayzyen verification code is: ${code}`,
       from: '+17377779252',
       to: phone
-    })
-      .then(msg => msg)
-      .catch(err => err);
+    }, (err, msg) => done(err, msg));
   });
 });
 
