@@ -1,7 +1,8 @@
 {
   "redis": {
     "location": "127.0.0.1",
-    "port": 6379
+    "port": 6379,
+    "password": "thirteen23"
   },
   "twilio": {
     "sid": "AC276a954567e327f68368d79668e409be",

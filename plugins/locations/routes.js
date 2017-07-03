@@ -20,4 +20,12 @@ module.exports = [{
   method: 'GET',
   path: '/terminals/{id}',
   handler: Handlers.getTerminal,
+}, {
+  method: 'GET',
+  path: '/pipelines',
+  handler: Handlers.getPipelines,
+}, {
+  method: 'GET',
+  path: '/pipelines/{id}',
+  handler: Handlers.getPipeline,
 }];
