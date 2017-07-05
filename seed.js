@@ -24,10 +24,14 @@ fs.readdir('./seed', (err, items) => {
     const stream = StreamArray.make();
     const type = filename.replace('.json', '');
     stream.output.on('data', (location) => {
-      location.value.segments.forEach((segment) => {
-        segment.coordinates = recur(segment.coordinates);
-      });
-      client.lpush(type, JSON.stringify(location.value));
+      if (type === 'pipelines') {
+        location.value.segments.forEach((segment) => {
+          segment.coordinates = recur(segment.coordinates);
+        });
+        client.lpush(type, JSON.stringify(location.value));
+      } else {
+        client.lpush(type, JSON.stringify(location));
+      }
     });
     stream.output.on('end', () => {
       streams--;

@@ -1,0 +1,168 @@
+[
+  {
+    "locationName": "Wood River",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "",
+    "locationId": 598,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -90.1042725807146,
+    "processingCapacity": 336000,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.8572730186344,
+    "accessMarine": "",
+    "companyOwner": "WRB Refining LP",
+    "pipelineConnections": [
+      "Gold Line"
+    ]
+  },
+  {
+    "locationName": "Borger",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "",
+    "locationId": 516,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -101.362249999837,
+    "processingCapacity": 146000,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 35.6982500000383,
+    "accessMarine": "",
+    "companyOwner": "Phillips 66 Company",
+    "pipelineConnections": [
+      "Gold Line"
+    ]
+  },
+  {
+    "locationName": "El Dorado HOL",
+    "companyOperator": "Hollyfrontier Corp",
+    "accessTruck": "",
+    "locationId": 534,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -97.6673119996485,
+    "processingCapacity": 138000,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.3407109996139,
+    "accessMarine": "",
+    "companyOwner": "Hollyfrontier El Dorado Refining LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Tulsa East",
+    "companyOperator": "Hollyfrontier Corp",
+    "accessTruck": "",
+    "locationId": 590,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -96.0296833072379,
+    "processingCapacity": 70300,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 36.1303019232874,
+    "accessMarine": "",
+    "companyOwner": "Hollyfrontier Tulsa Refining LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Ponca City",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "",
+    "locationId": 572,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -97.0957799997466,
+    "processingCapacity": 210000,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 36.6824099996227,
+    "accessMarine": "",
+    "companyOwner": "Phillips 66 Company",
+    "pipelineConnections": [
+      "Cherokee",
+      "Magellan"
+    ]
+  }
+]

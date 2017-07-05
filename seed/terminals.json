@@ -1,0 +1,4072 @@
+[
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "201",
+      "timsId": 1763,
+      "locationIdSAP": "035X",
+      "locationIdETRM": "PLEASANT HILL IA MMP TTERM",
+      "terminalControlNumber": "T-47-NE-3602",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Des Moines MPL",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 2100000,
+    "latitude": 41.5595463761653,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "MPL Central",
+      "ONEOK Partners"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 526,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Des Moines",
+      "state": "IA",
+      "line2": "",
+      "zip": 50317,
+      "line1": "2503 Southeast 43rd Street "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -93.5281516210998,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(515) 261-6698",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "156",
+      "timsId": 2001,
+      "locationIdSAP": "034Y",
+      "locationIdETRM": "COLUMBUS NE KA TTERM",
+      "terminalControlNumber": "T-84-CO-4100",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Columbus",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 171000,
+    "latitude": 41.4374339996803,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 522,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Columbus",
+      "state": "NE",
+      "line2": "",
+      "zip": 68601,
+      "line1": "147 Road D"
+    },
+    "locationType": "Terminal",
+    "tankCount": 9,
+    "longitude": -97.2446139996358,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Bruce Myers",
+      "cell": "",
+      "phone": "(402) 564-3332 ",
+      "role": "Terminal Contact",
+      "email": "bruce.myers@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 3,
+    "locationName": "Hartford",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 1075000,
+    "latitude": 38.8089508541989,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "Yes",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Gold Line",
+      "Explorer",
+      "Buckeye",
+      "Omega"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 543,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Hartford",
+      "state": "IL",
+      "line2": "",
+      "zip": 62048,
+      "line1": "2150 South Delmar Avenue"
+    },
+    "locationType": "Terminal",
+    "tankCount": 26,
+    "longitude": -90.0964957706632,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(618) 251-2780",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "259",
+      "timsId": 8855,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 4,
+    "locationName": "Denver",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 600000,
+    "latitude": 41.2777964566421,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "MPL Mountain"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 525,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Aurora",
+      "state": "CO",
+      "line2": "",
+      "zip": 80011,
+      "line1": "15000 E. Smith Rd."
+    },
+    "locationType": "Terminal",
+    "tankCount": 15,
+    "longitude": -81.3408454106865,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(303) 344-1511",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": "",
+    "truckBayCount": "",
+    "locationName": "Dubuque",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 100000,
+    "latitude": 42.4121524101066,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 531,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": "",
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -90.7327476515822,
+    "grossRackCapacity": "",
+    "contact": "",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "211",
+      "timsId": 1849,
+      "locationIdSAP": "03FH",
+      "locationIdETRM": "MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Omaha",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 0,
+    "latitude": 41.2766838217019,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "In",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 567,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Omaha",
+      "state": "NE",
+      "line2": "",
+      "zip": 68110,
+      "line1": "2205 North 11th St"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -95.9211374637223,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Travis Hussman",
+      "cell": "",
+      "phone": "(402) 342-5476",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Pipeline LLC",
+    "otherIds": {
+      "locationOperatorId": "137",
+      "timsId": 8082,
+      "locationIdSAP": "03Y4",
+      "locationIdETRM": "PAOLA KS CLLC ETERM",
+      "terminalControlNumber": "T-42-IA-3473",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 0,
+    "locationName": "Paola",
+    "accessTruck": "No",
+    "accessPipeline": "In",
+    "storageCapacity": 750000,
+    "latitude": 38.50746,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Gold Line"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 570,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Paola",
+      "state": "KS",
+      "line2": "",
+      "zip": 66071,
+      "line1": "25760 West 343rd Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -94.885962,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Kyle Spencer",
+      "cell": "",
+      "phone": "(913) 294-2911",
+      "role": "Pipeline/Tank Farm Operator",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "248",
+      "timsId": 2435,
+      "locationIdSAP": "03L6",
+      "locationIdETRM": "SCOTT CITY KS MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Scott City",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 300000,
+    "latitude": 38.5994271222648,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "MPL Mountain"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 578,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Scott City",
+      "state": "KS",
+      "line2": "",
+      "zip": 67871,
+      "line1": "100 Hwy 4"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -100.905798324632,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(620) 872-2086",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "213",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 3,
+    "locationName": "Sioux Falls MPL",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 600000,
+    "latitude": 43.5448299192662,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 580,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Sioux Falls",
+      "state": "SD",
+      "line2": "",
+      "zip": 57107,
+      "line1": "5300 West 12th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": 28,
+    "longitude": -96.7918943130715,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(605) 338-5771 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "CO-075",
+      "timsId": 25349,
+      "locationIdSAP": "03DR",
+      "locationIdETRM": "MT VERNON MO COP ETERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 4,
+    "locationName": "Mount Vernon P66",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 363000,
+    "latitude": 37.188784,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Cherokee East",
+      "TransMontaigne"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 561,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Mount Vernon",
+      "state": "MO",
+      "line2": "",
+      "zip": 65712,
+      "line1": "15138 MO-96"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -93.78233,
+    "grossRackCapacity": 46000,
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "William Maloney",
+      "cell": "",
+      "phone": "(417) 452-3761",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "354",
+      "timsId": 2051,
+      "locationIdSAP": "0372",
+      "locationIdETRM": "ENID OK MMP TTERM",
+      "terminalControlNumber": "T-73-OK-2608",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Enid",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 300000,
+    "latitude": 36.4109909998357,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 535,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Enid",
+      "state": "OK",
+      "line2": "",
+      "zip": 73701,
+      "line1": "1401 North 30th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -97.8361920003599,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(580) 234-6748 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": 25359,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Ponca City",
+    "accessTruck": "",
+    "accessPipeline": "",
+    "storageCapacity": 51000,
+    "latitude": 36.6824099996227,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "",
+    "accessRail": "",
+    "pipelineConnections": "",
+    "operationalStatus": "Operational",
+    "locationId": 573,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Ponca City",
+      "state": "OK",
+      "line2": "",
+      "zip": 74601,
+      "line1": "South Highway 60"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -97.0957799997466,
+    "grossRackCapacity": 23000,
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(580) 767-6326",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": 1698,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-42-IA-3457",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Concordia",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 79000,
+    "latitude": 39.3640320001776,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 523,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Delphos",
+      "state": "KS",
+      "line2": "",
+      "zip": 67436,
+      "line1": "1612 Deer Road - US HWY 24 "
+    },
+    "locationType": "Terminal",
+    "tankCount": 6,
+    "longitude": -97.6283739999595,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Tracy Wallick",
+      "cell": "",
+      "phone": "(785) 243-2771",
+      "role": "Terminal Contact",
+      "email": "tracy.wallick@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": "",
+    "truckBayCount": "",
+    "locationName": "Great Bend",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 600000,
+    "latitude": 38.3688650002205,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "MPL Mountain"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 542,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": "",
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -98.6919879997458,
+    "grossRackCapacity": "",
+    "contact": "",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "038",
+      "timsId": 1868,
+      "locationIdSAP": "03AG",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-42-IA-3465",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 5,
+    "locationName": "Kansas City",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 1294000,
+    "latitude": 39.125668,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Gold",
+      "Explorer",
+      "Buckeye",
+      "Marathon",
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 549,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Kansas City",
+      "state": "KS",
+      "line2": "",
+      "zip": 66115,
+      "line1": "2029 Fairfax Trafficway"
+    },
+    "locationType": "Terminal",
+    "tankCount": 17,
+    "longitude": -94.609191,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Kenny Zoeller",
+      "cell": "",
+      "phone": "(913) 342-0510",
+      "role": "Assistant Terminal Manager",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "204",
+      "timsId": 1926,
+      "locationIdSAP": "034T",
+      "locationIdETRM": "COLUMBIA MO MMP TTERM",
+      "terminalControlNumber": "T-42-IA-3454",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Columbia",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 300000,
+    "latitude": 38.8862286973974,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 521,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Columbia",
+      "state": "MO",
+      "line2": "",
+      "zip": 65201,
+      "line1": "5531 Hwy 63 South "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -92.2654644594166,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(573) 443-1619 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Buckeye Terminals, LLC",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": 21523,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-42-IA-3456",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Council Bluffs",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 544000,
+    "latitude": 41.2140140001469,
+    "companyOwner": "Buckeye Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Buckeye V System",
+      "Heartland"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 524,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Council Bluffs",
+      "state": "IA",
+      "line2": "",
+      "zip": 51503,
+      "line1": "829 Tank Farm Road"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -95.8319809999226,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Scott Newhard",
+      "cell": "",
+      "phone": "(712) 366-9461",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Buckeye Terminals, LLC",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Des Moines BPL",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 380800,
+    "latitude": 41.6042840003072,
+    "companyOwner": "Buckeye Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Buckeye V System"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 527,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Des Moines",
+      "state": "IA",
+      "line2": "",
+      "zip": 50325,
+      "line1": "1501 Northwest 86th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -93.7348040003038,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(515) 226-4017",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Fort Dodge",
+    "accessTruck": "No",
+    "accessPipeline": "No",
+    "storageCapacity": 100000,
+    "latitude": 42.5107744039165,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 536,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Fort Dodge",
+      "state": "IA",
+      "line2": "",
+      "zip": 50532,
+      "line1": "3140 Two Hundred Street "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -94.3010539787575,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(515) 543-4563",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "CO-078",
+      "timsId": 25350,
+      "locationIdSAP": "032N",
+      "locationIdETRM": "GLENPOOL OK NORTH ETERM",
+      "terminalControlNumber": "T-37-IL-3356",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Glenpool North",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 366000,
+    "latitude": 36.01302,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Cherokee East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 539,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Jenks",
+      "state": "OK",
+      "line2": "",
+      "zip": 74037,
+      "line1": "10600 South Elwood"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -95.994232,
+    "grossRackCapacity": 19000,
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Terry Redleaf",
+      "cell": "",
+      "phone": "(918) 299-2911",
+      "role": "Operator",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "022",
+      "timsId": 1779,
+      "locationIdSAP": "03AA",
+      "locationIdETRM": "JEFFERSON CITY MO ETERM",
+      "terminalControlNumber": "T-47-NE-3603",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Jefferson City",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 110000,
+    "latitude": 38.548065,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Gold Line"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 546,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Jefferson City",
+      "state": "MO",
+      "line2": "",
+      "zip": 65109,
+      "line1": "2116 Idlewood"
+    },
+    "locationType": "Terminal",
+    "tankCount": 8,
+    "longitude": -92.214847,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Bill Maloney",
+      "cell": "",
+      "phone": "(573) 636-4984",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "200",
+      "timsId": 1888,
+      "locationIdSAP": "03AH",
+      "locationIdETRM": "KANSAS CITY KS MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Kansas City MPL",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 1600000,
+    "latitude": 39.1401300000004,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Phillips 66"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 548,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Kansas City ",
+      "state": "KS",
+      "line2": "",
+      "zip": 66115,
+      "line1": "401 East Donovan Road "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -94.6026919997354,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(913) 281-0771 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": 5249,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-47-NE-3601",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "El Dorado NUS",
+    "accessTruck": "No",
+    "accessPipeline": "In",
+    "storageCapacity": 0,
+    "latitude": 37.803578999672,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East",
+      "Holly Frontier",
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 533,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "El Dorado",
+      "state": "KS",
+      "line2": "",
+      "zip": 67042,
+      "line1": "1624 Sunset Road"
+    },
+    "locationType": "Terminal",
+    "tankCount": 13,
+    "longitude": -96.8716049995705,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(316) 321-3500",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "134",
+      "timsId": 1679,
+      "locationIdSAP": "03F1",
+      "locationIdETRM": "NORFOLK NE KA TTERM",
+      "terminalControlNumber": "T-42-IA-3470",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Norfolk",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 179600,
+    "latitude": 42.0896240004482,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 563,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Norfolk",
+      "state": "NE",
+      "line2": "",
+      "zip": 68701,
+      "line1": "4708 North 13th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": 14,
+    "longitude": -97.4252340003482,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Bruce Myers",
+      "cell": "",
+      "phone": "(402) 371-3150",
+      "role": "Terminal Contact",
+      "email": "bruce.myers@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "376",
+      "timsId": "",
+      "locationIdSAP": "03RR",
+      "locationIdETRM": "MMP TTERM",
+      "terminalControlNumber": "T-73-OK-2617",
+      "triFacilityId": "74603CNCPN1000S"
+    },
+    "truckBayCount": "",
+    "locationName": "Oklahoma City MPL",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 300000,
+    "latitude": 35.4662980000535,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan",
+      "Cherokee South"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 565,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Oklahoma City ",
+      "state": "OK",
+      "line2": "",
+      "zip": 73117,
+      "line1": "251 North Sunnylane Road "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -97.4466489995511,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Fred Neely",
+      "cell": "",
+      "phone": "(405) 670-2015 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "229",
+      "timsId": 1807,
+      "locationIdSAP": "03D5",
+      "locationIdETRM": "MILFORD IA MMP TTERM",
+      "terminalControlNumber": "T-47-NE-3608",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Milford MPL",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 200000,
+    "latitude": 43.2923035235896,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 560,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Milford",
+      "state": "IA",
+      "line2": "",
+      "zip": 51351,
+      "line1": "2451 Highway 71 "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -95.1514484565804,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(712) 338-2241 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "133",
+      "timsId": "",
+      "locationIdSAP": "03FN",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-48-KS-3663",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Osceola",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 79000,
+    "latitude": 41.1910400000968,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 568,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Norfolk",
+      "state": "NE",
+      "line2": "",
+      "zip": 68701,
+      "line1": "4708 North 13th Street "
+    },
+    "locationType": "Terminal",
+    "tankCount": 7,
+    "longitude": -97.521665000139,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Larry Loseke",
+      "cell": "",
+      "phone": "(402) 371-3150 ",
+      "role": "Terminal Contact",
+      "email": "bruce.myers@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "120",
+      "timsId": 2382,
+      "locationIdSAP": "03KB",
+      "locationIdETRM": "SALINA KS KA TTERM",
+      "terminalControlNumber": "T-48-KS-3665",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 3,
+    "locationName": "Salina",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 91000,
+    "latitude": 38.8412449998577,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 577,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Salina",
+      "state": "KS",
+      "line2": "",
+      "zip": 67401,
+      "line1": "2137 West Old Highway 40"
+    },
+    "locationType": "Terminal",
+    "tankCount": 9,
+    "longitude": -97.6418920001151,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Tracy Wallick",
+      "cell": "",
+      "phone": "(785) 827-3854",
+      "role": "Terminal Contact",
+      "email": "tracy.wallick@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "212",
+      "timsId": 2212,
+      "locationIdSAP": "03LR",
+      "locationIdETRM": "SIOUX CITY IA MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Sioux City",
+    "accessTruck": "No",
+    "accessPipeline": "No",
+    "storageCapacity": 600000,
+    "latitude": 42.5389177763352,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 579,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Sioux City ",
+      "state": "IA",
+      "line2": "",
+      "zip": 51108,
+      "line1": "4300 41st Street "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -96.3575463873553,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(712) 239-2533 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-42-IA-3474",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Sioux Falls NUS",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 374000,
+    "latitude": 43.5110859999199,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 581,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Sioux Falls",
+      "state": "SD",
+      "line2": "",
+      "zip": 57105,
+      "line1": "3721 South Grange Avenue "
+    },
+    "locationType": "Terminal",
+    "tankCount": 10,
+    "longitude": -96.7421290002525,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Ron Kleinsasser",
+      "cell": "",
+      "phone": "(605) 336-3158",
+      "role": "Terminal Contact",
+      "email": "ron.kleinsasser@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "228",
+      "timsId": 2010,
+      "locationIdSAP": "032U",
+      "locationIdETRM": "SPRINGFIELD MO MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Springfield",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 300000,
+    "latitude": 37.1589890004429,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 583,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Brookline",
+      "state": "MO",
+      "line2": "",
+      "zip": 65619,
+      "line1": "2550 North Brookline Avenue"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -93.4238510003228,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(417) 865-3489",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": "",
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-47-NE-3610",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Milford NUS",
+    "accessTruck": "Both",
+    "accessPipeline": "No",
+    "storageCapacity": 168000,
+    "latitude": 43.3270896753492,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "CHS"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 559,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Milford",
+      "state": "IA",
+      "line2": "",
+      "zip": 51351,
+      "line1": "2127 220th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": 12,
+    "longitude": -95.166965497659,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Dan Klinetobe ",
+      "cell": "",
+      "phone": "(712) 338-4732",
+      "role": "Terminal Contact",
+      "email": "dan.klinetobe@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "183",
+      "timsId": 2035,
+      "locationIdSAP": "03E6",
+      "locationIdETRM": "N PLATTE NE KA TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 3,
+    "locationName": "North Platte",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 240000,
+    "latitude": 40.9770959995816,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 564,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "North Platte",
+      "state": "NE",
+      "line2": "",
+      "zip": 69101,
+      "line1": "17504 South Highway 83 "
+    },
+    "locationType": "Terminal",
+    "tankCount": 22,
+    "longitude": -100.75473499982,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Jeff Stone",
+      "cell": "",
+      "phone": "(308) 534-2540",
+      "role": "Terminal Contact",
+      "email": "jeff.stone@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "205",
+      "timsId": 1672,
+      "locationIdSAP": "03FR",
+      "locationIdETRM": "PALMYRA MO MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Palmyra",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 200000,
+    "latitude": 39.8769660011809,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 569,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Palmyra ",
+      "state": "MO",
+      "line2": "",
+      "zip": 63461,
+      "line1": "6789 Country Road 312 "
+    },
+    "locationType": "Terminal",
+    "tankCount": 6,
+    "longitude": -91.5260950347574,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(573) 769-4802 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "336",
+      "timsId": 2342,
+      "locationIdSAP": "03JF",
+      "locationIdETRM": "ROCA NE MMP TTERM",
+      "terminalControlNumber": "T-42-IA-3467",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Lincoln MPL",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 100000,
+    "latitude": 40.697851999571,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Heartland"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 552,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Roca",
+      "state": "NE",
+      "line2": "",
+      "zip": 68430,
+      "line1": "2000 Saltillo Road "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -96.6929480003493,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(402) 434-3234 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "207",
+      "timsId": 1933,
+      "locationIdSAP": "03CB",
+      "locationIdETRM": "CLEAR LAKE IA MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Mason City",
+    "accessTruck": "No",
+    "accessPipeline": "No",
+    "storageCapacity": 600000,
+    "latitude": 43.1394349239835,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 555,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Clear Lake",
+      "state": "IA",
+      "line2": "",
+      "zip": 50428,
+      "line1": "2810 East Main Avenue"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -93.3535339853045,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(641) 357-2124 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "CO-076",
+      "timsId": 25360,
+      "locationIdSAP": "03FD",
+      "locationIdETRM": "OKLAHOMA CITY OK COP ETERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 4,
+    "locationName": "Oklahoma City P66",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 352000,
+    "latitude": 35.478227,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan",
+      "Cherokee South"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 566,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "line2": "",
+      "zip": 73111,
+      "line1": "4700 NE 10th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -97.432008,
+    "grossRackCapacity": 48000,
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Neal Purdy",
+      "cell": "",
+      "phone": "(405) 670-0804",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "203",
+      "timsId": 2519,
+      "locationIdSAP": "03NW",
+      "locationIdETRM": "WATERLOO IA MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Waterloo",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 400000,
+    "latitude": 42.4374993082474,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 593,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Waterloo",
+      "state": "IA",
+      "line2": "",
+      "zip": 50701,
+      "line1": "5360 Eldora Road "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -92.4222223633707,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(319) 988-3269 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "021",
+      "timsId": 2123,
+      "locationIdSAP": "03P9",
+      "locationIdETRM": "WICHITA KS COPN ETERM",
+      "terminalControlNumber": "T-48-KS-3661",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Wichita North",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 679000,
+    "latitude": 37.754778,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Gold Line",
+      "Standish",
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 596,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Wichita",
+      "state": "KS",
+      "line2": "",
+      "zip": 67219,
+      "line1": "2400 East 37th Street North"
+    },
+    "locationType": "Terminal",
+    "tankCount": 13,
+    "longitude": -97.307716,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(316) 838-3411",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "CO-077",
+      "timsId": 25354,
+      "locationIdSAP": "A3LH",
+      "locationIdETRM": "WICHITA KS COPS ETERM",
+      "terminalControlNumber": "T-42-IA-3452",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 4,
+    "locationName": "Wichita South",
+    "accessTruck": "No",
+    "accessPipeline": "Yes",
+    "storageCapacity": 255000,
+    "latitude": 37.649479,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Cherokee North"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 597,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Wichita",
+      "state": "KS",
+      "line2": "",
+      "zip": 67207,
+      "line1": "8000-8114 E Oak Knoll Road"
+    },
+    "locationType": "Terminal",
+    "tankCount": 10,
+    "longitude": -97.243416,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Jed Morse",
+      "cell": "",
+      "phone": "(316) 681-2081",
+      "role": "Operator",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "202",
+      "timsId": 1853,
+      "locationIdSAP": "035B",
+      "locationIdETRM": "CORALVILLE IA MMP TTERM",
+      "terminalControlNumber": "T-47-NE-3605",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Iowa City",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 600000,
+    "latitude": 41.6830650000506,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 545,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Coralville ",
+      "state": "IA",
+      "line2": "",
+      "zip": 52241,
+      "line1": "912 First Avenue"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -91.5670430003336,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(319) 354-3976 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "227",
+      "timsId": 1737,
+      "locationIdSAP": "03A8",
+      "locationIdETRM": "JASPER MO MMP TTERM",
+      "terminalControlNumber": "T-43-MO-3708",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Carthage",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 100000,
+    "latitude": 37.3135619996874,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 518,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Carthage",
+      "state": "MO",
+      "line2": "",
+      "zip": 64755,
+      "line1": "18195 Country Road 138 "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -94.304345000121,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(417) 394-2700 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "221",
+      "timsId": 8369,
+      "locationIdSAP": "03Y8",
+      "locationIdETRM": "DONIPHAN NE MMP TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Doniphan",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 500000,
+    "latitude": 40.752215000123,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 530,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Doniphan",
+      "state": "NE",
+      "line2": "",
+      "zip": 68832,
+      "line1": "12275 South U.S. Hwy 281 "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -98.3769460000572,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(402) 744-3711",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "NuStar Logistics, LP",
+    "otherIds": {
+      "locationOperatorId": "132",
+      "timsId": 1734,
+      "locationIdSAP": "0383",
+      "locationIdETRM": "GENEVA NE KA TTERM",
+      "terminalControlNumber": "T-48-KS-3655",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Geneva",
+    "accessTruck": "Both",
+    "accessPipeline": "In",
+    "storageCapacity": 649000,
+    "latitude": 40.5503039996308,
+    "companyOwner": "NuStar Energy, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "NuStar East"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 538,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Geneva",
+      "state": "NE",
+      "line2": "",
+      "zip": 68361,
+      "line1": "1479 North 13th Street"
+    },
+    "locationType": "Terminal",
+    "tankCount": 33,
+    "longitude": -97.5952219999947,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Larry Loseke",
+      "cell": "",
+      "phone": "(402) 759-3162",
+      "role": "Terminal Contact",
+      "email": "larry.loseke@nustarenergy.com"
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Phillips 66 Company",
+    "otherIds": {
+      "locationOperatorId": "",
+      "timsId": 2339,
+      "locationIdSAP": "",
+      "locationIdETRM": "",
+      "terminalControlNumber": "T-42-IA-3466",
+      "triFacilityId": ""
+    },
+    "truckBayCount": 2,
+    "locationName": "Lincoln",
+    "accessTruck": "Yes",
+    "accessPipeline": "",
+    "storageCapacity": 219000,
+    "latitude": 40.697311,
+    "companyOwner": "Phillips 66 Partners, LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan",
+      "Heartland"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 553,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Roca",
+      "state": "NE",
+      "line2": "",
+      "zip": 68430,
+      "line1": "1345 Saltillo Road"
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -96.701556,
+    "grossRackCapacity": 21000,
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "Scott Bartek",
+      "cell": "",
+      "phone": "(402) 423-6111",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  },
+  {
+    "companyOperator": "Magellan Pipeline Company, LP",
+    "otherIds": {
+      "locationOperatorId": "223",
+      "timsId": 2405,
+      "locationIdSAP": "03NS",
+      "locationIdETRM": "WAKARUSA KS WM TTERM",
+      "terminalControlNumber": "",
+      "triFacilityId": ""
+    },
+    "truckBayCount": "",
+    "locationName": "Topeka",
+    "accessTruck": "Out",
+    "accessPipeline": "In",
+    "storageCapacity": 100000,
+    "latitude": 38.9215230002872,
+    "companyOwner": "Magellan Midstream Partners LP",
+    "accessMarine": "No",
+    "accessRail": "No",
+    "pipelineConnections": [
+      "Magellan"
+    ],
+    "operationalStatus": "Operational",
+    "locationId": 589,
+    "tanks": [
+      {
+        "rundown": [
+          {
+            "date": "072317",
+            "volumeIn": 45,
+            "volumeOut": 12,
+            "volumeTotal": 26700
+          },
+          {
+            "date": "072417",
+            "volumeIn": 24,
+            "volumeOut": 78,
+            "volumeTotal": 26678
+          },
+          {
+            "date": "072517",
+            "volumeIn": 45,
+            "volumeOut": 46,
+            "volumeTotal": 26676
+          },
+          {
+            "date": "072617",
+            "volumeIn": 88,
+            "volumeOut": 33,
+            "volumeTotal": 26712
+          }
+        ],
+        "capacity": 26773,
+        "id": "555",
+        "name": "81.5 octane"
+      }
+    ],
+    "address": {
+      "city": "Wakarusa ",
+      "state": "KS",
+      "line2": "",
+      "zip": 66546,
+      "line1": "8050 SW Topeka Boulevard "
+    },
+    "locationType": "Terminal",
+    "tankCount": "",
+    "longitude": -95.6863150004363,
+    "grossRackCapacity": "",
+    "contact": {
+      "fax": "212-555-5555",
+      "name": "",
+      "cell": "",
+      "phone": "(785) 862-1602 ",
+      "role": "",
+      "email": ""
+    },
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "555",
+            "name": "81.5 octane"
+          }
+        ],
+        "id": "243",
+        "name": "Gasoline Conventional"
+      }
+    ]
+  }
+]
+

@@ -10,10 +10,10 @@ const Refinery = $.RecordType({
 
 // getRefineries :: DB -> Future [Refinery]
 exports.getRefineries = (client) => {
-  return node((done) => client.lrange('refinery', 0, -1, done));
+  return node((done) => client.lrange('refineries', 0, -1, done));
 };
 
 // getRefinery :: DB -> Int -> Future Refinery
 exports.getRefinery = (client, id) => {
-  return node((done) => client.lindex('refinery', id, done));
+  return node((done) => client.lindex('refineries', id, done));
 };
