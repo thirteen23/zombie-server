@@ -18,4 +18,11 @@ module.exports = [{
   method: 'GET',
   path: '/ping',
   handler: Handlers.ping,
+}, {
+  method: 'GET',
+  path: '/spoof',
+  config: {
+    auth: false,
+  },
+  handler: Handlers.spoof
 }];

@@ -24,3 +24,9 @@ exports.verify = (req, rep) => {
 exports.ping = (req, rep) => {
   rep('pong');
 };
+
+exports.spoof = (req, rep) => {
+  const uuid = uuidv1();
+  setCode(req.server.redis, uuid, 9999)
+    .fork((err) => rep(err), (res) => rep(JWT.sign({uuid}, KEY)));
+};
