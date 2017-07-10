@@ -12,7 +12,7 @@ fs.readdir('./seed', (err, items) => {
     const stream = StreamArray.make();
     const type = filename.replace('.json', '');
     stream.output.on('data', (location) => {
-      client.lpush(type, JSON.stringify(location));
+      client.lpush(type, JSON.stringify(location.value));
     });
     stream.output.on('end', () => {
       streams--;
