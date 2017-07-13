@@ -1,21 +1,38 @@
-const $ = require('sanctuary-def');
+const S = require('../../sanctuary');
+const {Future, node} = require('fluture');
+const {map, curry3, lift2, pipe} = S;
+const rbush = require('rbush');
 
-// Latitude :: Type
-const Latitude = $.NullaryType(
-  'locations/Latitude',
-  '',
-  (x) => typeof x === 'number' && x >= -90 && x <= 90
-);
+const {getTerminals} = require('./terminals');
+const {getRefineries} = require('./refineries');
+const {getPipelines} = require('./pipelines');
 
-// Longitude :: Type
-const Longitude = $.NullaryType(
-  'locations/Longitude',
-  '',
-  (x) => typeof x === 'number' && x >= -180 && x <= 180
-);
+// bounds :: Location -> Bounds
+const bounds = ({latitude, longitude}) => {
+  return {
+    minX: latitude - 0.5,
+    maxX: latitude + 0.5,
+    minY: longitude - 0.5,
+    maxY: longitude + 0.5
+  };
+};
 
-// Location :: Type
-const Location = $.RecordType({
-  latitude: Latitude,
-  longitude: Longitude,
+// prepTree :: JSON -> RTree
+const prepTree = pipe([JSON.parse, (rtree) => rbush(9).fromJSON(rtree)]);
+
+exports.getNeighbors = curry3((client, type, id) => {
+  // location :: Future Location
+  const location = map(JSON.parse,
+                       node((done) => client.hget(type, id, done)));
+  // fBounds :: Future Bounds
+  const fBounds = map(bounds, location);
+  // fRTree :: Future RTree
+  const fRTree = map(prepTree,
+                     node((done) => client.get('rtree', done)));
+  // neighbors :: Future Neighbors
+  const neighbors = lift2(bounds => rtree => {
+    return rtree.search(bounds);
+  }, fBounds, fRTree);
+
+  return neighbors;
 });

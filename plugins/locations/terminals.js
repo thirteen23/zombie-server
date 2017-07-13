@@ -1,19 +1,12 @@
-const $ = require('sanctuary-def');
 const {node} = require('fluture');
-
-// Terminal :: Type
-const Refinery = $.RecordType({
-  name: $.String,
-  latitude: $.FiniteNumber,
-  longitude: $.FiniteNumber,
-});
+const {objToArray} = require('./utils');
 
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
-  return node((done) => client.lrange('terminals', 0, -1, done));
+  return node((done) => client.hgetall('terminals', (err, res) => done(objToArray(res))));
 };
 
 // getTerminal :: DB -> Int -> Future Terminal
 exports.getTerminal = (client, id) => {
-  return node((done) => client.lindex('terminals', id, done));
+  return node((done) => client.hget('terminals', id, (err, res) => done(JSON.parse(res))));
 };

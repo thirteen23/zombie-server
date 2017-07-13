@@ -28,4 +28,8 @@ module.exports = [{
   method: 'GET',
   path: '/pipelines/{id}',
   handler: Handlers.getPipeline,
+}, {
+  method: 'GET',
+  path: '/locations/{type}/{id}/neighbors',
+  handler: Handlers.getNeighbors,
 }];

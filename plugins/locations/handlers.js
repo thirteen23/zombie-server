@@ -1,4 +1,5 @@
 const {Future} = require('fluture');
+const {getNeighbors} = require('./locations');
 const {getRefineries, getRefinery} = require('./refineries');
 const {getTerminals, getTerminal} = require('./terminals');
 const {getPipelines, getPipeline} = require('./pipelines');
@@ -41,5 +42,10 @@ exports.getPipelines = (req, rep) => {
 
 exports.getPipeline = (req, rep) => {
   getPipeline(req.server.redis, req.params.id)
+    .fork((err) => rep(err), (res) => rep(res));
+}
+
+exports.getNeighbors = (req, rep) => {
+  getNeighbors(req.server.redis, req.params.type, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
 }

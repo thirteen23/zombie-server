@@ -1,12 +1,12 @@
-const $ = require('sanctuary-def');
 const {node} = require('fluture');
+const {objToArray} = require('./utils');
 
-// getRefineries :: DB -> Future [Pipeline]
+// getPipelines :: DB -> Future [Pipeline]
 exports.getPipelines = (client) => {
-  return node((done) => client.lrange('pipelines', 0, -1, done));
+  return node((done) => client.hgetall('pipelines', (err, res) => done(objToArray(res))));
 };
 
-// getRefinery :: DB -> Int -> Future Pipeline
+// getPipeline :: DB -> Int -> Future Pipeline
 exports.getPipeline = (client, id) => {
-  return node((done) => client.lindex('pipelines', id, done));
+  return node((done) => client.hget('pipelines', id, (err, res) => done(JSON.parse(res))));
 };

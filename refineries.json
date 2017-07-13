@@ -1,0 +1,1704 @@
+[
+  {
+    "locationName": "Catlettsburg",
+    "companyOperator": "Marathon Petroleum Corp",
+    "accessTruck": "Yes",
+    "locationId": 519,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -82.5967,
+    "processingCapacity": 242000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.3753,
+    "accessMarine": "Yes",
+    "companyOwner": "Marathon Petroleum Co LP",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Detroit",
+    "companyOperator": "Marathon Petroleum Corp",
+    "accessTruck": "Yes",
+    "locationId": 528,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -83.1579,
+    "processingCapacity": 123000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 42.2806,
+    "accessMarine": "No",
+    "companyOwner": "Marathon Petroleum Co LP",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Mount Vernon",
+    "companyOperator": "Countrymark Coop Inc",
+    "accessTruck": "",
+    "locationId": 562,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -87.9106,
+    "processingCapacity": 30000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 37.9418,
+    "accessMarine": "",
+    "companyOwner": "Countrymark Cooperative Inc",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Robinson",
+    "companyOperator": "Marathon Petroleum Corp",
+    "accessTruck": "Yes",
+    "locationId": 574,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -87.7169,
+    "processingCapacity": 212000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.997,
+    "accessMarine": "No",
+    "companyOwner": "Marathon Petroleum Co LP",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Somerset",
+    "companyOperator": "Continental Refining Co LLC",
+    "accessTruck": "",
+    "locationId": 582,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -84.6093,
+    "processingCapacity": 5500.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 37.0714,
+    "accessMarine": "",
+    "companyOwner": "Continental Refining Company LLC",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Ardmore",
+    "companyOperator": "Valero Energy Corp",
+    "accessTruck": "",
+    "locationId": 512,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -97.1048,
+    "processingCapacity": 90000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 34.2038,
+    "accessMarine": "",
+    "companyOwner": "Valero Refining Co Oklahoma",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Canton",
+    "companyOperator": "Marathon Petroleum Corp",
+    "accessTruck": "Yes",
+    "locationId": 517,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -81.4138,
+    "processingCapacity": 80000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 40.7727,
+    "accessMarine": "No",
+    "companyOwner": "Marathon Petroleum Co LP",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Borger",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "Yes",
+    "locationId": 516,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -101.3623,
+    "processingCapacity": 146000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 35.6983,
+    "accessMarine": "No",
+    "companyOwner": "Phillips 66 Company",
+    "pipelineConnections": [
+      "Gold Line"
+    ]
+  },
+  {
+    "locationName": "Coffeyville",
+    "companyOperator": "CVR Energy",
+    "accessTruck": "",
+    "locationId": 520,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -95.6061,
+    "processingCapacity": 115000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 37.0476,
+    "accessMarine": "",
+    "companyOwner": "Coffeyville Resources Refining & Marketing, LLC",
+    "pipelineConnections": [
+      "Magellan",
+      "NuStar"
+    ]
+  },
+  {
+    "locationName": "Dickinson",
+    "companyOperator": "Tesoro Corp",
+    "accessTruck": "",
+    "locationId": 529,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -102.9101,
+    "processingCapacity": 20000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 46.855,
+    "accessMarine": "",
+    "companyOwner": "Tesoro Corp",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "El Dorado HOL",
+    "companyOperator": "Hollyfrontier Corp",
+    "accessTruck": "",
+    "locationId": 534,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -96.8724,
+    "processingCapacity": 138000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 37.7977,
+    "accessMarine": "",
+    "companyOwner": "Hollyfrontier El Dorado Refining LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Joliet",
+    "companyOperator": "Exxon Mobil Corp",
+    "accessTruck": "",
+    "locationId": 547,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -88.1832,
+    "processingCapacity": 238600.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 41.4146,
+    "accessMarine": "",
+    "companyOwner": "Exxonmobil Refining & Supply Co",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Lemont",
+    "companyOperator": "PDV America Inc",
+    "accessTruck": "",
+    "locationId": 550,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -88.049,
+    "processingCapacity": 176000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 41.6541,
+    "accessMarine": "",
+    "companyOwner": "PDV Midwest Refining Llc",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Lima",
+    "companyOperator": "Husky Energy Inc",
+    "accessTruck": "",
+    "locationId": 551,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -84.1229,
+    "processingCapacity": 152000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 40.719,
+    "accessMarine": "",
+    "companyOwner": "Lima Refining Company",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Mandan",
+    "companyOperator": "Tesoro Corp",
+    "accessTruck": "Yes",
+    "locationId": 554,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -100.8829,
+    "processingCapacity": 74000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 46.8502,
+    "accessMarine": "No",
+    "companyOwner": "Tesoro West Coast",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Memphis",
+    "companyOperator": "Valero Energy Corp",
+    "accessTruck": "",
+    "locationId": 558,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -90.0835,
+    "processingCapacity": 190000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 35.0853,
+    "accessMarine": "",
+    "companyOwner": "Premcor Refining Group Inc",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Ponca City",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "Yes",
+    "locationId": 572,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -97.0958,
+    "processingCapacity": 210000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 36.6824,
+    "accessMarine": "No",
+    "companyOwner": "Phillips 66 Company",
+    "pipelineConnections": [
+      "Cherokee",
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Tulsa East",
+    "companyOperator": "Hollyfrontier Corp",
+    "accessTruck": "",
+    "locationId": 590,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -96.0013,
+    "processingCapacity": 70300.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 36.1196,
+    "accessMarine": "",
+    "companyOwner": "Hollyfrontier Tulsa Refining LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Superior",
+    "companyOperator": "Calumet Specialty Products Partners, L.P.",
+    "accessTruck": "",
+    "locationId": 586,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -92.0673,
+    "processingCapacity": 38000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 46.6905,
+    "accessMarine": "",
+    "companyOwner": "Calumet Lubricants Co Lp",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Toledo BP",
+    "companyOperator": "BP Husky Refining LLC",
+    "accessTruck": "",
+    "locationId": 587,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -84.1229,
+    "processingCapacity": 153000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 40.719,
+    "accessMarine": "",
+    "companyOwner": "BP-Husky Refining Llc",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Toledo PBF",
+    "companyOperator": "PBF Energy Co LLC",
+    "accessTruck": "",
+    "locationId": 588,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -83.4538,
+    "processingCapacity": 160000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 41.6793,
+    "accessMarine": "",
+    "companyOwner": "Toledo Refining Co LLC",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Tulsa West",
+    "companyOperator": "Hollyfrontier Corp",
+    "accessTruck": "",
+    "locationId": 591,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -96.0234,
+    "processingCapacity": 85000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 36.1368,
+    "accessMarine": "",
+    "companyOwner": "Hollyfrontier Tulsa Refining LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Wood River",
+    "companyOperator": "Phillips 66 Company",
+    "accessTruck": "Yes",
+    "locationId": 598,
+    "accessRail": "Yes",
+    "locationType": "Refinery",
+    "accessPipeline": "Yes",
+    "tankCount": "",
+    "longitude": -90.0649,
+    "processingCapacity": 336000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.8373,
+    "accessMarine": "Yes",
+    "companyOwner": "WRB Refining LP",
+    "pipelineConnections": [
+      "Gold Line"
+    ]
+  },
+  {
+    "locationName": "Whiting",
+    "companyOperator": "BP Plc",
+    "accessTruck": "",
+    "locationId": 595,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -87.4807,
+    "processingCapacity": 413500.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 41.6661,
+    "accessMarine": "",
+    "companyOwner": "BP Products North America Inc",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Wynnewood",
+    "companyOperator": "CVR Energy",
+    "accessTruck": "",
+    "locationId": 599,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -97.1678,
+    "processingCapacity": 70000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 34.632,
+    "accessMarine": "",
+    "companyOwner": "Wynnewood Refining Company LLC",
+    "pipelineConnections": [
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "McPherson CHS",
+    "companyOperator": "CHS Inc",
+    "accessTruck": "",
+    "locationId": 613,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -97.6753,
+    "processingCapacity": 100000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 38.3443,
+    "accessMarine": "",
+    "companyOwner": "CHS Mcpherson Refinery Inc",
+    "pipelineConnections": [
+      "NuStar",
+      "Heartland",
+      "Magellan"
+    ]
+  },
+  {
+    "locationName": "Pine Bend",
+    "companyOperator": "Koch Industries Inc",
+    "accessTruck": "",
+    "locationId": 615,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -93.0402,
+    "processingCapacity": 320000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 44.7659,
+    "accessMarine": "",
+    "companyOwner": "Flint Hills Resources LP",
+    "pipelineConnections": ""
+  },
+  {
+    "locationName": "Saint Paul Park",
+    "companyOperator": "Tesoro Corp",
+    "accessTruck": "",
+    "locationId": 616,
+    "accessRail": "",
+    "locationType": "Refinery",
+    "accessPipeline": "",
+    "tankCount": "",
+    "longitude": -93.0019,
+    "processingCapacity": 102000.0,
+    "grossRackCapacity": "",
+    "operationalStatus": "Operational",
+    "products": [
+      {
+        "grades": [
+          {
+            "id": "9",
+            "name": "CONV REG 84 H"
+          },
+          {
+            "id": "10",
+            "name": "CONV REG 84 L70"
+          }
+        ],
+        "name": "Regular Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "7",
+            "name": "CONV PRE 89 L68"
+          },
+          {
+            "id": "8",
+            "name": "CONV PRE 91 H"
+          }
+        ],
+        "name": "Premium Gasoline"
+      },
+      {
+        "grades": [
+          {
+            "id": "2",
+            "name": "#1DSL ULS 15"
+          },
+          {
+            "id": "3",
+            "name": "#1DSL ULS 15"
+          }
+        ],
+        "name": "Diesel"
+      }
+    ],
+    "truckBayCount": "",
+    "latitude": 44.8514,
+    "accessMarine": "",
+    "companyOwner": "Tesoro Corp",
+    "pipelineConnections": ""
+  }
+]
