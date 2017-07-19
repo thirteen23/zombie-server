@@ -1,0 +1,46 @@
+productId,category,grade,maxRVP,product_id,productGroup,active,explorerCode,TIMSCode,buckeyeCode,nustarCode,teppcoCode,colonialCode,explorerClass,magellanCode,trac66Code
+12,Distillate,B100 ,,1,,FALSE,,,,,,,,,
+13,Distillate,#1DSL ULS 15-DEDICAT ,,2,DS,FALSE,,,,,,,,,
+14,Distillate,#2 DSL ULS ,,2,DS,FALSE,,,,,,,,,
+15,Distillate,#2DSL ULS 15 B5 ,,2,DS,FALSE,7B,,,,,,S,,
+16,Distillate,#2DSL ULS 15 D ,,2,DS,FALSE,,,,,,,,,
+17,Distillate,CARB DSL ULS 15 ,,2,DS,FALSE,,,,,,,,,
+18,Distillate,MARINE DIESEL ,,2,DS,FALSE,,,,,,,,,
+19,Distillate,#2HO LS 050 ,,6,DS,FALSE,,,,,,,,,
+20,Distillate,#2HO ULS 15 ,,6,DS,FALSE,,,,,,,,,
+21,Distillate,JAA W/OUT ADDITIVES ,,5,KJ,FALSE,,,,,,,,,J6
+22,Distillate,AVGAS 100 ,,7,KJ,FALSE,,,,,,,,,
+23,Distillate,KERO LS 04 ,,7,KJ,FALSE,56,,,,,,S,,
+31,Gasoline,CONV PRE 93 H ,,8,PN,FALSE,32,,,,,,W,,
+33,Gasoline,RBOB PRE VOCN FBW E0 ,,8,PN,FALSE,,,,,,,,,
+35,Gasoline,CARBOB REG 84 ,,9,SN,FALSE,,,,,,,,,
+37,Gasoline,CONV REG 81.5 L78 ,7.8,9,SN,FALSE,4K,,,,,,W,VMS,D4X
+39,Gasoline,CONV REG 87 H ,,9,SN,FALSE,,,,,,,,,
+41,Gasoline,RBOB REG VOCN FBW E0 ,,9,SN,FALSE,,,,,,,,,
+43,Gasoline,Reg Subgrade 83.5oct 7rvp,,9,SG,FALSE,,,,,,,,,D94
+45,Transmix,TRANSMIX WITH LEAD ,,10,,FALSE,,,,,,,,,
+1,Distillate,B99 ,,1,,TRUE,,5940,,,,,,,
+2,Distillate,#1DSL ULS 15 ,,2,DS,TRUE,,3947,,Y,,,,Y,VA1
+3,Distillate,#2DSL ULS 15 ,,2,DS,TRUE,75,3989,,X,715,61,,X,V95
+4,Distillate,JAA WITH ADDITIVES ,,5,KJ,TRUE,,6755,,,,,,,J6
+5,Distillate,JET A ,,5,KJ,TRUE,51,407,,,,,F,Q,J6
+6,Ethanol ,ETHANOL - DENATURED ,,3,,TRUE,,396,,E,,,,E,
+7,Gasoline,CONV PRE 89 L68 ,6.8,8,PN,TRUE,,5972,,,,,,,
+8,Gasoline,CONV PRE 91 H ,9,8,PN,TRUE,33,226,,A,,,W,A,P1U
+9,Gasoline,CONV REG 84 H ,,9,SN,TRUE,,308,,V,,,,N,
+10,Gasoline,CONV REG 84 L70 ,,9,SN,TRUE,,6212,,,,,,,
+11,Transmix ,TRANSMIX ,,10,,TRUE,,561,,,,,,,
+24,Gasoline,BLEND STOCKS GAS REG ,,4,,FALSE,,,,,,,,,
+25,Gasoline,C4-REFINERY GRADE ,,4,,FALSE,,,,,,,,,
+26,Gasoline,Base Premium Conv 89oct 7rvp no add,,8,,FALSE,,,,,,,,,P8Y
+27,Gasoline,CARBOB PRE 88.5 ,,8,PN,FALSE,,,,,,,,A5,
+28,Gasoline,CONV PRE 88 H ,,8,PN,FALSE,,,,,,,,,
+29,Gasoline,CONV PRE 88 L78 ,7.8,8,PN,FALSE,,,,,,,,AMS,
+30,Gasoline,CONV PRE 90 H ,,8,PN,FALSE,,,,,,,,,
+32,Gasoline,RBOB PRE H FBW E0 ,,8,PN,FALSE,,,,,,,,,
+34,Gasoline,RBOB PRE VOCS FBW E0 ,,8,PN,FALSE,,,,,,,,,
+36,Gasoline,CONV REG 81.5 H ,,9,SN,FALSE,,,,,,,,V1,
+38,Gasoline,CONV REG 82.4 H ,,9,SN,FALSE,,,,,,,,,
+40,Gasoline,RBOB REG H FBW E0 ,,9,SN,FALSE,,,,,,,,,
+42,Gasoline,RBOB REG VOCS FBW E0 ,,9,SN,FALSE,,,,,,,,,
+44,Gasoline,Reg Subgrade 83.5oct 9rvp,,9,SG,FALSE,,,,N?,,,,,D80/D6S

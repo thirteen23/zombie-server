@@ -4,6 +4,8 @@ const config = require('config');
 const redis = require('redis');
 const twilio = require('twilio');
 
+const pg = require('pg');
+
 global.rootDir = path.resolve(__dirname);
 
 module.exports = function(callback) {
@@ -16,6 +18,10 @@ module.exports = function(callback) {
       cors: true,
     },
   });
+
+  const pool = new pg.Pool(config.get('pg'));
+
+  server.decorate('server', 'pg', pool);
 
   server.decorate('server', 'redis', redis.createClient(config.get('redis')));
 

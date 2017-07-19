@@ -1,4 +1,13 @@
 {
+  "pg": {
+    "driver": "pg",
+    "user": "bayzyen",
+    "database": "bayzyen",
+    "password": "bayzyen",
+    "host": "localhost",
+    "port": 5432,
+    "max": 10
+  },
   "redis": {
     "location": "127.0.0.1",
     "port": 6379,

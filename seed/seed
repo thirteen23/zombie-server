@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const commander = require('commander');
+
+const refineries = require('./refineries');
+
+commander
+  .version('0.1.0')
+  .option('-l, --locations', 'Seed refineries and terminals')
+  .option('-r, --refineries', 'Seed refineries')
+  .option('-t, --terminals', 'Seed terminals')
+  .option('-p, --pipelines', 'Seed pipelines')
+  .parse(process.argv);
+
+if (commander.locations) console.info('locations');
+if (commander.refineries) refineries.seed();
+if (commander.terminals) console.info('terminals');
+if (commander.pipelines) console.info('pipelines');

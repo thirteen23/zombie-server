@@ -1,0 +1,11 @@
+name,category_id
+biodiesel,1
+diesel,1
+ethanol,2
+"gasoline component",3
+"heating oil",1
+jet,1
+kero,1
+"premium gasoline",3
+"regular gasoline",3
+transmix,4
