@@ -5,8 +5,8 @@ const {getTerminals, getTerminal} = require('./terminals');
 const {getPipelines, getPipeline} = require('./pipelines');
 
 exports.getLocations = (req, rep) => {
-  const refineries = getRefineries(req.server.redis);
-  const terminals = getTerminals(req.server.redis);
+  const refineries = getRefineries(req.server.pg);
+  const terminals = getTerminals(req.server.pg);
   Future.of((refineries) => (terminals) => {
     return {refineries, terminals};
   })
@@ -16,36 +16,36 @@ exports.getLocations = (req, rep) => {
 };
 
 exports.getRefineries = (req, rep) => {
-  getRefineries(req.server.redis)
+  getRefineries(req.server.pg)
     .fork((err) => rep(err), (res) => rep(res));
 };
 
 exports.getRefinery = (req, rep) => {
-  getRefinery(req.server.redis, req.params.id)
+  getRefinery(req.server.pg, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
 };
 
 exports.getTerminals = (req, rep) => {
-  getTerminals(req.server.redis)
+  getTerminals(req.server.pg)
     .fork((err) => rep(err), (res) => rep(res));
 };
 
 exports.getTerminal = (req, rep) => {
-  getTerminal(req.server.redis, req.params.id)
+  getTerminal(req.server.pg, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
 };
 
 exports.getPipelines = (req, rep) => {
-  getPipelines(req.server.redis)
+  getPipelines(req.server.pg)
     .fork((err) => rep(err), (res) => rep(res));
 }
 
 exports.getPipeline = (req, rep) => {
-  getPipeline(req.server.redis, req.params.id)
+  getPipeline(req.server.pg, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
 }
 
 exports.getNeighbors = (req, rep) => {
-  getNeighbors(req.server.redis, req.params.type, req.params.id)
+  getNeighbors(req.server.pg, req.params.type, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
 }

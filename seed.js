@@ -35,7 +35,7 @@ const iPipelineBounds = (pipeline) => {
     type: pipeline.transportType.toLowerCase(),
     id: pipeline.id
   };
-  const segments = pipeline.segments
+  const segments = pipeline.segments;
   for (let i = 0; i < segments.length; i++) {
     let segment = pipeline.segments[i];
     for (let j = 0; j < segment.coordinates.length; j++) {

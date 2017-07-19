@@ -1,12 +1,19 @@
 const {node} = require('fluture');
-const {objToArray} = require('./utils');
 
 // getRefineries :: DB -> Future [Refinery]
 exports.getRefineries = (client) => {
-  return node((done) => client.hgetall('refineries', (err, res) => done(objToArray(res))));
+  return node((done) => {
+    client.query('SELECT * FROM refineries', [], (err, res) => {
+      done(res.rows);
+    });
+  });
 };
 
 // getRefinery :: DB -> Int -> Future Refinery
 exports.getRefinery = (client, id) => {
-  return node((done) => client.hget('refineries', id, (err, res) => done(JSON.parse(res))));
+  return node((done) => {
+    client.query('SELECT * FROM refineries WHERE id = $1', [id], (err, res) => {
+      done(res.rows);
+    });
+  });
 };
