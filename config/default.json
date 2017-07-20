@@ -1,12 +1,14 @@
+
 {
   "pg": {
     "driver": "pg",
-    "user": "bayzyen",
-    "database": "bayzyen",
-    "password": "bayzyen",
-    "host": "localhost",
+    "user": "u2vrif7spsjju8",
+    "password": "p76885368f1c2de3b3a55c1cde86606d92beeb045bb0e305130e78396d9cafa25",
+    "database": "d6fchpupkc56nr",
+    "host": "ec2-34-230-179-158.compute-1.amazonaws.com",
     "port": 5432,
-    "max": 10
+    "max": 10,
+    "ssl": true
   },
   "redis": {
     "location": "127.0.0.1",

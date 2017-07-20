@@ -1,5 +1,4 @@
 const {node} = require('fluture');
-const {objToArray} = require('./utils');
 
 // getPipelines :: DB -> Future [Pipeline]
 exports.getPipelines = (client) => {
