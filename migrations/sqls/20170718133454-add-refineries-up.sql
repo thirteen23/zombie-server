@@ -4,9 +4,8 @@ CREATE TYPE access AS ENUM ('in', 'out', 'both', 'none');
 
 CREATE TABLE refineries (
   id SERIAL PRIMARY KEY,
-  type VARCHAR DEFAULT 'refinery',
-  code VARCHAR NOT NULL,
   name VARCHAR NOT NULL,
+  type VARCHAR DEFAULT 'refinery',
   latitude REAL NOT NULL,
   longitude REAL NOT NULL,
   owner_id INT REFERENCES companies(id),
@@ -19,6 +18,7 @@ CREATE TABLE refineries (
   marine_access ACCESS,
   contact_name VARCHAR,
   contact_phone VARCHAR,
+  contact_fax VARCHAR,
   contact_role VARCHAR,
   contact_email VARCHAR,
   street VARCHAR,

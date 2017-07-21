@@ -1,8 +1,7 @@
 CREATE TABLE terminals (
   id SERIAL PRIMARY KEY,
-  type VARCHAR DEFAULT 'terminal',
-  code VARCHAR NOT NULL,
   name VARCHAR NOT NULL,
+  type VARCHAR DEFAULT 'terminal',
   latitude REAL NOT NULL,
   longitude REAL NOT NULL,
   owner_id INT REFERENCES companies(id),
