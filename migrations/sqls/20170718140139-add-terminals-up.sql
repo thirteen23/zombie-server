@@ -1,5 +1,6 @@
 CREATE TABLE terminals (
   id SERIAL PRIMARY KEY,
+  type VARCHAR DEFAULT 'terminal',
   code VARCHAR NOT NULL,
   name VARCHAR NOT NULL,
   latitude REAL NOT NULL,
@@ -24,5 +25,6 @@ CREATE TABLE terminals (
   street VARCHAR,
   city VARCHAR,
   state CHAR(2),
-  zip VARCHAR(5)
+  zip VARCHAR(5),
+  FOREIGN KEY (id, type) REFERENCES locations (ref_id, type) MATCH FULL
 );

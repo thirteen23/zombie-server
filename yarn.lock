@@ -742,9 +742,9 @@ fluture-sanctuary-types@^1.2.0:
   dependencies:
     sanctuary-type-identifiers "^2.0.0"
 
-fluture@^6.2.6:
-  version "6.2.6"
-  resolved "https://registry.yarnpkg.com/fluture/-/fluture-6.2.6.tgz#9b289cc35daae9d9148cae4f1e846a2b747c1ef2"
+fluture@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/fluture/-/fluture-6.3.0.tgz#206297d986500131ea5bf9605725354236728a91"
   dependencies:
     concurrify "^1.0.0"
     denque "^1.1.1"

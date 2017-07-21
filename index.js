@@ -37,6 +37,9 @@ module.exports = function(callback) {
     },
     {
       register: require('./plugins/locations'),
+    },
+    {
+      register: require('./plugins/search')
     }
   ]);
 
