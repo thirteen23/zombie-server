@@ -30,6 +30,14 @@ module.exports = [{
   handler: Handlers.getPipeline,
 }, {
   method: 'GET',
+  path: '/stations',
+  handler: Handlers.getStations,
+}, {
+  method: 'GET',
+  path: '/stations/{id}',
+  handler: Handlers.getStation,
+}, {
+  method: 'GET',
   path: '/locations/{type}/{id}/neighbors',
   handler: Handlers.getNeighbors,
 }];

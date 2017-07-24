@@ -5,8 +5,7 @@ exports.searchRefineries = (client, searchString) => {
   return node((done) => {
     client.query(`SELECT "locationId", "locationType" FROM locations WHERE "locationType" = 'Refinery' AND lower("locationName") LIKE \'%${searchString}%\'`,
                  (err, res) => {
-                   console.log(err, res.rows);
-                     done(res.rows)
+                   done(err, res.rows);
                  });
   });
 };
@@ -16,8 +15,7 @@ exports.searchTerminals = (client, searchString) => {
   return node((done) => {
     client.query(`SELECT "locationId", "locationType" FROM locations WHERE "locationType" = 'Terminal' AND lower("locationName") LIKE \'%${searchString}%\'`,
                  (err, res) => {
-                   console.log(err, res.rows);
-                   done(res.rows);
+                   done(err, res.rows);
                  });
   });
 };
@@ -25,6 +23,6 @@ exports.searchTerminals = (client, searchString) => {
 // searchSegments :: DB -> Future [Segment]
 exports.searchSegments = (client, searchString) => {
   return node((done) => {
-    done([]);
+    done(null, []);
   });
 };

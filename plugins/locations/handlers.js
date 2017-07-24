@@ -3,6 +3,7 @@ const {getNeighbors} = require('./locations');
 const {getRefineries, getRefinery} = require('./refineries');
 const {getTerminals, getTerminal} = require('./terminals');
 const {getPipelines, getPipeline} = require('./pipelines');
+const {getStations, getStation} = require('./stations');
 
 exports.getLocations = (req, rep) => {
   const refineries = getRefineries(req.server.pg);
@@ -38,14 +39,24 @@ exports.getTerminal = (req, rep) => {
 exports.getPipelines = (req, rep) => {
   getPipelines(req.server.pg)
     .fork((err) => rep(err), (res) => rep(res));
-}
+};
 
 exports.getPipeline = (req, rep) => {
   getPipeline(req.server.pg, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
-}
+};
+
+exports.getStations = (req, rep) => {
+  getStations(req.server.pg)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getStation = (req, rep) => {
+  getStation(req.server.pg, req.params.id)
+    .fork((err) => rep(err), (res) => rep(res));
+};
 
 exports.getNeighbors = (req, rep) => {
   getNeighbors(req.server.pg, req.params.type, req.params.id)
     .fork((err) => rep(err), (res) => rep(res));
-}
+};
