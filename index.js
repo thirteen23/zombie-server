@@ -40,6 +40,9 @@ module.exports = function(callback) {
     },
     {
       register: require('./plugins/search')
+    },
+    {
+      register: require('./plugins/filter')
     }
   ]);
 

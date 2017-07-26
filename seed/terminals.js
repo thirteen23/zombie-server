@@ -31,10 +31,9 @@ exports.seed = () => {
     .on('data', (row) => {
       rows++;
       (async () => {
-        const owner = await pool.query('SELECT id FROM companies WHERE code = $1::text', [codify(row.companyOwner)]);
-        const operator = await pool.query('SELECT id FROM companies WHERE code = $1::text', [codify(row.companyOperator)]);
+        const owner = await pool.query('SELECT id FROM companies WHERE name = $1::text', [row.companyOwner]);
+        const operator = await pool.query('SELECT id FROM companies WHERE name = $1::text', [row.companyOperator]);
         const terminal = {
-          code: row.locationName.replace(/\s/g, '_').toLowerCase(),
           name: row.locationName,
           latitude: parseFloat(row.latitude),
           longitude: parseFloat(row.longitude),

@@ -10,10 +10,9 @@ exports.seed = () => {
   let rows = 0;
   fs.createReadStream(`${__dirname}/companies.csv`).pipe(csv({objectMode: true, columns: true}))
     .on('data', (row) => {
-      const code = row.name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_').toLowerCase();
       const name = row.name;
       rows++;
-      pool.query('INSERT INTO companies(code, name) VALUES($1, $2)', [code, name], (err, res) => {
+      pool.query('INSERT INTO companies(name) VALUES($1)', [name], (err, res) => {
         if (err) console.error(err);
         if (res) {
           rows--;

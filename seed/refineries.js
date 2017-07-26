@@ -11,8 +11,19 @@ const codify = (name) => {
 }
 
 const access = (acc) => {
-  if (acc.toLowerCase() === 'yes') return 'both';
-  return 'none';
+  switch (acc.toLowerCase()) {
+  case 'yes':
+    return 'both';
+    break;
+  case 'in':
+    return 'in';
+    break;
+  case 'out':
+    return 'out';
+    break;
+  default:
+    return 'none';
+  }
 }
 
 let rows = 0;
@@ -23,10 +34,9 @@ exports.seed = () => {
     .on('data', (row) => {
       rows++;
       (async () => {
-        const owner = await pool.query('SELECT id FROM companies WHERE code = $1::text', [codify(row.companyOwner)]);
-        const operator = await pool.query('SELECT id FROM companies WHERE code = $1::text', [codify(row.companyOperator)]);
+        const owner = await pool.query('SELECT id FROM companies WHERE name = $1', [row.companyOwner]);
+        const operator = await pool.query('SELECT id FROM companies WHERE name = $1', [row.companyOperator]);
         const refinery = {
-          code: row.locationName.replace(/\s/g, '_').toLowerCase(),
           name: row.locationName,
           latitude: parseFloat(row.latitude),
           longitude: parseFloat(row.longitude),
@@ -40,6 +50,7 @@ exports.seed = () => {
           marine_access: access(row.accessMarine),
           contact_name: row.name,
           contact_phone: row.phone,
+          contact_fax: row.fax,
           contact_role: row.role,
           contact_email: row.email,
           street: row.line1,
