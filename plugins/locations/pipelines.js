@@ -6,7 +6,7 @@ const {head, map} = S;
 // getPipelines :: DB -> Future [Pipeline]
 exports.getPipelines = (client) => {
   return node((done) => {
-    client.query('SELECT * FROM pipelines', [], (err, res) => {
+    client.query('SELECT * FROM web.pipelines', [], (err, res) => {
       done(err, res.rows);
     });
   });
@@ -15,7 +15,7 @@ exports.getPipelines = (client) => {
 // getPipeline :: DB -> Int -> Future Pipeline
 exports.getPipeline = (client, id) => {
   return map(head, node((done) => {
-    client.query('SELECT * FROM pipelines WHERE id = $1', [id], (err, res) => {
+    client.query('SELECT * FROM web.pipelines WHERE id = $1', [id], (err, res) => {
       done(err, res.rows);
     });
   }));

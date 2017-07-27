@@ -1,18 +1,18 @@
-CREATE TABLE categories (
+CREATE TABLE web.categories (
   id SERIAL PRIMARY KEY,
   name VARCHAR
 );
 
-CREATE TABLE products (
+CREATE TABLE web.products (
   id SERIAL PRIMARY KEY,
   name VARCHAR,
-  category_id INT REFERENCES categories(id)
+  category_id INT REFERENCES web.categories(id)
 );
 
-CREATE TABLE grades (
+CREATE TABLE web.grades (
   id SERIAL PRIMARY KEY,
   name VARCHAR,
-  product_id INT REFERENCES products(id),
+  product_id INT REFERENCES web.products(id),
   product_group VARCHAR(2),
   active BOOLEAN
 );

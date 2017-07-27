@@ -2,7 +2,7 @@ const {node} = require('fluture');
 
 exports.getCategories = (client) => {
   return node((done) => {
-    client.query('SELECT DISTINCT id, name FROM categories', (err, res) => {
+    client.query('SELECT DISTINCT id, name FROM web.categories', (err, res) => {
       done(err, res.rows);
     });
   });
@@ -10,7 +10,7 @@ exports.getCategories = (client) => {
 
 exports.getProducts = (client) => {
   return node((done) => {
-    client.query('SELECT DISTINCT id, name FROM products', (err, res) => {
+    client.query('SELECT DISTINCT id, name FROM web.products', (err, res) => {
       done(err, res.rows);
     });
   });
@@ -18,7 +18,7 @@ exports.getProducts = (client) => {
 
 exports.getGrades = (client) => {
   return node((done) => {
-    client.query('SELECT DISTINCT id, name FROM grades WHERE active IS TRUE', (err, res) => {
+    client.query('SELECT DISTINCT id, name FROM web.grades WHERE active IS TRUE', (err, res) => {
       done(err, res.rows);
     });
   });
@@ -26,7 +26,7 @@ exports.getGrades = (client) => {
 
 exports.getCompanies = (client) => {
   return node((done) => {
-    client.query('SELECT DISTINCT id, name FROM companies', (err, res) => {
+    client.query('SELECT DISTINCT id, name FROM web.companies', (err, res) => {
       done(err, res.rows);
     });
   });
@@ -34,7 +34,7 @@ exports.getCompanies = (client) => {
 
 exports.getLocationsTypes = (client) => {
   return node((done) => {
-    client.query('SELECT DISTINCT type FROM locations', (err, res) => {
+    client.query('SELECT DISTINCT type FROM web.locations', (err, res) => {
       done(err, res.rows);
     });
   });

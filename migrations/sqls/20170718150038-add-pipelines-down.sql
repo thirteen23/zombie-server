@@ -1,1 +1,1 @@
-DROP TABLE pipelines;
+DROP TABLE web.pipelines;

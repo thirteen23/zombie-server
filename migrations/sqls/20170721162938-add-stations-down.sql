@@ -1,1 +1,1 @@
-DROP TABLE stations;
+DROP TABLE web.stations;

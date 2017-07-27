@@ -1,1 +1,1 @@
-DROP TABLE segments;
+DROP TABLE web.segments;

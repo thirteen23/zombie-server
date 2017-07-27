@@ -1,5 +1,5 @@
-DROP TABLE grades;
+DROP TABLE web.grades;
 
-DROP TABLE products;
+DROP TABLE web.products;
 
-DROP TABLE categories;
+DROP TABLE web.categories;

@@ -1,1 +1,1 @@
-DROP TABLE terminals;
+DROP TABLE web.terminals;

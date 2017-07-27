@@ -1,21 +1,19 @@
-CREATE TYPE status AS ENUM ('operational');
+CREATE TYPE web.access AS ENUM ('in', 'out', 'both', 'none');
 
-CREATE TYPE access AS ENUM ('in', 'out', 'both', 'none');
-
-CREATE TABLE refineries (
+CREATE TABLE web.refineries (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
   type VARCHAR DEFAULT 'refinery',
   latitude REAL NOT NULL,
   longitude REAL NOT NULL,
-  owner_id INT REFERENCES companies(id),
-  operator_id INT REFERENCES companies(id),
-  status STATUS,
+  owner_id INT REFERENCES web.companies(id),
+  operator_id INT REFERENCES web.companies(id),
+  operational BOOLEAN,
   processing_capacity INT,
-  pipeline_access ACCESS,
-  rail_access ACCESS,
-  truck_access ACCESS,
-  marine_access ACCESS,
+  pipeline_access web.access,
+  rail_access web.access,
+  truck_access web.access,
+  marine_access web.access,
   contact_name VARCHAR,
   contact_phone VARCHAR,
   contact_fax VARCHAR,
@@ -25,5 +23,5 @@ CREATE TABLE refineries (
   city VARCHAR,
   state CHAR(2),
   zip VARCHAR(5),
-  FOREIGN KEY (id, type) REFERENCES locations(ref_id, type) MATCH FULL
+  FOREIGN KEY (id, type) REFERENCES web.locations(ref_id, type) MATCH FULL
 );

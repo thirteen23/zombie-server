@@ -1,5 +1,5 @@
-DROP TABLE refineries;
+DROP TABLE web.refineries;
 
-DROP TYPE access;
+DROP TYPE web.location_access;
 
-DROP TYPE status;
+DROP TYPE web.location_status;

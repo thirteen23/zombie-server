@@ -3,7 +3,7 @@ const {node} = require('fluture');
 // searchRefineries :: DB -> Future [Refinery]
 exports.searchRefineries = (client, searchString) => {
   return node((done) => {
-    client.query(`SELECT * FROM refineries WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
+    client.query(`SELECT * FROM web.refineries WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
                  (err, res) => {
                    done(err, res.rows);
                  });
@@ -13,7 +13,7 @@ exports.searchRefineries = (client, searchString) => {
 // searchTerminals :: DB -> Future [Terminal]
 exports.searchTerminals = (client, searchString) => {
   return node((done) => {
-    client.query(`SELECT * FROM terminals WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
+    client.query(`SELECT * FROM web.terminals WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
                  (err, res) => {
                    done(err, res.rows);
                  });

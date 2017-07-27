@@ -6,7 +6,7 @@ const {head, map} = S;
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
   return node((done) => {
-    client.query('SELECT * FROM terminals', (err, res) => {
+    client.query('SELECT * FROM web.terminals', (err, res) => {
       done(err, res.rows);
     });
   });
@@ -15,7 +15,7 @@ exports.getTerminals = (client) => {
 // getTerminal :: DB -> Int -> Future Terminal
 exports.getTerminal = (client, id) => {
   return map(head, node((done) => {
-    client.query('SELECT * FROM terminals WHERE id = $1', [id], (err, res) => {
+    client.query('SELECT * FROM web.terminals WHERE id = $1', [id], (err, res) => {
       done(err, res.rows);
     });
   }));

@@ -1,18 +1,18 @@
-CREATE TABLE terminals (
+CREATE TABLE web.terminals (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
   type VARCHAR DEFAULT 'terminal',
   latitude REAL NOT NULL,
   longitude REAL NOT NULL,
-  owner_id INT REFERENCES companies(id),
-  operator_id INT REFERENCES companies(id),
-  status STATUS,
+  owner_id INT REFERENCES web.companies(id),
+  operator_id INT REFERENCES web.companies(id),
+  operational BOOLEAN,
   terminaling_capacity INT,
   storage_capacity INT,
-  pipeline_access ACCESS,
-  rail_access ACCESS,
-  truck_access ACCESS,
-  marine_access ACCESS,
+  pipeline_access web.access,
+  rail_access web.access,
+  truck_access web.access,
+  marine_access web.access,
   truck_bays INT,
   rack_capacity INT,
   tanks INT,
@@ -25,5 +25,5 @@ CREATE TABLE terminals (
   city VARCHAR,
   state CHAR(2),
   zip VARCHAR(5),
-  FOREIGN KEY (id, type) REFERENCES locations (ref_id, type) MATCH FULL
+  FOREIGN KEY (id, type) REFERENCES web.locations (ref_id, type) MATCH FULL
 );

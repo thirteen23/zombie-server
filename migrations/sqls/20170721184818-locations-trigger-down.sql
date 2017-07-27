@@ -1,7 +1,7 @@
-DROP TRIGGER terminals_locations ON terminals;
+DROP TRIGGER web.terminals_locations ON web.terminals;
 
-DROP TRIGGER stations_locations ON stations;
+DROP TRIGGER web.stations_locations ON web.stations;
 
-DROP TRIGGER refineries_locations ON refineries;
+DROP TRIGGER web.refineries_locations ON web.refineries;
 
-DROP FUNCTION populate_locations();
+DROP FUNCTION web.populate_locations();

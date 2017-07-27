@@ -1,1 +1,1 @@
-DROP TABLE tanks;
+DROP TABLE web.tanks;
