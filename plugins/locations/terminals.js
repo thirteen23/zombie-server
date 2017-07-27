@@ -1,12 +1,16 @@
 const {node} = require('fluture');
+const sqlt = require('sqlt');
 const S = require('../../sanctuary');
+const {map} = S;
+const {head} = require('ramda');
 
-const {head, map} = S;
+const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
+const qGetTerminal = sqlt(__dirname + '/queries/get_terminal.sql');
 
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
   return node((done) => {
-    client.query('SELECT * FROM web.terminals', (err, res) => {
+    qGetTerminals(client, (err, res) => {
       done(err, res.rows);
     });
   });
@@ -15,7 +19,7 @@ exports.getTerminals = (client) => {
 // getTerminal :: DB -> Int -> Future Terminal
 exports.getTerminal = (client, id) => {
   return map(head, node((done) => {
-    client.query('SELECT * FROM web.terminals WHERE id = $1', [id], (err, res) => {
+    qGetTerminal(client, [id], (err, res) => {
       done(err, res.rows);
     });
   }));

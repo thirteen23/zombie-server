@@ -1,11 +1,16 @@
 const {node} = require('fluture');
+const sqlt = require('sqlt');
 const S = require('../../sanctuary.js');
-const {head, map} = S;
+const {map} = S;
+const {head} = require('ramda');
+
+const qGetRefineries = sqlt(__dirname + '/queries/get_refineries.sql');
+const qGetRefinery = sqlt(__dirname + '/queries/get_refinery.sql');
 
 // getRefineries :: DB -> Future [Refinery]
 exports.getRefineries = (client) => {
   return node((done) => {
-    client.query('SELECT * FROM web.refineries', (err, res) => {
+    qGetRefineries(client, (err, res) => {
       done(err, res.rows);
     });
   });
@@ -14,7 +19,7 @@ exports.getRefineries = (client) => {
 // getRefinery :: DB -> Int -> Future Refinery
 exports.getRefinery = (client, id) => {
   return map(head, node((done) => {
-    client.query('SELECT * FROM web.refineries WHERE id = $1', [id], (err, res) => {
+    qGetRefinery(client, [id], (err, res) => {
       done(err, res.rows);
     });
   }));

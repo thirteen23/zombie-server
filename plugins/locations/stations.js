@@ -1,7 +1,7 @@
 const {node} = require('fluture');
 const S = require('../../sanctuary');
-
-const {head, map} = S;
+const {map} = S;
+const {head} = require('ramda');
 
 // getStations :: DB -> Future [Station]
 exports.getStations = (client) => {
