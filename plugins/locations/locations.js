@@ -1,6 +1,7 @@
 const S = require('../../sanctuary');
 const {Future, node} = require('fluture');
-const {map, elem, curry2, curry3, lift2, pipe} = S;
+const {and, concat, curry2, curry3, elem, equals, filter, lift2, lift3, map, mapMaybe, pipe} = S;
+const {head} = require('ramda');
 const rbush = require('rbush');
 
 const {getRefineries} = require('./refineries');
@@ -11,7 +12,7 @@ const {getPipelines} = require('./pipelines');
 const {getSegments} = require('./segments');
 
 // locationBounds :: Location -> Bounds
-const bounds = ({id, type, latitude, longitude}) => {
+const locationBounds = ({id, type, latitude, longitude}) => {
   return {
     minX: latitude - 0.5,
     maxX: latitude + 0.5,
@@ -70,14 +71,31 @@ const getLocation = curry3((client, type, id) => {
 exports.getNeighbors = curry3((client, type, id) => {
   // fRefineries :: Future Refineries
   const fRefineries = getRefineries(client);
+  // fRefineriesBounds :: Future [Bounds]
+  const fRefineriesBounds = map((refineries) => map(locationBounds, refineries), fRefineries);
   // fTerminals :: Future Terminals
   const fTerminals = getTerminals(client);
+  // fTerminalsBounds :: Future [Bounds]
+  const fTerminalsBounds = map((terminals) => map(locationBounds, terminals), fTerminals);
   // fSegments :: Future Segments
   const fSegments = getSegments(client);
-  // neighbors :: Future Neighbors
-  const neighbors = lift2(bounds => rtree => {
+  // fSegmentsBounds :: Future [Bounds]
+  const fSegmentsBounds = map((segments) => map(segmentBounds, segments), fSegments);
+  // fAllBounds :: Future [Bounds]
+  const fAllBounds = lift3(refineries => terminals => segments => {
+    return concat(refineries, concat(terminals, segments));
+  }, fRefineriesBounds, fTerminalsBounds, fSegmentsBounds);
+  // fBounds :: Future Bounds
+  const fBounds = map((bounds) => {
+    return head(filter((bound) => {
+      return and(equals(bound.type, type), equals(bound.id, parseInt(id, 10)));
+    }, bounds));
+  }, fAllBounds);
+  // fRTree :: Future RTree
+  const fRTree = map((bounds) => rbush(9).load(bounds), fAllBounds);
+  // fNeighbors :: Future Neighbors
+  const fNeighbors = lift2(bounds => rtree => {
     return rtree.search(bounds);
   }, fBounds, fRTree);
-
-  return neighbors;
+  return fNeighbors;
 });

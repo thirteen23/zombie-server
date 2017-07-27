@@ -38,6 +38,6 @@ module.exports = [{
   handler: Handlers.getStation,
 }, {
   method: 'GET',
-  path: '/locations/{type}/{id}/neighbors',
+  path: '/neighbors/{type}/{id}',
   handler: Handlers.getNeighbors,
 }];
