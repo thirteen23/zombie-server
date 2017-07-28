@@ -42,6 +42,6 @@ exports.getLocationsTypes = (client) => {
 
 exports.getTransportsTypes = (client) => {
   return node((done) => {
-    done(null, ['Pipeline'])
+    done(null, [{name: 'pipelines'}])
   });
 };
