@@ -1,15 +1,35 @@
 const {node} = require('fluture');
 const S = require('../../sanctuary');
-
+const {assoc} = require('ramda');
+const sqlt = require('sqlt');
 const {head, map} = S;
+
+const qGetSegments = sqlt(__dirname + '/queries/get_segments.sql');
+
+// pointsToArray :: Object -> Array
+const pointsToArray = ({x, y}) => {
+  return [y, x];
+}
+
+// coordsToCoords :: Object -> Object
+const coordsToCoords = (segment) => {
+  return map((seg) => {
+    const coordinates = new Array();
+    for (let i = 0; i < seg.coordinates.length; i++) {
+      coordinates.push(pointsToArray(seg.coordinates[i]));
+    }
+    return assoc('coordinates', coordinates, seg);
+  }, segment);
+}
 
 // getSegments :: DB -> Future [Segment]
 exports.getSegments = (client) => {
-  return node((done) => {
-    client.query('SELECT * FROM web.segments', (err, res) => {
+  const fSegments = node((done) => {
+    qGetSegments(client, (err, res) => {
       done(err, res.rows);
     });
   });
+  return map(coordsToCoords, fSegments);
 };
 
 // getSegment :: DB -> Int -> Future Segment
