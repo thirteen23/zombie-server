@@ -5,7 +5,7 @@ CREATE TABLE web.forecasted_rundowns (
   day DATE NOT NULL,
   confidence REAL NOT NULL,
   closing_stock INT,
-  closing_bottom INT,
-  closing_top INT,
+  closing_stock_low INT,
+  closing_stock_high INT,
   created_at TIMESTAMP DEFAULT NOW()
 );
