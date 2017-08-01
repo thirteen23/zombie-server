@@ -14,34 +14,31 @@ const {getSegments} = require('./segments');
 // locationBounds :: Location -> Bounds
 const locationBounds = ({id, type, latitude, longitude}) => {
   return {
-    minX: latitude - 0.5,
-    maxX: latitude + 0.5,
-    minY: longitude - 0.5,
-    maxY: longitude + 0.5,
+    minX: latitude - 0.1,
+    maxX: latitude + 0.1,
+    minY: longitude - 0.1,
+    maxY: longitude + 0.1,
     id,
     type
   };
 };
 
 // segmentBounds :: Segment -> Bounds
-const segmentBounds = ({id, type, coordinates}) => {
+const segmentBounds = ({id, coordinates}) => {
   const bounds = {
     minX: Infinity,
     maxX: -Infinity,
     minY: Infinity,
     maxY: -Infinity,
     id,
-    type
+    type: 'segment'
   };
   for (let i = 0; i < coordinates.length; i++) {
     let coordinate = coordinates[i];
-    for (let j = 0; j < coordinate.length; j++) {
-      let coord = coordinate[j];
-      bounds.minX = Math.min(coord[0], bounds.minX);
-      bounds.maxX = Math.min(coord[0], bounds.maxX);
-      bounds.minY = Math.min(coord[1], bounds.minY);
-      bounds.maxY = Math.min(coord[1], bounds.maxX);
-    }
+    bounds.minX = Math.min(parseFloat(coordinate[1]) - 0.1, bounds.minX);
+    bounds.maxX = Math.max(parseFloat(coordinate[1]) + 0.1, bounds.maxX);
+    bounds.minY = Math.min(parseFloat(coordinate[0]) - 0.1, bounds.minY);
+    bounds.maxY = Math.max(parseFloat(coordinate[0]) + 0.1, bounds.maxX);
   }
   return bounds;
 };
