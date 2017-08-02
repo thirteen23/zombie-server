@@ -12,26 +12,33 @@ const {getPipelines} = require('./pipelines');
 const {getSegments} = require('./segments');
 
 // locationBounds :: Location -> Bounds
-const locationBounds = ({id, type, latitude, longitude}) => {
+const locationBounds = ({id, type, name, latitude, longitude}) => {
   return {
     minX: latitude - 0.1,
     maxX: latitude + 0.1,
     minY: longitude - 0.1,
     maxY: longitude + 0.1,
     id,
-    type
+    type,
+    name,
+    longitude,
+    latitude
   };
 };
 
 // segmentBounds :: Segment -> Bounds
-const segmentBounds = ({id, coordinates}) => {
+const segmentBounds = ({id, coordinates, origin_longitude, origin_latitude, destination_longitude, destination_latitude}) => {
   const bounds = {
     minX: Infinity,
     maxX: -Infinity,
     minY: Infinity,
     maxY: -Infinity,
     id,
-    type: 'segment'
+    type: 'segment',
+    origin_longitude,
+    origin_latitude,
+    destination_longitude,
+    destination_latitude
   };
   for (let i = 0; i < coordinates.length; i++) {
     let coordinate = coordinates[i];
