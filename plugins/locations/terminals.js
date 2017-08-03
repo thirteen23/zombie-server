@@ -6,6 +6,9 @@ const {head} = require('ramda');
 
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
 const qGetTerminal = sqlt(__dirname + '/queries/get_terminal.sql');
+const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.sql');
+const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
+const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
 
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
@@ -23,4 +26,31 @@ exports.getTerminal = (client, id) => {
       done(err, res.rows);
     });
   }));
+};
+
+// getTerminalMovements :: DB -> Int -> Int -> Date -> Date -> Future [Movement]
+exports.getTerminalMovements = (client, terminal_id, grade_id, start, end) => {
+  return node((done) => {
+    qGetTerminalMovements(client, [terminal_id, grade_id, start, end], (err, res) => {
+      done(err, res.rows);
+    });
+  });
+};
+
+// getTerminalRundowns :: DB -> Int -> Int -> Future [Rundown]
+exports.getTerminalRundowns = (client, terminal_id, grade_id) => {
+  return node((done) => {
+    qGetTerminalRundowns(client, [terminal_id, grade_id], (err, res) => {
+      done(err, res.rows);
+    });
+  });
+};
+
+// getTerminalForecastRundowns :: DB -> Int -> Int -> Future [Forecast]
+exports.getTerminalForecastRundowns = (client, terminal_id, grade_id) => {
+  return node((done) => {
+    qGetTerminalForecastRundowns(client, [terminal_id, grade_id], (err, res) => {
+      done(err, res.rows);
+    });
+  });
 };

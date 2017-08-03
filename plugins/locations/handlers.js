@@ -1,7 +1,11 @@
 const {Future} = require('fluture');
 const {getNeighbors} = require('./locations');
 const {getRefineries, getRefinery} = require('./refineries');
-const {getTerminals, getTerminal} = require('./terminals');
+const { getTerminals,
+        getTerminal,
+        getTerminalMovements,
+        getTerminalRundowns,
+        getTerminalForecastRundowns } = require('./terminals');
 const {getSegments, getSegment} = require('./segments');
 const {getPipelines, getPipeline} = require('./pipelines');
 const {getStations, getStation} = require('./stations');
@@ -34,6 +38,21 @@ exports.getTerminals = (req, rep) => {
 
 exports.getTerminal = (req, rep) => {
   getTerminal(req.server.pg, req.params.id)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalMovements = (req, rep) => {
+  getTerminalMovements(req.server.pg, req.params.t_id, req.params.g_id, req.query.start, req.query.end)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalRundowns = (req, rep) => {
+  getTerminalRundowns(req.server.pg, req.params.t_id, req.params.g_id)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalForecastRundowns = (req, rep) => {
+  getTerminalForecastRundowns(req.server.pg, req.params.t_id, req.params.g_id)
     .fork((err) => rep(err), (res) => rep(res));
 };
 

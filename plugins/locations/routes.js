@@ -22,6 +22,18 @@ module.exports = [{
   handler: Handlers.getTerminal,
 }, {
   method: 'GET',
+  path: '/terminals/{t_id}/grades/{g_id}/movements',
+  handler: Handlers.getTerminalMovements,
+}, {
+  method: 'GET',
+  path: '/terminals/{t_id}/grades/{g_id}/rundowns',
+  handler: Handlers.getTerminalRundowns,
+}, {
+  method: 'GET',
+  path: '/terminals/{t_id}/grades/{g_id}/forecasts/rundowns',
+  handler: Handlers.getTerminalForecastRundowns,
+}, {
+  method: 'GET',
   path: '/pipelines',
   handler: Handlers.getPipelines,
 }, {
