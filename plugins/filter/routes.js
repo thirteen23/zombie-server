@@ -18,6 +18,10 @@ module.exports = [{
   handler: Handlers.companies,
 }, {
   method: 'GET',
+  path: '/categories/products/grades',
+  handler: Handlers.categoriesProductsGrades
+}, {
+  method: 'GET',
   path: '/locations/types',
   handler: Handlers.locationsTypes
 }, {

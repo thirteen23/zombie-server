@@ -1,7 +1,7 @@
 const S = require('../../sanctuary');
 const {Future, node} = require('fluture');
 const {and, concat, curry2, curry3, elem, equals, filter, lift2, lift3, map, mapMaybe, pipe} = S;
-const {head} = require('ramda');
+const {head, merge} = require('ramda');
 const rbush = require('rbush');
 
 const {getRefineries} = require('./refineries');
@@ -12,36 +12,26 @@ const {getPipelines} = require('./pipelines');
 const {getSegments} = require('./segments');
 
 // locationBounds :: Location -> Bounds
-const locationBounds = ({id, type, name, latitude, longitude}) => {
-  return {
-    minX: latitude - 0.1,
-    maxX: latitude + 0.1,
-    minY: longitude - 0.1,
-    maxY: longitude + 0.1,
-    id,
-    type,
-    name,
-    longitude,
-    latitude
-  };
+const locationBounds = (location) => {
+  return merge(location, {
+    minX: location.latitude - 0.1,
+    maxX: location.latitude + 0.1,
+    minY: location.longitude - 0.1,
+    maxY: location.longitude + 0.1,
+  });
 };
 
 // segmentBounds :: Segment -> Bounds
-const segmentBounds = ({id, coordinates, origin_longitude, origin_latitude, destination_longitude, destination_latitude}) => {
-  const bounds = {
+const segmentBounds = (segment) => {
+  const bounds = merge(segment, {
     minX: Infinity,
     maxX: -Infinity,
     minY: Infinity,
     maxY: -Infinity,
-    id,
-    type: 'segment',
-    origin_longitude,
-    origin_latitude,
-    destination_longitude,
-    destination_latitude
-  };
-  for (let i = 0; i < coordinates.length; i++) {
-    let coordinate = coordinates[i];
+    type: 'segment'
+  });
+  for (let i = 0; i < segment.coordinates.length; i++) {
+    let coordinate = segment.coordinates[i];
     bounds.minX = Math.min(parseFloat(coordinate[1]) - 0.1, bounds.minX);
     bounds.maxX = Math.max(parseFloat(coordinate[1]) + 0.1, bounds.maxX);
     bounds.minY = Math.min(parseFloat(coordinate[0]) - 0.1, bounds.minY);

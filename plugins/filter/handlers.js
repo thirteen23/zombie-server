@@ -1,5 +1,11 @@
 const Future = require('fluture');
-const {getCategories, getProducts, getGrades, getCompanies, getLocationsTypes, getTransportsTypes} = require('./filter');
+const { getCategories,
+        getProducts,
+        getGrades,
+        getCategoriesProductsGrades,
+        getCompanies,
+        getLocationsTypes,
+        getTransportsTypes } = require('./filter');
 
 exports.categories = (req, rep) => {
   getCategories(req.server.pg)
@@ -15,6 +21,11 @@ exports.grades = (req, rep) => {
   getGrades(req.server.pg)
     .fork(err => rep(err), res => rep(res));
 };
+
+exports.categoriesProductsGrades = (req, rep) => {
+  getCategoriesProductsGrades(req.server.pg)
+    .fork(err => rep(err), res => rep(res));
+}
 
 exports.companies = (req, rep) => {
   getCompanies(req.server.pg)
