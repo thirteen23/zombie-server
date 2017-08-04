@@ -6,10 +6,6 @@ const {concat} = S;
 
 exports.search = (req, rep) => {
   const {searchString} = req.query;
-  const refineries = searchRefineries(req.server.pg, searchString);
-  const terminals = searchTerminals(req.server.pg, searchString);
-  Future.of(refineries => terminals => concat(refineries, terminals))
-    .ap(refineries)
-    .ap(terminals)
+  const terminals = searchTerminals(req.server.pg, searchString)
     .fork((err) => rep(err), (res) => rep(res));
 };
