@@ -58,7 +58,7 @@ exports.getTerminalForecastRundowns = (req, rep) => {
 };
 
 exports.getTerminalInventory = (req, rep) => {
-  getTerminalInventory(req.server.pg, req.params.t_id, req.params.g_id)
+  getTerminalInventory(req.server.pg, req.params.t_id, req.params.g_id, req.query.day)
     .fork((err) => rep(err), (res) => rep(res));
 }
 

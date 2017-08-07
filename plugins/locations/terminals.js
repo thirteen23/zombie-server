@@ -10,6 +10,7 @@ const qGetTerminalPipelines = sqlt(__dirname + '/queries/get_terminal_pipelines.
 const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.sql');
 const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
 const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
+const qGetTerminalInventory = sqlt(__dirname + '/queries/get_terminal_inventory.sql');
 
 // sortPipelines :: [Pipeline] -> Obj
 const sortPipelines = (pipelines) => {
@@ -75,4 +76,10 @@ exports.getTerminalForecastRundowns = (client, terminal_id, grade_id) => {
   });
 };
 
-exports.getTerminalInventory = () => true;
+exports.getTerminalInventory = (client, terminal_id, grade_id, day) => {
+  return map(head, node((done) => {
+    qGetTerminalInventory(client, [terminal_id, grade_id, day], (err, res) => {
+      done(err, res.rows);
+    });
+  }));
+};
