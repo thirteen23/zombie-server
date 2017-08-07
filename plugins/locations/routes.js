@@ -34,6 +34,10 @@ module.exports = [{
   handler: Handlers.getTerminalForecastRundowns,
 }, {
   method: 'GET',
+  path: '/terminals/{t_id}/grades/{g_id}/inventory',
+  handler: Handlers.getTerminalInventory
+}, {
+  method: 'GET',
   path: '/pipelines',
   handler: Handlers.getPipelines,
 }, {

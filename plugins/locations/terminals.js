@@ -1,14 +1,28 @@
 const {node} = require('fluture');
 const sqlt = require('sqlt');
 const S = require('../../sanctuary');
-const {map} = S;
-const {head} = require('ramda');
+const {curry2, equals, filter, lift2, map} = S;
+const {head, assoc} = require('ramda');
 
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
 const qGetTerminal = sqlt(__dirname + '/queries/get_terminal.sql');
+const qGetTerminalPipelines = sqlt(__dirname + '/queries/get_terminal_pipelines.sql');
 const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.sql');
 const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
 const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
+
+// sortPipelines :: [Pipeline] -> Obj
+const sortPipelines = (pipelines) => {
+  return {
+    inbound: filter((pipeline) => equals(pipeline.direction, 'inbound'), pipelines),
+    outbound: filter((pipeline) => equals(pipeline.direction, 'outbound'), pipelines)
+  };
+};
+
+// addPiplines :: [Pipeline] -> Terminal -> Terminal
+const addPipelines = curry2((pipelines, terminal) => {
+  return assoc('pipelines', sortPipelines(pipelines), terminal)
+});
 
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
@@ -21,11 +35,17 @@ exports.getTerminals = (client) => {
 
 // getTerminal :: DB -> Int -> Future Terminal
 exports.getTerminal = (client, id) => {
-  return map(head, node((done) => {
+  const terminal =  map(head, node((done) => {
     qGetTerminal(client, [id], (err, res) => {
       done(err, res.rows);
     });
   }));
+  const pipelines = node((done) => {
+    qGetTerminalPipelines(client, [id], (err, res) => {
+      done(err, res.rows);
+    });
+  });
+  return lift2(addPipelines, pipelines, terminal);
 };
 
 // getTerminalMovements :: DB -> Int -> Int -> Date -> Date -> Future [Movement]
@@ -54,3 +74,5 @@ exports.getTerminalForecastRundowns = (client, terminal_id, grade_id) => {
     });
   });
 };
+
+exports.getTerminalInventory = () => true;

@@ -2,6 +2,10 @@ const Handlers = require('./handlers');
 
 module.exports = [{
   method: 'GET',
+  path: '/filter',
+  handler: Handlers.filter,
+}, {
+  method: 'GET',
   path: '/categories',
   handler: Handlers.categories,
 }, {
