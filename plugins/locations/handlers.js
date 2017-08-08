@@ -48,7 +48,7 @@ exports.getTerminalMovements = (req, rep) => {
 };
 
 exports.getTerminalRundowns = (req, rep) => {
-  getTerminalRundowns(req.server.pg, req.params.t_id, req.params.g_id)
+  getTerminalRundowns(req.server.pg, req.params.t_id, req.params.g_id, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
 };
 
@@ -60,7 +60,7 @@ exports.getTerminalForecastRundowns = (req, rep) => {
 exports.getTerminalInventory = (req, rep) => {
   getTerminalInventory(req.server.pg, req.params.t_id, req.params.g_id, req.query.day)
     .fork((err) => rep(err), (res) => rep(res));
-}
+};
 
 exports.getPipelines = (req, rep) => {
   getPipelines(req.server.pg)

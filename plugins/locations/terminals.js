@@ -1,12 +1,13 @@
 const {node} = require('fluture');
 const sqlt = require('sqlt');
 const S = require('../../sanctuary');
-const {curry2, equals, filter, lift2, map} = S;
+const {compose, curry2, curry3, equals, filter, lift3, map} = S;
 const {head, assoc} = require('ramda');
 
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
 const qGetTerminal = sqlt(__dirname + '/queries/get_terminal.sql');
 const qGetTerminalPipelines = sqlt(__dirname + '/queries/get_terminal_pipelines.sql');
+const qGetTerminalGrades = sqlt(__dirname + '/queries/get_terminal_grades.sql');
 const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.sql');
 const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
 const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
@@ -20,9 +21,9 @@ const sortPipelines = (pipelines) => {
   };
 };
 
-// addPiplines :: [Pipeline] -> Terminal -> Terminal
-const addPipelines = curry2((pipelines, terminal) => {
-  return assoc('pipelines', sortPipelines(pipelines), terminal)
+// addArray :: [] -> String -> Obj -> Obj
+const addArray = curry3((key, arr, obj) => {
+  return assoc(key, arr, obj)
 });
 
 // getTerminals :: DB -> Future [Terminal]
@@ -41,12 +42,19 @@ exports.getTerminal = (client, id) => {
       done(err, res.rows);
     });
   }));
-  const pipelines = node((done) => {
+  const pipelines = map(sortPipelines, node((done) => {
     qGetTerminalPipelines(client, [id], (err, res) => {
       done(err, res.rows);
     });
+  }));
+  const grades = node((done) => {
+    qGetTerminalGrades(client, [id], (err, res) => {
+      done(err, res.rows);
+    });
   });
-  return lift2(addPipelines, pipelines, terminal);
+  return lift3(curry3((t, p, g) => {
+    return compose(addArray('grades', g), addArray('pipelines', p))(t);
+  }), terminal, pipelines, grades);
 };
 
 // getTerminalMovements :: DB -> Int -> Int -> Date -> Date -> Future [Movement]
@@ -59,9 +67,9 @@ exports.getTerminalMovements = (client, terminal_id, grade_id, start, end) => {
 };
 
 // getTerminalRundowns :: DB -> Int -> Int -> Future [Rundown]
-exports.getTerminalRundowns = (client, terminal_id, grade_id) => {
+exports.getTerminalRundowns = (client, terminal_id, grade_id, start, end) => {
   return node((done) => {
-    qGetTerminalRundowns(client, [terminal_id, grade_id], (err, res) => {
+    qGetTerminalRundowns(client, [terminal_id, grade_id, start, end], (err, res) => {
       done(err, res.rows);
     });
   });
@@ -76,6 +84,7 @@ exports.getTerminalForecastRundowns = (client, terminal_id, grade_id) => {
   });
 };
 
+// getTerminalInventory :: DB -> Int -> Int -> Date -> Future Inventory
 exports.getTerminalInventory = (client, terminal_id, grade_id, day) => {
   return map(head, node((done) => {
     qGetTerminalInventory(client, [terminal_id, grade_id, day], (err, res) => {
