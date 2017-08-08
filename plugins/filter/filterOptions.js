@@ -97,6 +97,6 @@ exports.getLocationsTypes = (client) => {
 // getTransportTypes :: DB -> Future [TransportType]
 exports.getTransportsTypes = (client) => {
   return node((done) => {
-    done(null, [{name: 'pipelines'}])
+    done(null, [{name: 'pipeline'}])
   });
 };
