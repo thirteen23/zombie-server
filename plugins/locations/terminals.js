@@ -1,4 +1,4 @@
-const {node} = require('fluture');
+const {node, parallel} = require('fluture');
 const sqlt = require('sqlt');
 const S = require('../../sanctuary');
 const {compose, curry2, curry3, equals, filter, lift3, map} = S;
@@ -7,6 +7,7 @@ const {head, assoc} = require('ramda');
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
 const qGetTerminal = sqlt(__dirname + '/queries/get_terminal.sql');
 const qGetTerminalPipelines = sqlt(__dirname + '/queries/get_terminal_pipelines.sql');
+const qGetTerminalProducts = sqlt(__dirname + '/queries/get_terminal_products.sql');
 const qGetTerminalGrades = sqlt(__dirname + '/queries/get_terminal_grades.sql');
 const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.sql');
 const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
@@ -32,6 +33,22 @@ exports.getTerminals = (client) => {
     qGetTerminals(client, (err, res) => {
       done(err, res.rows);
     });
+  }).chain((terminals) => {
+    return parallel(10, terminals.map((terminal) => {
+      return node((done) => {
+        return qGetTerminalGrades(client, [terminal.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      }).map(grades => Object.assign({grades}, terminal));
+    }));
+  }).chain((terminals) => {
+    return parallel(10, terminals.map((terminal) => {
+      return node((done) => {
+        return qGetTerminalProducts(client, [terminal.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      }).map(products => Object.assign({products}, terminal));
+    }));
   });
 };
 
