@@ -9,5 +9,13 @@ CREATE TABLE web.forecasted_rundowns (
   closing_stock_high_90 INT,
   closing_stock_low_95 INT,
   closing_stock_high_95 INT,
+  trading INT,
+  receipts INT,
+  exchange INT,
+  liftings INT,
+  reconsignment INT,
+  adjustment INT,
+  transfer INT,
+  deliveries INT,
   created_at TIMESTAMP DEFAULT NOW()
 );
