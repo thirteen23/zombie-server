@@ -3,8 +3,13 @@ const Hapi = require('hapi');
 const config = require('config');
 const redis = require('redis');
 const twilio = require('twilio');
-
+const parse = require('date-fns/parse');
+const subHours = require('date-fns/sub_hours');
+const addHours = require('date-fns/add_hours');
 const pg = require('pg');
+
+pg.types.setTypeParser(1114, date => addHours(parse(date), 6));
+pg.types.setTypeParser(1082, date => addHours(parse(date), 6));
 
 global.rootDir = path.resolve(__dirname);
 
@@ -13,7 +18,7 @@ module.exports = function(callback) {
 
   server.connection({
     host: '0.0.0.0',
-    port: 9001,
+    port: process.env.PORT || 9001,
     routes: {
       cors: true,
     },

@@ -8,6 +8,8 @@ RUN npm install
 
 COPY . /var/www/app
 
-EXPOSE 9001
+ENV PG=America/Chicago
+ENV PGTZ=America/Chicago
+ENV NODE_ENV=stg
 
-CMD NODE_ENV=stg npm run start
+CMD PORT=$PORT npm run start
