@@ -13,6 +13,7 @@ const qGetTerminalMovements = sqlt(__dirname + '/queries/get_terminal_movements.
 const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sql');
 const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
 const qGetTerminalInventory = sqlt(__dirname + '/queries/get_terminal_inventory.sql');
+const qGetTerminalTanks = sqlt(__dirname + '/queries/get_terminal_tanks.sql');
 
 // sortPipelines :: [Pipeline] -> Obj
 const sortPipelines = (pipelines) => {
@@ -48,6 +49,14 @@ exports.getTerminals = (client) => {
           return done(err, res.rows);
         });
       }).map(products => Object.assign({products}, terminal));
+    }));
+  }).chain((terminals) => {
+    return parallel(10, terminals.map((terminal) => {
+      return node((done) => {
+        return qGetTerminalTanks(client, [terminal.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      }).map(tanks => Object.assign({tanks}, terminal));
     }));
   });
 };
