@@ -21,4 +21,5 @@ JOIN (
 UNION (SELECT id, type, name, longitude, latitude FROM web.stations)
 UNION (SELECT id, type, name, longitude, latitude FROM web.terminals)
 ) AS l4
-ON l2.ref_id = l4.id AND l2.type = l4.type;
+ON l2.ref_id = l4.id AND l2.type = l4.type
+ORDER BY s.name ASC;
