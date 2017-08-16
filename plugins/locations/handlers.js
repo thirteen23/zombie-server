@@ -53,7 +53,7 @@ exports.getTerminalRundowns = (req, rep) => {
 };
 
 exports.getTerminalForecastRundowns = (req, rep) => {
-  getTerminalForecastRundowns(req.server.pg, req.params.t_id, req.params.g_id)
+  getTerminalForecastRundowns(req.server.pg, req.params.t_id, req.params.g_id, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
 };
 

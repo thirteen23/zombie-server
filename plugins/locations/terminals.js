@@ -102,9 +102,9 @@ exports.getTerminalRundowns = (client, terminal_id, grade_id, start, end) => {
 };
 
 // getTerminalForecastRundowns :: DB -> Int -> Int -> Future [Forecast]
-exports.getTerminalForecastRundowns = (client, terminal_id, grade_id) => {
+exports.getTerminalForecastRundowns = (client, terminal_id, grade_id, start, end) => {
   return node((done) => {
-    qGetTerminalForecastRundowns(client, [terminal_id, grade_id], (err, res) => {
+    qGetTerminalForecastRundowns(client, [terminal_id, grade_id, start, end], (err, res) => {
       done(err, res.rows);
     });
   });
