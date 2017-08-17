@@ -22,4 +22,4 @@ UNION (SELECT id, type, name, longitude, latitude FROM web.stations)
 UNION (SELECT id, type, name, longitude, latitude FROM web.terminals)
 ) AS l4
 ON l2.ref_id = l4.id AND l2.type = l4.type
-WHERE (p.owner_id IN ($1) OR p.operator_id IN ($1));
+WHERE (p.owner_id = ANY ($1) OR p.operator_id = ANY ($1));
