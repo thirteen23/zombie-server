@@ -2,11 +2,11 @@ const {Future, node, parallel} = require('fluture');
 const sqlt = require('sqlt');
 const {head, is, isEmpty, tail, uniq, uniqBy} = require('ramda');
 const S = require('../../sanctuary');
-const {concat, curry2, curry3, elem, filter, lift2, map, prop} = S;
+const {concat, curry2, curry3, elem, filter, lift2, map, pipe, prop} = S;
 
-const {getRefineries} = require('../locations/refineries');
-const {getTerminals} = require('../locations/terminals');
-const {getSegments} = require('../locations/segments');
+const qGetRefineries = sqlt(__dirname + '/queries/get_refineries.sql');
+const qGetSegments = sqlt(__dirname + '/queries/get_segments.sql');
+const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
 
 const qGetRefineriesByCompanies = sqlt(__dirname + '/queries/get_refineries_by_companies.sql');
 const qGetSegmentsByCompanies = sqlt(__dirname + '/queries/get_segments_by_companies.sql');
@@ -21,21 +21,59 @@ const intArray = (a) => {
   return is(String, a) ? [parseInt(a, 10)] : map(str => parseInt(str, 10), a);
 };
 
-// doubles :: [Obj] -> [] -> [Obj]
-const doubles = curry2((a, b=[]) => {
-  if (isEmpty(tail(a))) return b;
-  if (elem(head(a), tail(a))) return doubles(tail(a), concat([head(a)], b));
-  return doubles(tail(a), b);
+// trampoline
+const trampoline = (f) => {
+  while (f && f instanceof Function) {
+    f = f.apply(f.context, f.args);
+  }
+  return f;
+}
+
+// doubles :: [Int] -> [Int]
+const doubles = (a) => {
+  const _doubles = (acc, a) => {
+    if (isEmpty(tail(a))) return acc;
+    if (elem(head(a), tail(a))) return _doubles.bind(null, concat([head(a)], acc), tail(a));
+    return _doubles.bind(null, acc, tail(a));
+  };
+  return trampoline(_doubles.bind(null, [], a));
+}
+
+// intersection :: [Obj] -> [Obj] -> [Int]
+const intersection = curry2((a, b) => {
+  return pipe([
+    map(prop('id')),
+    doubles,
+    uniq
+  ])(concat(a, b));
 });
 
-// intersection :: [Obj] -> [Obj] -> [Obj]
-const intersection = curry2((a, b) => {
-  const c = concat(a, b);
-  const d = doubles(map(prop('id'), c), []);
-  return uniqBy(prop('id'), filter((obj) => {
-    return elem(prop('id', obj), d);
-  }, c));
-});
+// getRefineries :: DB -> [Refinery]
+const getRefineries = (client) => {
+  return node((done) => {
+    return qGetRefineries(client, (err, res) => {
+      done(err, res.rows);
+    });
+  });
+}
+
+// getSegments :: DB -> [Segment]
+const getSegments = (client) => {
+  return node((done) => {
+    return qGetSegments(client, (err, res) => {
+      done(err, res.rows);
+    });
+  });
+}
+
+// getTerminals :: DB -> [Terminal]
+const getTerminals = (client) => {
+  return node((done) => {
+    return qGetTerminals(client, (err, res) => {
+      done(err, res.rows);
+    });
+  });
+}
 
 // getRefineriesByCompanies :: DB -> [Company.id] -> [Refinery]
 const getRefineriesByCompanies = (client, c_ids) => {
