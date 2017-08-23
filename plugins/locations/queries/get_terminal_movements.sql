@@ -12,4 +12,4 @@ JOIN (
 ON l2.ref_id = l4.id AND l2.type = l4.type
 WHERE ((l3.id = $1 AND l3.type = 'terminal') OR (l4.id = $1 AND l4.type = 'terminal'))
 AND m.grade_id = $2
-AND m.day BETWEEN $3 AND $4;
+AND m.end BETWEEN $3 AND $4;
