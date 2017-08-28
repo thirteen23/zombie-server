@@ -29,7 +29,7 @@ module.exports = function(callback) {
   server.decorate('server', 'pg', pool);
 
   server.decorate('server', 'redis', redis.createClient(config.get('redis')));
-
+  console.log(new twilio(config.get('twilio').sid, config.get('twilio').secret));
   server.decorate('server', 'twilio', new twilio(config.get('twilio').sid, config.get('twilio').secret));
 
   server.register([

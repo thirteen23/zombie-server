@@ -12,4 +12,6 @@ ENV PG=America/Chicago
 ENV PGTZ=America/Chicago
 ENV NODE_ENV=stg
 
-CMD PORT=$PORT npm run start
+EXPOSE 9001
+
+CMD PORT=9001 npm run start
