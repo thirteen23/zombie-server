@@ -19,7 +19,7 @@ exports.sendCode = curry3((client, phone, code) => {
     client.messages.create({
       body: `Your Bayzyen verification code is: ${code}`,
       from: '+16144124943',
-      to: maybeToNullable(phone),
+      to: `+${maybeToNullable(phone)}`,
     }, (err, msg) => {
       console.log(err);
       done(err, msg);
