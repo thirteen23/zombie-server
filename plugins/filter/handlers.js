@@ -14,7 +14,7 @@ const { getCategories,
 const { filter } = require('./filter');
 
 exports.filter = (req, rep) => {
-  filter(req.server.pg, req.query.companies, req.query.locations, req.query.grades)
+  filter(req.server.pg, req.query.companies, req.query.l_types, req.query.grades)
     .fork(err => rep(err), res => rep(res));
 };
 
