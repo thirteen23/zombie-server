@@ -11,11 +11,16 @@ exports.seed = () => {
   fs.createReadStream(`${__dirname}/paths.csv`).pipe(csv({objectMode: true, columns: true}))
     .on('data', (row) => {
       rows++;
-      pool.query('INSERT INTO (name) VALUES($1)', [name], (err, res) => {
-        if (err) console.error(err);
-        if (res) {
-          rows--;
-        }
+      const k = Object.keys(row).join(', ');
+      const v = Object.keys(row).map((v, k) => `$${k + 1}`).join(', ');
+      console.log(rows);
+      pool.query(`INSERT INTO web.paths(${k}) VALUES(${v})`,
+                 Object.values(row),
+                 (err, res) => {
+                   if (err) console.error(err);
+                   if (res) {
+                     rows--;
+                   }
         if (rows === 0) process.exit();
       });
     });

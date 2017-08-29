@@ -1,3 +1,4 @@
+-- Static
 CREATE TABLE web.terminals (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,

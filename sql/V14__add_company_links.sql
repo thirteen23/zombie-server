@@ -1,5 +1,6 @@
 CREATE TYPE web.company_link_type AS ENUM ('nomination system', 'product specifications', 'tariffs', 'terminal operations');
 
+-- Static
 CREATE TABLE web.company_links (
   id SERIAL PRIMARY KEY,
   company_id INT REFERENCES companies(id) NOT NULL,

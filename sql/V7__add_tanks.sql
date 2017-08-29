@@ -1,3 +1,4 @@
+-- Static
 CREATE TABLE web.tanks (
   id SERIAL PRIMARY KEY,
   terminal_id INT REFERENCES web.terminals(id) NOT NULL,

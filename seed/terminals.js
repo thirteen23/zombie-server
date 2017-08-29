@@ -26,7 +26,6 @@ const access = (acc) => {
 let rows = 0;
 
 exports.seed = () => {
-
   fs.createReadStream(`${__dirname}/terminals.csv`).pipe(csv({objectMode: true, columns: true}))
     .on('data', (row) => {
       rows++;
@@ -78,5 +77,4 @@ exports.seed = () => {
         });
       })();
     });
-  
 };

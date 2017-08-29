@@ -1,6 +1,7 @@
 CREATE TYPE web.movement_type AS ENUM ('adjustment', 'reconsignment', 'trade', 'transfer', 'exchange');
 CREATE type web.movement_status AS ENUM ('planned', 'scheduled', 'nomination', 'actual');
 
+-- Dynamic
 CREATE TABLE web.location_movements (
   id SERIAL PRIMARY KEY,
   transaction VARCHAR,

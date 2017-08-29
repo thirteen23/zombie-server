@@ -1,3 +1,4 @@
+-- Dynamic
 CREATE TABLE web.forecasted_rundowns (
   id SERIAL PRIMARY KEY,
   terminal_id INT REFERENCES web.terminals(id) NOT NULL,

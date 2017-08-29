@@ -1,5 +1,6 @@
 CREATE TYPE web.access AS ENUM ('in', 'out', 'both', 'none');
 
+-- Static
 CREATE TABLE web.refineries (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,

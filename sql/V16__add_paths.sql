@@ -1,3 +1,4 @@
+-- Static
 CREATE TABLE web.paths (
   id SERIAL PRIMARY KEY,
   origin_id INT REFERENCES web.locations(id) NOT NULL,

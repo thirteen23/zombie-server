@@ -1,3 +1,4 @@
+-- Static
 CREATE table web.pipelines (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,

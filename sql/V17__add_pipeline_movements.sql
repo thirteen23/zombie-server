@@ -1,4 +1,5 @@
-CREATE TABLE web.location_movements (
+-- Dynamic
+CREATE TABLE web.pipeline_movements (
   id SERIAL PRIMARY KEY,
   transaction VARCHAR,
   path_id INT REFERENCES web.paths(id) NOT NULL,
