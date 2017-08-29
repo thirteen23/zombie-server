@@ -1,4 +1,4 @@
-CREATE TABLE web.nomination_periods (
+CREATE TABLE web.nominations (
   id SERIAL PRIMARY KEY,
   segment_id INT REFERENCES segments(id) NOT NULL,
   grade_id INT REFERENCES grades(id) NOT NULL,

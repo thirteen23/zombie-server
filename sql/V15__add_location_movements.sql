@@ -1,11 +1,11 @@
 CREATE TYPE web.movement_type AS ENUM ('adjustment', 'reconsignment', 'trade', 'transfer', 'exchange');
 CREATE type web.movement_status AS ENUM ('planned', 'scheduled', 'nomination', 'actual');
 
-CREATE TABLE web.movements (
+CREATE TABLE web.location_movements (
   id SERIAL PRIMARY KEY,
   transaction VARCHAR,
-  nomination_period_id INT REFERENCES web.nomination_periods(id) NOT NULL,
-  path_id INT references web.paths(id) NOT NULL,
+  origin_id INT REFERENCES web.locations(id) NOT NULL,
+  destination_id INT REFERENCES web.locations(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   type web.movement_type NOT NULL,
   volume INT NOT NULL CHECK (volume >= 0),
