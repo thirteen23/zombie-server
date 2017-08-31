@@ -44,10 +44,13 @@ module.exports = function(callback) {
       register: require('./plugins/locations'),
     },
     {
-      register: require('./plugins/search')
+      register: require('./plugins/transports'),
     },
     {
-      register: require('./plugins/filter')
+      register: require('./plugins/search'),
+    },
+    {
+      register: require('./plugins/filter'),
     }
   ]);
 

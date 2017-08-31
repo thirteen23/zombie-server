@@ -18,10 +18,10 @@ exports.seed = () => {
         grade_id: parseInt(row.grade_id, 10),
         volume: parseInt(row.volume, 10),
         start: new Date(`${row.start_date} ${row.start_time}`),
-        stop: new Date(`${row.end_date} ${row.end_time}`),
+        end: new Date(`${row.end_date} ${row.end_time}`),
         status: row.status.toLowerCase()
       };
-      const k = Object.keys(movement).join(', ');
+      const k = Object.keys(movement).map(k => `"${k}"`).join(', ');
       const v = Object.keys(movement).map((v, k) => `$${k + 1}`).join(', ');
       pool.query(`INSERT INTO web.pipeline_movements(${k}) VALUES(${v})`,
                  Object.values(movement), (err, res) => {

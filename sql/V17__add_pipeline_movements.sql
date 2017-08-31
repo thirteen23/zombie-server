@@ -5,7 +5,7 @@ CREATE TABLE web.pipeline_movements (
   path_id INT REFERENCES web.paths(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   volume INT NOT NULL CHECK (volume >= 0),
-  start TIMESTAMP WITH TIME ZONE NOT NULL CHECK (start < stop),
-  stop TIMESTAMP WITH TIME ZONE NOT NULL CHECK (stop > start),
+  start TIMESTAMP WITH TIME ZONE NOT NULL CHECK (start < "end"),
+  "end" TIMESTAMP WITH TIME ZONE NOT NULL CHECK ("end" > start),
   status web.movement_status NOT NULL
 );

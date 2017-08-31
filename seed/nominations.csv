@@ -1,4 +1,4 @@
-segment_id,grade_id,path_id,contracted_volume,nominated_min,nominated_max,tariff_min,tariff_max,contracted_min,contracted_max,start,stop
+segment_id,grade_id,path_id,contracted_volume,nominated_min,nominated_max,tariff_min,tariff_max,contracted_min,contracted_max,start,end
 55,44,13,,,890000,,,,,2017-06-01,2017-06-30
 77,44,5,,,780000,,,,,2017-06-01,2017-06-30
 402,44,3,,,480000,,,,,2017-06-01,2017-06-30
