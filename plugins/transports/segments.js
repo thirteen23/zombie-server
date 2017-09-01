@@ -3,7 +3,7 @@ const S = require('../../sanctuary');
 const sqlt = require('sqlt');
 const {curry2, lift2, map} = S;
 
-const {aggregateMovements, dateRange, groupAggregatesByGrade, movementGrades} = require('./aggregateMovements');
+const {aggregateMovements, dateRange} = require('./aggregateMovements');
 
 const qGetSegmentGrades = sqlt(__dirname + '/queries/get_segment_grades.sql');
 const qGetSegmentPaths = sqlt(__dirname + '/queries/get_segment_paths.sql');
@@ -52,12 +52,8 @@ const getSegmentMovementAggregates = (client, id, start, end) => {
   const fMovements = node((done) => {
     qGetSegmentMovementAggregates(client, [id, start, end], (err, res) => done(err, res.rows))
   });
-  const fAggregatedMovements = map(aggregateMovements, fMovements);
-  const fGrades = map(movementGrades, fMovements);
   const dates = dateRange(start, end);
-  return lift2(curry2((grades, aggregates) => {
-    return groupAggregatesByGrade(grades, dates, aggregates);
-  }), fGrades, fAggregatedMovements);
+  return map(movements => aggregateMovements(dates, movements), fMovements);
 };
 
 module.exports = {
