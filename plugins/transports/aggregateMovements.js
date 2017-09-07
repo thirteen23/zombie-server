@@ -13,7 +13,9 @@ const dateRange = (start, end) => {
 
 // aggregateMovements :: [Date] -> [Movements] -> [Aggregates]
 const aggregateMovements = (dates, movements) => {
-  const grades = map(prop('grade_id'), uniqBy(prop('grade_id'), movements));
+  const grades = map((movement) => {
+    return `${movement.category_id}.${movement.product_id}.${movement.grade_id}`;
+  }, uniqBy(prop('grade_id'), movements));
   return map((date) => {
     return Object.assign({date},
                          reduce(curry2((obj, grade) => {
@@ -21,7 +23,7 @@ const aggregateMovements = (dates, movements) => {
                              const end = prop('end', movement);
                              return and(
                                or(isSameDay(end, date), isBefore(end, date)),
-                               equals(prop('grade_id', movement), grade)
+                               equals(`${movement.category_id}.${movement.product_id}.${movement.grade_id}`, grade)
                              );
                            }, movements);
                            const daily = reduce(add, 0, map(prop('volume'), f));
