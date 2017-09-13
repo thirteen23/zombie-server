@@ -1,4 +1,5 @@
 const { Future } = require('fluture');
+
 const { getSegmentGrades,
         getSegmentPaths,
         getSegmentNominationPeriods,
@@ -7,7 +8,8 @@ const { getSegmentGrades,
         getSegmentMovementAggregates } = require('./segments');
 
 const { getPathMovements,
-        getPathMovementAggregates } = require('./paths');
+        getPathMovementAggregates,
+        getPathNominations } = require('./paths');
 
 exports.getSegmentGrades = (req, rep) => {
   getSegmentGrades(req.server.pg, req.params.id)
@@ -46,5 +48,10 @@ exports.getPathMovements = (req, rep) => {
 
 exports.getPathMovementAggregates = (req, rep) => {
   getPathMovementAggregates(req.server.pg, req.params.id, req.query.start, req.query.end)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getPathNominations = (req, rep) => {
+  getPathNominations(req.server.pg, req.params.id, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
 };

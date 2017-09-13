@@ -1,4 +1,5 @@
 SELECT pm.*,
+g.name AS grade_name,
 l3.name AS origin_name,
 l4.name AS destination_name
 FROM web.pipeline_movements pm

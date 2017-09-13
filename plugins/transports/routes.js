@@ -32,4 +32,8 @@ module.exports = [{
   method: 'GET',
   path: '/paths/{id}/movements/aggregates',
   handler: Handlers.getPathMovementAggregates,
+}, {
+  method: 'GET',
+  path: '/paths/{id}/nominations',
+  handler: Handlers.getPathNominations,
 }];
