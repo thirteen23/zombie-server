@@ -1,5 +1,9 @@
 FROM node:alpine
 
+RUN apk add --no-cache tzdata
+RUN cp /usr/share/zoneinfo/America/Chicago /etc/localtime
+RUN echo "America/Chicago" > /etc/timezone
+
 RUN mkdir -p /var/www/app
 WORKDIR /var/www/app
 

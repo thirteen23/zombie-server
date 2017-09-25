@@ -44,6 +44,10 @@ const users = [
   {
     username: 'lauralevisay',
     phone: '12545923703'
+  },
+  {
+    username: 'alexchandy',
+    phone: '12813522263'
   }
 ];
 
