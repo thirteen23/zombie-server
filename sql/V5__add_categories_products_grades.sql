@@ -7,7 +7,7 @@ CREATE TABLE web.categories (
 -- Static
 CREATE TABLE web.products (
   id SERIAL PRIMARY KEY,
-  name VARCHAR,
+  name VARCHAR NOT NULL,
   category_id INT REFERENCES web.categories(id) NOT NULL
 );
 
