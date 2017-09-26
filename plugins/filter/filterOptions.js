@@ -8,6 +8,7 @@ const qGetProductsByCategory = sqlt(__dirname + '/queries/get_products_by_catego
 const qGetGradesByProduct = sqlt(__dirname + '/queries/get_grades_by_product.sql');
 
 const qGetCompanies = sqlt(__dirname + '/queries/get_companies.sql');
+const qGetCompanyLinks = sqlt(__dirname + '/queries/get_company_links.sql');
 
 // getCategories :: DB -> Future [Category]
 const getCategories = (client) => {
@@ -82,6 +83,16 @@ exports.getCompanies = (client) => {
     qGetCompanies(client, (err, res) => {
       done(err, res.rows);
     });
+  }).chain((companies) => {
+    return parallel(20, companies.map((company) => {
+      return node((done) => {
+        return qGetCompanyLinks(client, [company.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      }).map((links) => {
+        return Object.assign({links}, company);
+      });
+    }));
   });
 };
 
