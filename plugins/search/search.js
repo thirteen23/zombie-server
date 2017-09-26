@@ -13,7 +13,7 @@ exports.searchRefineries = (client, searchString) => {
 // searchTerminals :: DB -> Future [Terminal]
 exports.searchTerminals = (client, searchString) => {
   return node((done) => {
-    client.query(`SELECT * FROM web.terminals WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
+    client.query(`SELECT id, name, type FROM web.terminals WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
                  (err, res) => {
                    done(err, res.rows);
                  });
@@ -23,6 +23,9 @@ exports.searchTerminals = (client, searchString) => {
 // searchSegments :: DB -> Future [Segment]
 exports.searchSegments = (client, searchString) => {
   return node((done) => {
-    done(null, []);
+    client.query(`SELECT id, name, 'segment' AS type FROM web.segments WHERE lower(name) LIKE \'%${searchString.toLowerCase()}%\'`,
+                 (err, res) => {
+                   done(err, res.rows);
+                 });
   });
 };
