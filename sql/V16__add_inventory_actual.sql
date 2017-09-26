@@ -19,5 +19,5 @@ CREATE TABLE web.inventory_actual (
   regrade_out INT NOT NULL DEFAULT 0,
   gain_loss INT NOT NULL DEFAULT 0,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-)
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
