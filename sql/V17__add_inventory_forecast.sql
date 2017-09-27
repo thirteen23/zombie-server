@@ -1,6 +1,8 @@
 -- Dynamic
 CREATE TABLE web.inventory_forecast (
   id SERIAL PRIMARY KEY,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   terminal_id INT REFERENCES web.terminals(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   day DATE NOT NULL,
@@ -19,7 +21,5 @@ CREATE TABLE web.inventory_forecast (
   regrade_out INT NOT NULL DEFAULT 0,
   gain_loss INT NOT NULL DEFAULT 0,
   closing_stock_low INT NOT NULL,
-  closing_stock_high INT NOT NULL,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+  closing_stock_high INT NOT NULL
 );
