@@ -1,6 +1,8 @@
 -- Dynamic
 CREATE TABLE web.inventory_actual (
   id SERIAL PRIMARY KEY,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   terminal_id INT REFERENCES web.terminals(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   day DATE NOT NULL,
@@ -17,7 +19,5 @@ CREATE TABLE web.inventory_actual (
   exchange_out INT NOT NULL DEFAULT 0,
   regrade_in INT NOT NULL DEFAULT 0,
   regrade_out INT NOT NULL DEFAULT 0,
-  gain_loss INT NOT NULL DEFAULT 0,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+  gain_loss INT NOT NULL DEFAULT 0
 );
