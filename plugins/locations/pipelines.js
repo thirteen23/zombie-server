@@ -1,8 +1,8 @@
 const {node} = require('fluture');
 const S = require('../../sanctuary');
 const sqlt = require('sqlt');
-
-const { head, map } = S;
+const { head } = require('ramda');
+const { map } = S;
 
 const qGetPipelines = sqlt(__dirname + '/queries/get_pipelines.sql');
 

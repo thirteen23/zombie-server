@@ -1,6 +1,6 @@
 -- Terminals
 ((SELECT DISTINCT(grade_id) AS id, g.name AS name
-FROM web.rundowns AS r
+FROM web.inventory_actual AS r
 JOIN web.grades AS g ON r.grade_id = g.id
 WHERE r.terminal_id = ANY ($2))
 

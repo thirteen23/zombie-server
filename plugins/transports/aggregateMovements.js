@@ -20,7 +20,7 @@ const aggregateMovements = (dates, movements) => {
     return Object.assign({date},
                          reduce(curry2((obj, grade) => {
                            const f = filter((movement) => {
-                             const end = prop('end', movement);
+                             const end = prop('destination_end', movement);
                              return and(
                                or(isSameDay(end, date), isBefore(end, date)),
                                equals(`${movement.category_id}.${movement.product_id}.${movement.grade_id}`, grade)

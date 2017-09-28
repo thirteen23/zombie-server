@@ -1,6 +1,6 @@
 SELECT day,
 Cast(Sum(closing_stock) AS Integer) AS closing_stock
-FROM web.forecasted_rundowns
+FROM web.inventory_forecast
 WHERE grade_id = $1
 AND terminal_id = ANY ($2)
 AND day BETWEEN $3 AND $4
