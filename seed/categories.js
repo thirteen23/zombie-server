@@ -10,7 +10,6 @@ exports.seed = () => {
     fs.createReadStream(`${__dirname}/categories.csv`).pipe(csv({ objectMode: true, columns: true }))
         .on('data', (row) => {
             const name = row.name;
-            console.log(row);
             rows++;
             pool.query('INSERT INTO web.categories(name) VALUES($1)', [name], (err, res) => {
                 if (err) console.error(err);
