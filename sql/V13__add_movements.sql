@@ -1,4 +1,5 @@
 CREATE TYPE web.movement_type AS ENUM ('adjustment', 'reconsignment', 'trade', 'transfer', 'exchange');
+CREATE TYPE web.movement_status AS ENUM ('planned', 'scheduled', 'nomination', 'actual');
 
 -- Dynamic
 CREATE TABLE web.movements (
@@ -8,6 +9,7 @@ CREATE TABLE web.movements (
   destination_id INT REFERENCES web.locations(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   type web.movement_type,
+  status web.movement_status,
   volume INT NOT NULL CHECK (volume >= 0),
   origin_start TIMESTAMP WITH TIME ZONE CHECK (origin_start < origin_end),
   origin_end TIMESTAMP WITH TIME ZONE CHECK (origin_end > origin_start),
