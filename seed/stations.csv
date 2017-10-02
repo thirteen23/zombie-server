@@ -1,10 +1,37 @@
-locationId,locationName,locationType,companyOwner,companyOperator,operationalStatus,products,pipelineConnections,locationNameAlternative,processingCapacity,transportationCapacity,activeTerminalingCapacity,storageCapacity,accessPipeline,accessRail,accessTruck,accessMarine,truckBayCount,grossRackCapacity,tankCount,NGLLPGStorage,butaneBlending,biodieselBlending,latitude,longitude,fax,name,cell,phone,role,email,locationOperatorId,timsId,locationIdSAP,locationIdETRM,terminalControlNumber,triFacilityId,city,state,zip,line1,line2
-606,Allen,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,34.8789,-96.4122,,,,,,,,,,,,,Allen,OK,74825,107 South Camper Road,
-533,El Dorado MPL,Station,Magellan Midstream Partners LP,"Magellan Pipeline Company, LP",Operational,[u'Refined Products'],"[u'NuStar East', u' Holly Frontier', u' Magellan']",,,,,,,,,,,,,,,,37.8026,-96.8706,,,,(316) 321-6380,,,,,,,,,El Dorado,KS,67042,1629 Sunset Road,
-601,Barnsdall,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,36.5999,-96.15,,,,,,,,,,,,,Barnsdall,OK,74002,2128 County Road 401,
-602,Independence,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,37.2156,-95.7507,,,,,,,,,,,,,Independence,KS,67301,836 South Rosser Road,
-603,Humboldt,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,37.7971,-95.3255,,,,,,,,,,,,,Humboldt,KS,66748,450 2400 Street,
-604,Ponca City MPL,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,36.6673,-97.0852,,,,,,,,,,,,,Ponca City,OK,74601,3990 South Union,
-605,Drumright,Station,"Magellan Pipeline Company, LP","Magellan Pipeline Company, LP",Operational,,,,,,,,,,,,,,,,,,35.9883,-96.6008,,,,,,,,,,,,,Drumright,OK,74030,55200 Highway 16,
-617,El Dorado NUS,Station,"NuStar Energy, LP","NuStar Logistics, LP",Operational,[u'Refined Products'],"[u'NuStar East', u' Holly Frontier', u' Magellan']",,,0,,,In,No,No,No,,,13,,,,37.8036,-96.8716,,Tracy Wallick,,(316) 321-3500,Terminal Contact,tracy.wallick@nustarenergy.com,,5249,,,,,El Dorado,KS,67042,1624 Sunset Road,
-513,Arkansas City,Station,Valero Energy Corp,Valero Energy Corp,Operational,,[u'NuStar East'],,,,,217000,,,Yes,,,,3,,,,37.0495,-97.0229,,Jerry Gilmore,,(620) 442-5591,Terminal Manager,jerry.gilmore@valero.com,,,,,,,Arkansas City,KS,67005,1400 South M Street,
+latitude,longitude,name,type
+41.1163,-95.9321,Capehart Junction,station
+35.9703,-96.0139,Glenpool MPL,station
+37.8254,-97.7021,Mt Hope,station
+34.4172,-97.9555,Duncan,station
+39.7509,-94.9288,Wathena Junction,station
+35.2434,-94.6733,Heavener Junction,station
+34.9047,-94.6018,Heavener,station
+37.8018,-96.9092,El Dorado MPL Pump,station
+41.6306,-92.7203,Grinnell Junction,station
+43.5202,-93.3581,Albert Lea,station
+44.7333,-93.1962,Rosemount,station
+29.8199,-95.1533,Houston - Explorer,station
+37.0439,-97.018,Arkansas City,station
+37.8026,-96.8706,El Dorado MPL,station
+36.5999,-96.15,Barnsdall,station
+37.2156,-95.7507,Independence,station
+37.7971,-95.3255,Humboldt,station
+36.6673,-97.0852,Ponca City MPL,station
+35.9697,-96.5912,Drumright,station
+34.8789,-96.4122,Allen,station
+37.8036,-96.8716,El Dorado NUS,station
+41.3641,-96.0592,Irvington,station
+40.7219,-95.9112,Nebraska City,station
+42.1673,-98.4824,Roland,station
+45.105,-95.082,Willmar,station
+42.9965,-96.461,Sioux River Junction,station
+41.684,-90.49,Bettendorf Junction,station
+36.0033,-96.7504,Cushing Station,station
+36.0276,-96.7663,Cushing Junction,station
+35.9414,-96.7498,Cushing,station
+41.2757,-88.1265,Wilmington,station
+37.028,-95.879,Caney Junction,station
+37.9313,-97.0197,Potwin,station
+37.6766,-96.9881,Augusta,station
+44.4406,-95.8182,Marshall,station
+35.7191,-101.353,Rocky Station,station
