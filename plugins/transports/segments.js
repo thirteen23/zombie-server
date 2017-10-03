@@ -22,7 +22,10 @@ const getSegmentGrades = (client, id) => {
 // getSegmentPaths :: DB -> Int -> Future [Path]
 const getSegmentPaths = (client, id) => {
   return node((done) => {
-    qGetSegmentPaths(client, [id], (err, res) => done(err, res.rows))
+    qGetSegmentPaths(client, [id], (err, res) => {
+      if (err) console.log(err);
+      done(err, res.rows);
+    });
   });
 };
 

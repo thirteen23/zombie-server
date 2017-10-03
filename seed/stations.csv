@@ -1,37 +1,37 @@
-latitude,longitude,name,type
-41.1163,-95.9321,Capehart Junction,station
-35.9703,-96.0139,Glenpool MPL,station
-37.8254,-97.7021,Mt Hope,station
-34.4172,-97.9555,Duncan,station
-39.7509,-94.9288,Wathena Junction,station
-35.2434,-94.6733,Heavener Junction,station
-34.9047,-94.6018,Heavener,station
-37.8018,-96.9092,El Dorado MPL Pump,station
-41.6306,-92.7203,Grinnell Junction,station
-43.5202,-93.3581,Albert Lea,station
-44.7333,-93.1962,Rosemount,station
-29.8199,-95.1533,Houston - Explorer,station
-37.0439,-97.018,Arkansas City,station
-37.8026,-96.8706,El Dorado MPL,station
-36.5999,-96.15,Barnsdall,station
-37.2156,-95.7507,Independence,station
-37.7971,-95.3255,Humboldt,station
-36.6673,-97.0852,Ponca City MPL,station
-35.9697,-96.5912,Drumright,station
-34.8789,-96.4122,Allen,station
-37.8036,-96.8716,El Dorado NUS,station
-41.3641,-96.0592,Irvington,station
-40.7219,-95.9112,Nebraska City,station
-42.1673,-98.4824,Roland,station
-45.105,-95.082,Willmar,station
-42.9965,-96.461,Sioux River Junction,station
-41.684,-90.49,Bettendorf Junction,station
-36.0033,-96.7504,Cushing Station,station
-36.0276,-96.7663,Cushing Junction,station
-35.9414,-96.7498,Cushing,station
-41.2757,-88.1265,Wilmington,station
-37.028,-95.879,Caney Junction,station
-37.9313,-97.0197,Potwin,station
-37.6766,-96.9881,Augusta,station
-44.4406,-95.8182,Marshall,station
-35.7191,-101.353,Rocky Station,station
+id,latitude,longitude,name,type
+1,41.1163,-95.9321,Capehart Junction,station
+2,35.9703,-96.0139,Glenpool MPL,station
+3,37.8254,-97.7021,Mt Hope,station
+4,34.4172,-97.9555,Duncan,station
+5,39.7509,-94.9288,Wathena Junction,station
+6,35.2434,-94.6733,Heavener Junction,station
+7,34.9047,-94.6018,Heavener,station
+8,37.8018,-96.9092,El Dorado MPL Pump,station
+9,41.6306,-92.7203,Grinnell Junction,station
+10,43.5202,-93.3581,Albert Lea,station
+11,44.7333,-93.1962,Rosemount,station
+12,29.8199,-95.1533,Houston - Explorer,station
+13,37.0439,-97.018,Arkansas City,station
+14,37.8026,-96.8706,El Dorado MPL,station
+15,36.5999,-96.15,Barnsdall,station
+16,37.2156,-95.7507,Independence,station
+17,37.7971,-95.3255,Humboldt,station
+18,36.6673,-97.0852,Ponca City MPL,station
+19,35.9697,-96.5912,Drumright,station
+20,34.8789,-96.4122,Allen,station
+21,37.8036,-96.8716,El Dorado NUS,station
+22,41.3641,-96.0592,Irvington,station
+23,40.7219,-95.9112,Nebraska City,station
+24,42.1673,-98.4824,Roland,station
+25,45.105,-95.082,Willmar,station
+26,42.9965,-96.461,Sioux River Junction,station
+27,41.684,-90.49,Bettendorf Junction,station
+28,36.0033,-96.7504,Cushing Station,station
+29,36.0276,-96.7663,Cushing Junction,station
+30,35.9414,-96.7498,Cushing,station
+31,41.2757,-88.1265,Wilmington,station
+32,37.028,-95.879,Caney Junction,station
+33,37.9313,-97.0197,Potwin,station
+34,37.6766,-96.9881,Augusta,station
+35,44.4406,-95.8182,Marshall,station
+36,35.7191,-101.353,Rocky Station,station

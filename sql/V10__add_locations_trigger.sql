@@ -1,3 +1,4 @@
+/*
 CREATE OR REPLACE FUNCTION web.populate_locations()
   RETURNS trigger AS
 $populate_locations$
@@ -24,3 +25,4 @@ CREATE TRIGGER terminals_locations
   ON web.terminals
   FOR EACH ROW
   EXECUTE PROCEDURE web.populate_locations();
+*/

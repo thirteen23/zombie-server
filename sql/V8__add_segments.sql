@@ -5,9 +5,9 @@ CREATE TABLE web.segments (
   pipeline_id INT REFERENCES web.pipelines(id) NOT NULL,
   origin_id INT REFERENCES web.locations(id) NOT NULL,
   destination_id INT REFERENCES web.locations(id) NOT NULL,
-  coordinates POINT[] NOT NULL,
+  coordinates FLOAT[][],
   length INT CHECK (length >= 0),
   diameter INT[],
-  capacity INT CHECK (capacity >= 0 ),
+  capacity INT CHECK (capacity >= 0),
   operational BOOLEAN NOT NULL DEFAULT FALSE
 );

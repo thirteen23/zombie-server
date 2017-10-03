@@ -1,12 +1,12 @@
-category_id,name
-6,butane
-5,biodiesel
-4,diesel
-10,premium gasoline
-10,regular gasoline
-4,jet
-9,ethanol
-4,heating oil
-4,kero
-12,transmix
-10,gasoline component
+id,category_id,name
+1,6,butane
+2,5,biodiesel
+3,4,diesel
+4,10,premium gasoline
+5,10,regular gasoline
+6,4,jet
+7,9,ethanol
+8,4,heating oil
+9,4,kero
+10,12,transmix
+11,10,gasoline component

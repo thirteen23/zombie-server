@@ -24,12 +24,11 @@ const coordsToCoords = (segment) => {
 
 // getSegments :: DB -> Future [Segment]
 exports.getSegments = (client) => {
-  const fSegments = node((done) => {
+  return node((done) => {
     qGetSegments(client, (err, res) => {
       done(err, res.rows);
     });
   });
-  return map(coordsToCoords, fSegments);
 };
 
 // getSegment :: DB -> Int -> Future Segment

@@ -24,6 +24,5 @@ CREATE TABLE web.terminals (
   street VARCHAR,
   city VARCHAR,
   state CHAR(2),
-  zip VARCHAR(5),
-  FOREIGN KEY (id, type) REFERENCES web.locations (ref_id, type) MATCH FULL
+  zip VARCHAR(5)
 );
