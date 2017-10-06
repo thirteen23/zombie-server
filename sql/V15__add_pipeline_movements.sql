@@ -4,6 +4,7 @@ CREATE TABLE web.pipeline_movements (
   path_id INT REFERENCES web.paths(id) NOT NULL,
   grade_id INT REFERENCES web.grades(id) NOT NULL,
   volume INT NOT NULL CHECK (volume >= 0),
+  status web.movement_status,
   transaction VARCHAR,
   origin_start TIMESTAMP WITH TIME ZONE CHECK (origin_start < origin_end),
   origin_end TIMESTAMP WITH TIME ZONE CHECK (origin_end > origin_start),
