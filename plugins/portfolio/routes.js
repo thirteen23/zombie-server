@@ -9,6 +9,10 @@ module.exports = [{
   path: '/terminals/forecasts/inventory',
   handler: Handlers.getTerminalsForecastInventory
 }, {
+  method: 'POST',
+  path: '/terminals/forecasts/edits',
+  handler: Handlers.getTerminalsForecastEditsInventory
+}, {
   method: 'GET',
   path: '/portfolio/grades',
   handler: Handlers.getPortfolioGrades

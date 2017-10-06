@@ -1,7 +1,8 @@
 const Future = require('fluture');
 const S = require('../../sanctuary');
 const { getTerminalsInventory,
-        getTerminalsForecastInventory } = require('./terminals');
+        getTerminalsForecastInventory,
+        getTerminalsForecastEditsInventory } = require('./terminals');
 const { getPortfolioGrades } = require('./portfolio');
 const { getNominationPeriods } = require('./nominations');
 
@@ -13,6 +14,11 @@ exports.getTerminalsInventory = (req, rep) => {
 exports.getTerminalsForecastInventory = (req, rep) => {
   return getTerminalsForecastInventory(req.server.pg, req.query.grade, req.query.terminals, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalsForecastEditsInventory = (req, rep) => {
+  return getTerminalsForecastEditsInventory(req.server.pg, req.payload)
+    .fork(err => rep(err), res => rep(res));
 };
 
 exports.getPortfolioGrades = (req, rep) => {
