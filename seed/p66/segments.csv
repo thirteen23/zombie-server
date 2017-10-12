@@ -1,0 +1,94 @@
+id,name,pipeline_id,origin_id,destination_id,length,diameter,capacity,operational
+1,Eastern Main,3,12,87,452,{28},660000,TRUE
+2,East,1,111,101,287,"{10, 12}",55000,TRUE
+3,South,1,111,105,90,{8},46000,TRUE
+4,BWG - Borger-Wichita Gold,4,36,124,273,"{8, 16}",120000,TRUE
+5,WPG - Wichita-Paola Gold,4,124,109,0,"{8, 16}",120000,TRUE
+6,PSG - Paola-St Louis Gold,4,109,81,265,"{8, 12}",44400,TRUE
+7,"Humboldt - Springfield #6-8""",6,17,117,121,{8},0,TRUE
+8,"Barnsdall - Kansas City #4-12""",6,15,95,174,{12},0,TRUE
+9,North,1,13,125,76,{8},83000,TRUE
+10,North,1,111,13,29,{10},83000,TRUE
+11,Standish,7,51,124,92,{18},72000,TRUE
+12,PKE - Paola-Kansas City 8 Inch,4,109,95,53,{8},26400,TRUE
+13,PKT - Paola-Kansas City 10 Inch,4,109,95,53,{10},76800,TRUE
+14,"Enid - Oklahoma City #1-6""",6,82,105,81,{6},0,TRUE
+15,"Enid - Ponca City #1-6""",6,18,82,46,{6},0,TRUE
+16,Heartland,5,133,110,419,"{6, 8}",30000,TRUE
+17,St Louis Spur,2,60,81,23,{14},0,TRUE
+18,Eastern Main,2,87,60,403,{24},0,TRUE
+19,Chase Pipeline,8,14,113,249,{12},0,TRUE
+20,Heavener Junction - Heavener,6,6,7,0,{},0,TRUE
+21,"Drumright -Tulsa #1-8""",6,19,123,35,{8},0,TRUE
+22,"Nebraska City - Doniphan #1-8""",6,23,79,131,{8},0,TRUE
+23,"Albert Lea - Mankato #3-6""",6,10,136,0,{6},0,TRUE
+24,"Rosemount - Rochester #5-8""",6,11,137,0,{8},0,TRUE
+25,"Independence - Humboldt #10-10""",6,16,17,47,{10},0,TRUE
+26,"Tulsa to Barnsdall #1-12""",6,123,15,34,{12},0,TRUE
+27,"Barnsdall - El Dorardo #7-16""",6,15,14,94,{16},0,TRUE
+28,Western Extension,9,85,103,188,{8},0,TRUE
+29,"Cushing - OK/KS ST Line #3-12""",6,30,14,0,{12},0,TRUE
+30,Hutchinson Spur,9,133,127,0,{},0,TRUE
+31,"8"" Amarillo Products",10,65,68,49,{8},40000,TRUE
+32,"El Dorado - Wathena Junction #7-16""",6,14,5,181,{16},0,TRUE
+33,"Allen - Fort Smith #2-12""",6,20,84,120,{12},0,TRUE
+34,"Kansas City - Irvington #3-8""",6,94,22,87,{8},0,TRUE
+35,"Tulsa to Barnsdall #4-12""",6,123,15,34,{12},0,TRUE
+36,"MO/IL ST Line - Wilmington #3-12""",6,72,31,0,{},0,TRUE
+37,"Rosemount - Willmar #6-12""",6,25,11,0,{12},0,TRUE
+38,Razorback,6,50,131,67,{8},30000,FALSE
+39,Borger to Denver Products,10,65,76,355,"{8, 12}",0,TRUE
+40,"Wynnewood - OKC (Reno) #3-12""",6,61,104,67,{12},0,TRUE
+41,Council Bluffs Spur,5,133,75,0,{},0,TRUE
+42,"El Dorado - Kansas City #6-10""",6,14,95,167,{10},0,TRUE
+43,"El Dorardo - Humboldt #1-8""",6,14,17,98,{8},0,TRUE
+44,"Oklahoma City - Cushing Junction #2-8""",6,104,29,55,{8},0,TRUE
+45,"Des Moines - Mason City #7-12""",6,77,98,0,{12},0,TRUE
+46,"Irvington - Omaha #1-8""",6,22,106,12,{8},0,TRUE
+47,"Kansas City - Irvington #5-12""",6,94,22,87,{12},0,TRUE
+48,"Tulsa - Columbia Junction #3-12""",6,123,72,276,{12},0,TRUE
+49,"KS/MO ST Line - MO/IL ST Line #3-12""",6,123,72,0,{},0,TRUE
+50,"Columbia - Palmyra #1-6""",6,72,108,89,{6},0,TRUE
+51,"Coffeyville - Caney Junction #2-8""",6,41,32,0,{8},32000,TRUE
+52,Tulsa Spur,3,87,123,13,{28},0,TRUE
+53,"Grinnell - Waterloo #1-8""",6,9,122,0,{8},0,TRUE
+54,"Cushing - Tulsa #2-8""",6,30,123,44,{8},0,TRUE
+55,"Allen - Drumright #3-8""",6,20,19,84,{8},0,TRUE
+56,"6"" Amarillo Products",10,65,68,49,{6},25000,TRUE
+57,Duncan - Allen,6,4,20,0,{},0,TRUE
+58,Lincoln Spur,5,133,97,0,{},0,TRUE
+59,"Wathena Junction - Des Moines #7-16""",6,5,77,151,{16},0,TRUE
+60,"Kansas City - Des Moines #6-12""",6,95,77,190,{12},0,TRUE
+61,"Ponca City - Barnsdall #5-12""",6,18,15,54,{12},0,TRUE
+62,"Roland - Fort Dodge #8-6""",6,24,83,0,{6},0,TRUE
+63,"Irvington - Sioux Falls #5-12""",6,22,115,166,{12},0,TRUE
+64,"Coffeyville - Independence #1-8""",6,41,16,15,{8},0,TRUE
+65,"Bettendorf Junction - Bettendorf #1-8""",6,27,69,0,{8},0,TRUE
+66,Amarillo to Albuquerue Products,10,68,138,292,{10},34400,TRUE
+67,Eastern Extension,9,135,99,121,{6},0,TRUE
+68,Eastern Extension,9,75,116,0,{},0,TRUE
+69,Eastern Extension,9,26,130,41,{6},0,TRUE
+70,Southlake Products,10,142,65,360,{8},27300,TRUE
+71,El Paso Products,10,65,141,408,{10},59700,TRUE
+72,"Des Moines - Minneapolis #4-12""",6,77,11,240,{12},0,TRUE
+73,Sioux Falls - Willmar,6,115,25,0,{},0,TRUE
+74,"Iowa City - Dubuque #1-6""",6,92,80,70,{6},0,TRUE
+75,"Des Moines - Mississippi River #6-12"", #5-8""",6,77,27,0,"{8, 12}",0,TRUE
+76,El Dorado - Denver,8,14,76,0,{},0,TRUE
+77,McPherson - Mt Hope,8,62,3,0,{},0,TRUE
+78,Augusta – Potwin,9,34,33,0,{},0,TRUE
+79,Wichita North - Augusta,9,124,34,0,{},0,TRUE
+80,El Dorado - McPherson,9,21,133,0,{},0,TRUE
+81,"Marshall - Watertown #1-6""",6,35,143,0,{6},0,TRUE
+82,"Sioux City - Milford #1-6""",6,114,100,81,{6},0,TRUE
+83,Capehart Junction - Council Bluffs,6,66,75,0,{},0,TRUE
+84,Arkansas City - Augusta,9,13,34,0,{},0,TRUE
+85,Augusta - Potwin,9,34,33,0,{},0,TRUE
+86,Potwin - McPherson,9,33,133,0,{},0,TRUE
+87,McPherson - Geneva,9,133,85,155,{16},0,TRUE
+88,Geneva - Yankton,9,85,135,423,{6},0,TRUE
+89,Cushing - Glenpool,6,30,67,0,{},0,TRUE
+90,Glenpool South Spur,3,87,88,0,{},0,TRUE
+91,Glenpool - Tulsa,6,67,123,0,{},0,TRUE
+92,Cushing Junction - Cushing Station,6,29,28,0,{},0,TRUE
+93,El Dorado,6,14,8,0,{},0,TRUE

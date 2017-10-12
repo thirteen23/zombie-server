@@ -43,9 +43,9 @@ exports.getTerminalsForecastEditsInventory = (client, edits) => {
     amqp.connect('amqp://bayzyenfe:CAp84pwQUxaYp2WK@ec2-18-220-89-1.us-east-2.compute.amazonaws.com', (err, conn) => {
       conn.createChannel((err, chan) => {
         chan.consume('analytics', (msg) => {
-          const forecasts = JSON.parse(msg.content.toString()).data;
+          const forecasts = JSON.parse(msg.content.toString()).data.data;
           conn.close();
-          return done(null, forecasts);
+          return done(null, JSON.parse(JSON.stringify(forecasts)));
         });
         chan.sendToQueue('analytics', new Buffer(JSON.stringify(message)), {
           correlationId: cid,
