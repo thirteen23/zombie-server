@@ -12,4 +12,5 @@ JOIN web.locations l2 ON p.destination_id = l2.id
 JOIN web.locations_v l3 ON l1.ref_id = l3.ref_id AND l1.type = l3.type
 JOIN web.locations_v l4 ON l2.ref_id = l4.ref_id AND l2.type = l4.type
 WHERE pm.path_id = $1
-AND pm.destination_end BETWEEN $2 AND $3;
+AND pm.destination_end BETWEEN $2 AND $3
+ORDER BY pm.destination_end;

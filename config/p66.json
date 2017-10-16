@@ -1,0 +1,16 @@
+{
+  "pg": {
+    "driver": "pg",
+    "user": "bayzyen",
+    "password": "nrC-t4D-fwn-XMD",
+    "database": "p66",
+    "schema": "web",
+    "host": "p66.cczrjcntqihi.us-east-2.rds.amazonaws.com",
+    "port": 5432,
+    "max": 60,
+    "ssl": true
+  },
+  "redis": {
+    "url": "redis://x:AQRCWOCBDJAFNFKE@sl-us-south-1-portal.1.dblayer.com:17108"
+  }
+}

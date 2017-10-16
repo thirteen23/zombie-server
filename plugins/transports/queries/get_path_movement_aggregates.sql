@@ -6,4 +6,5 @@ JOIN web.grades g ON pm.grade_id = g.id
 JOIN web.products p ON g.product_id = p.id
 JOIN web.categories c ON p.category_id = c.id
 WHERE pm.path_id = $1
-AND pm.destination_end BETWEEN $2 AND $3;
+AND pm.destination_end BETWEEN $2 AND $3
+ORDER BY pm.destination_end;
