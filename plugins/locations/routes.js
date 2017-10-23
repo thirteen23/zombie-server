@@ -38,6 +38,10 @@ module.exports = [{
   handler: Handlers.getTerminalInventory
 }, {
   method: 'GET',
+  path: '/terminals/{t_id}/overages',
+  handler: Handlers.getTerminalOverages
+}, {
+  method: 'GET',
   path: '/pipelines',
   handler: Handlers.getPipelines,
 }, {

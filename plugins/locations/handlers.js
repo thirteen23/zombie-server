@@ -6,7 +6,8 @@ const { getTerminals,
         getTerminalMovements,
         getTerminalRundowns,
         getTerminalForecastRundowns,
-        getTerminalInventory } = require('./terminals');
+        getTerminalInventory,
+        getTerminalOverages } = require('./terminals');
 const {getSegments, getSegment} = require('./segments');
 const {getPipelines, getPipeline} = require('./pipelines');
 const {getStations, getStation} = require('./stations');
@@ -59,6 +60,11 @@ exports.getTerminalForecastRundowns = (req, rep) => {
 
 exports.getTerminalInventory = (req, rep) => {
   getTerminalInventory(req.server.pg, req.params.t_id, req.params.g_id, req.query.day)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalOverages = (req, rep) => {
+  getTerminalOverages(req.server.pg, req.params.t_id, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
 };
 

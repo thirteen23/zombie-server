@@ -1,79 +1,79 @@
-id,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,latitude,longitude,name,operational,rack_capacity,state,storage_capacity,street,operator_id,owner_id,terminaling_capacity,truck_bays,type,zip,pipeline_access,rail_access,truck_access,marine_access
-1,,,,,,,37.1898,-93.7775,Mount Vernon TMP,TRUE,,  ,218000,,28,25,,,terminal,0,both,,both,
-2,,,,,,,35.4775,-97.4336,Oklahoma City TMP,TRUE,,  ,158000,,41,41,,,terminal,0,both,,both,
-3,,,,,,,35.2659,-101.886,Amarillo,TRUE,,  ,,,29,29,,,terminal,0,,,,
-4,Riverdale,matthew.stevenson@magellanlp.com,(563) 355-0962,Matthew Stevenson,(563) 355-2931,,41.5321,-90.4695,Bettendorf MPL,TRUE,,IA,170000,312 South Bellingham Street ,25,24,,,terminal,52722,in,,out,in
-5,Bettendorf,kboslett@buckeye.com,,,(563) 529-4023,,41.5253,-90.4894,Bettendorf BPL,TRUE,,IA,237400,75 South 31st Street ,5,4,,,terminal,52722,both,,both,both
-6,Carthage,,(417) 394-3140,,(417) 394-2700,,37.3136,-94.3043,Carthage,TRUE,,MO,100000,18195 Country Road 138 ,25,24,,,terminal,64755,in,,out,
-7,Columbia,,(573) 449-1192,,(573) 443-1619,,38.8862,-92.2655,Columbia,TRUE,,MO,300000,5531 Hwy 63 South ,25,24,,,terminal,65201,in,,out,
-8,Columbus,bruce.myers@nustarenergy.com,(402) 564-8889,Bruce Myers,(402) 564-3332,Terminal Contact,41.4374,-97.2446,Columbus,TRUE,,NE,171000,147 Road D ,30,29,,2,terminal,68601,in,,both,
-9,Delphos,tracy.wallick@nustarenergy.com,(785) 243-7186,Tracy Wallick,(785) 243-2771,Terminal Contact,39.364,-97.6284,Concordia,TRUE,,KS,79000,1612 Deer Road - US HWY 24 ,30,29,,2,terminal,67436,in,,both,
-10,Council Bluffs,kboslett@buckeye.com,,Scott Newhard,(712) 366-9461,Terminal Contact,41.214,-95.832,Council Bluffs BPL,TRUE,,IA,544000,829 Tank Farm Road ,5,4,,,terminal,51503,in,,out,
-11,Aurora,,(303) 344-1512,,(303) 344-1511,,39.7582,-104.813,Denver,TRUE,,CO,600000,15000 E. Smith Rd. ,25,24,,4,terminal,80011,in,,both,
-12,Des Moines,steve.seward@magellanlp.com,(515) 261-6691,Steve Seward,(515) 261-6698,Terminal Contact,41.5595,-93.5282,Des Moines MPL,TRUE,,IA,2100000,2503 Southeast 43rd Street ,25,24,,,terminal,50317,in,,both,
-13,Des Moines,dlmontoya@buckeye.com,,,(515) 226-4017,,41.6043,-93.7348,Des Moines BPL,TRUE,,IA,380800,1501 Northwest 86th Street ,5,4,,,terminal,50325,in,,out,
-14,Doniphan,irene.wirit@magellanlp.com,(402) 744-3781,Irene Wirit,(402) 744-3711,Terminal Contact,40.7522,-98.3769,Doniphan,TRUE,,NE,500000,12275 South U.S. Hwy 281 ,25,24,,,terminal,68832,in,,both,
-15,Dubuque,jeff.selvidge@magellanlp.com,(563) 588-4210,Jeff Selvidge,(563) 588-3311,Terminal Contact,42.4122,-90.7327,Dubuque,TRUE,,IA,100000,8038 St. Joe's Prairie Road ,25,24,,,terminal,52003,in,,both,
-16,Cahokia,,,,(618) 337-6066,,38.582,-90.1882,East St. Louis,TRUE,,IL,2085000,3300 Mississippi Avenue ,34,35,78000,6,terminal,62206,,both,both,
-17,Enid,jeff.selvidge@magellanlp.com,(580) 234-0148,Jeff Selvidge,(580) 234-6748,Terminal Contact,36.411,-97.8362,Enid,TRUE,,OK,300000,1401 North 30th Street ,25,24,,,terminal,73701,in,,out,
-18,Fort Dodge,,(515) 543-4564,,(515) 543-4563,,42.4981,-94.0208,Fort Dodge,TRUE,,IA,100000,3140 Two Hundred Street ,25,24,,,terminal,50532,,,,
-19,Fort Smith,,(501) 646-1649,Terry Gill,(501) 646-1721,Operator,35.3091,-94.395,Fort Smith,TRUE,,AK,,8101 Highway 71 South ,25,24,,,terminal,0,,,,
-20,Geneva,larry.loseke@nustarenergy.com,(402) 759-3023,Larry Loseke,(402) 759-3162,Terminal Contact,40.5503,-97.5952,Geneva,TRUE,,NE,649000,1479 North 13th Street ,30,29,,2,terminal,68361,in,,both,
-21,Jenks,,,Terry Redleaf,(918) 299-2911,Operator,36.013,-95.9942,Glenpool North,TRUE,19000,OK,366000,10600 South Elwood ,34,35,,2,terminal,74037,,,both,
-22,Glenpool,,,,,,35.9777,-96.0067,Glenpool EXP,TRUE,,OK,,1312 West 126th ,14,14,,,terminal,74037,,,,
-23,Glenpool,,,Thomas Petty,,Pipeline Operator,35.9752,-96.0039,Glenpool South,TRUE,,OK,261000,917 West 131st Street South null,34,35,,0,terminal,74037,,,,
-24,Great Bend,jeff.binstock@magellanlp.com,(620) 792-3757,Jeff Binstock,(620) 792-4707,Terminal Contact,38.3689,-98.692,Great Bend,TRUE,,KS,600000,1/4 mile N Jct. Hwy 56/Hwy 156 ,25,24,,,terminal,67530,in,,out,
-25,Hartford,,,,(618) 251-2780,,38.812,-90.094,Hartford,TRUE,25000,IL,1075000,2150 South Delmar Avenue ,34,35,,3,terminal,62048,,,both,both
-26,Hartford,,,,(618) 255-1100,,38.8335,-90.0901,Hartford BPL,TRUE,,IL,585000,220 East Hawthorne Street ,5,4,,,terminal,62048,both,,both,
-27,Coralville,,(319) 354-8643,,(319) 354-3976,,41.6831,-91.567,Iowa City,TRUE,,IA,600000,912 First Avenue ,25,24,,,terminal,52241,in,,both,
-28,Jefferson City,,,Bill Maloney,(573) 636-4984,,38.5481,-92.2148,Jefferson City,TRUE,,MO,110000,2116 Idlewood ,34,35,16000,2,terminal,65109,,,both,
-29,Kansas City,jeff.myers@magellanlp.com,(913) 281-1623,Jeff Myers,(913) 281-0771,Terminal Manager,39.1401,-94.6027,Kansas City MPL,TRUE,,KS,1780000,401 East Donovan Road ,25,24,,,terminal,66115,in,,out,
-30,Kansas City,jay.v.guarino@p66.com,,Jay Guarino,(913) 342-0510,Terminal Contact,39.1257,-94.6092,Kansas City,TRUE,,KS,1294000,2029 Fairfax Trafficway ,34,35,66000,5,terminal,66115,,,both,
-31,Roca,irene.wirit@magellanlp.com,(402) 421-7042,Irene Wirit,(402) 434-3234,Terminal Contact,40.6979,-96.6929,Lincoln MPL,TRUE,,NE,100000,2000 Saltillo Road ,25,24,,,terminal,68430,in,,both,
-32,Roca,dave.a.stallwitz@p66.com,,Scott Bartek,(402) 423-6111,Terminal Contact,40.6973,-96.7016,Lincoln,TRUE,21000,NE,219000,1345 Saltillo Road ,34,35,,2,terminal,68430,,,both,
-33,Clear Lake,john.riley@magellanlp.com,(641) 357-5130,John Riley,(641) 357-2124,Terminal Contact,43.1394,-93.3535,Mason City,TRUE,,IA,600000,2810 East Main Avenue ,25,24,,,terminal,50428,,,,
-34,Milford,dan.klinetobe@nustarenergy.com,(712) 338-2295,Dan Klinetobe,(712) 338-4732,Terminal Contact,43.3271,-95.167,Milford NUS,TRUE,,IA,168000,2127 220th Street ,30,29,,2,terminal,51351,,,both,
-35,Milford,alan.paul@magellanlp.com,(712) 338-2471,Alan Paul,(712) 338-2241,Terminal Contact,43.2923,-95.1514,Milford MPL,TRUE,,IA,200000,2451 Highway 71 ,25,24,,,terminal,51351,in,,both,
-36,Mount Vernon,,,William Maloney,(417) 452-3761,Terminal Contact,37.1888,-93.7823,Mount Vernon P66,TRUE,46000,MO,363000,15138 MO-96 ,34,35,,4,terminal,65712,,,both,
-37,Norfolk,bruce.myers@nustarenergy.com,(402) 371-9790,Bruce Myers,(402) 371-3150,Terminal Contact,42.0896,-97.4252,Norfolk,TRUE,,NE,179600,4708 North 13th Street ,30,29,,2,terminal,68701,in,,both,
-38,North Platte,jeff.stone@nustarenergy.com,(308) 534-9441,Jeff Stone,(308) 534-2540,Terminal Contact,40.9771,-100.755,North Platte,TRUE,,NE,240000,17504 South Highway 83 ,30,29,,3,terminal,69101,in,,both,
-39,Oklahoma City,,(405) 672-8903,Fred Neely,(405) 670-2015,Terminal Contact,35.4663,-97.4466,Oklahoma City MPL,TRUE,,OK,300000,251 North Sunnylane Road ,25,24,,,terminal,73117,in,,out,
-40,Oklahoma City,,,Neal Purdy,(405) 670-0804,Terminal Contact,35.4782,-97.432,Oklahoma City P66,TRUE,48000,OK,352000,4700 NE 10th Street ,34,35,,4,terminal,73111,,,both,
-41,Omaha,,,Travis Hussman,(402) 342-5476,Terminal Contact,41.2767,-95.9211,Omaha,TRUE,,NE,,2205 North 11th St ,25,24,,,terminal,68110,in,in,both,
-42,Norfolk,bruce.myers@nustarenergy.com,(402) 371-9790,Larry Loseke,(402) 371-3150,Terminal Contact,41.191,-97.5217,Osceola,TRUE,,NE,79000,4708 North 13th Street ,30,29,,2,terminal,68701,in,,both,
-43,Palmyra,,(573) 769-4162,,(573) 769-4802,,39.877,-91.5261,Palmyra,TRUE,,MO,200000,6789 Country Road 312 ,25,24,,,terminal,63461,in,,out,
-44,Paola,,,Kyle Spencer,(913) 294-2911,Pipeline/Tank Farm Operator,38.5075,-94.886,Paola,TRUE,,KS,750000,25760 West 343rd Street ,36,35,,0,terminal,66071,in,,,
-45,Pleasant Hill,,,Weston Newell,(515) 262-5454,Terminal Contact,41.5686,-93.5271,Pleasant Hill,TRUE,,IA,,4500 Vandalia Road ,34,35,,,terminal,50327,,,,
-46,Ponca City,,,,(580) 767-6326,,36.6881,-97.0931,Ponca City P66,TRUE,23000,OK,51000,South Highway 60 ,34,35,,2,terminal,74601,,,,
-47,Salina,tracy.wallick@nustarenergy.com,(785) 827-7432,Tracy Wallick,(785) 827-3854,Terminal Contact,38.8412,-97.6419,Salina,TRUE,,KS,91000,2137 West Old Highway 40 ,30,29,,3,terminal,67401,in,,out,
-48,Scott City,stan.rogers@magellanlp.com,(620) 872-2952,Stan Rogers,(620) 872-2086,Terminal Contact,38.5994,-100.906,Scott City,TRUE,,KS,300000,100 Hwy 4 ,25,24,,,terminal,67871,in,,out,
-49,Sioux City,alan.paul@magellanlp.com,(712) 239-1854,Alan Paul,(712) 239-2533,Terminal Contact,42.5389,-96.3575,Sioux City,TRUE,,IA,600000,4300 41st Street ,25,24,,,terminal,51108,,,,
-50,Sioux Falls,,(605) 335-0075,,(605) 338-5771,,43.5448,-96.7919,Sioux Falls MPL,TRUE,,SD,600000,5300 West 12th Street ,25,24,,3,terminal,57107,in,,both,
-51,Sioux Falls,ron.kleinsasser@nustarenergy.com,(605) 334-1362,Ron Kleinsasser,(605) 336-3158,Terminal Contact,43.5111,-96.7421,Sioux Falls NUS,TRUE,,SD,374000,3721 South Grange Avenue ,30,29,,2,terminal,57105,in,,both,
-52,Brookline,,(417) 865-1767,,(417) 865-3489,,37.159,-93.4239,Springfield,TRUE,,MO,300000,2550 North Brookline Avenue ,25,24,,,terminal,65619,in,,out,
-53,St Louis,,,,(314) 231-2000,,38.6794,-90.2001,St Louis North,TRUE,,MO,85000,239 East Prarie Avenue ,5,4,,,terminal,63147,both,,both,
-54,Sugar Creek,,,,(816) 836-6000,,39.1203,-94.4435,Sugar Creek,TRUE,,MO,,1000 North Sterling Avenue ,5,4,,,terminal,64054,both,,both,
-55,Wakarusa,jon.jacobs@magellanlp.com,,Jon Jacobs,(785) 862-1602,Terminal Contact,38.9215,-95.6863,Topeka,TRUE,,KS,100000,8050 SW Topeka Boulevard ,25,24,,,terminal,66546,in,,out,
-56,Valley Center,robb.barnes@magellanlp.com,(316) 755-1202,Robb Barnes,(316) 755-1201,Terminal Contact,37.8185,-97.3703,Valley Center,TRUE,,KS,,1120 South Meridian Avenue ,25,24,,2,terminal,67147,,,,
-57,Waterloo,john.riley@magellanlp.com,(319) 988-3681,John Riley,(319) 988-3269,Terminal Contact,42.4375,-92.4222,Waterloo,TRUE,,IA,400000,5360 Eldora Road ,25,24,,,terminal,50701,in,,both,
-58,Tulsa,jeff.selvidge@magellanlp.com,(918) 574-7598,Jeff Selvidge,(918) 574-7478,Terminal Contact,36.1329,-96.031,West Tulsa,TRUE,,OK,2600000,2120 South 33rd West Avenue ,25,24,,,terminal,74107,in,,out,
-59,Wichita,jay.v.guarino@p66.com,,Jay Guarino,(316) 838-3411,Terminal Contact,37.7548,-97.3077,Wichita North,TRUE,19000,KS,679000,2400 East 37th Street North ,34,35,19000,2,terminal,67219,,,both,
-60,Wichita,,,Jed Morse,(316) 681-2081,Operator,37.6495,-97.2434,Wichita South,TRUE,,KS,255000,8000-8114 E Oak Knoll Road ,34,35,,4,terminal,67207,both,,,
-61,Medford,,,,,,36.8069,-97.7333,Medford,TRUE,,OK,,RR2 Box 147A ,34,34,,,terminal,73759,,,,
-62,Hutchinson,tracy.wallick@nustarenergy.com,(620) 662-6579,Tracy Wallick,(620) 662-7561,Terminal Contact,38.0438,-97.8745,Hutchinson,TRUE,,KS,114000,3300 East Avenue ,30,29,,2,terminal,67501,in,,both,
-63,Olathe,jon.jacobs@magellanlp.com,,Jon Jacobs,,Terminal Contact,38.8831,-94.7454,Olathe,TRUE,,KS,,13745 West 135th Street ,25,24,,,terminal,66062,,,,
-64,Bettendorf,rjensen@usoil.com,,Rick Jensen,(920) 831-8898,Terminal Manager,41.5232,-90.4917,Bettendorf USO,TRUE,,IA,,2925 Depot Street ,42,42,,,terminal,52722,in,,out,in
-65,Rock Rapids,dan.klinetobe@nustarenergy.com,(712) 472-3150,Dan Klinetobe,(712) 472-2575,Terminal Contact,43.4325,-96.1905,Rock Rapids,TRUE,,IA,223000,3025 Highway 9 Street ,30,29,,2,terminal,51246,in,,both,
-66,None,,,,,,36.3585,-94.1618,Rogers,TRUE,,  ,189000, ,25,41,,,terminal,0,,,,
-67,Council Bluffs,,,,,,41.2168,-95.8344,Council Bluffs CHS,TRUE,,IA,,825 Tank Farm Road ,8,8,,,terminal,51503,,,,
-68,McPherson,jay.v.guarino@p66.com,,Jay Guarino,(620) 241-2641,Terminal Contact,38.3341,-97.6672,McPherson NUS,TRUE,,KS,,1152 14th Avenue ,30,29,,,terminal,67460,,,,
-69,Hammond,,,Kathy Boslet,(219) 397-6666,,41.6101,-87.4711,Hammond BPL,TRUE,,IL,1322000,2400 Michigan Street,5,4,,,terminal,46320,in,,both,
-70,Yankton,,,,,,42.8814,-97.3504,Yankton,TRUE,,SD,236000,2608 East Highway 50,30,29,,2,terminal,57078,in,,both,
-71,Mankato,,,,,,44.1537,-94.0679,Mankato,TRUE,,MN,,55199 State Highway 68,25,24,,,terminal,56001,,,,
-72,Rochester,,,,,,44.0007,-92.2504,Rochester,TRUE,,MN,,1331 Highway 42 Southeast,25,24,,,terminal,55934,,,,
-73,Albuquerque,,,,,,34.9915,-106.658,Albuquerque NUS,TRUE,,NM,245000,6348 Desert Road,30,29,,3,terminal,87105,in,,both,
-74,Albuquerque,,,,,,34.9914,-106.66,Albuquerque P66,TRUE,,NM,244000,6356 Desert Road,34,35,,3,terminal,87105,in,,both,
-75,Amarillo,,,,,,35.2659,-101.886,Amarillo P66,TRUE,,TX,277000,"4998, 4200 Cliffside Rd",34,35,,5,terminal,79124,both,,both,
-76,El Paso,,,,,,31.8223,-106.259,El Paso,TRUE,,TX,499000,4200 Justice Drive,30,29,,6,terminal,79938,both,,both,
-77,Grapevine,,,,,,32.918,-97.1222,Southlake,TRUE,,TX,445792,1700 Mustang Court,30,29,,4,terminal,76092,both,,both,
-78,Watertown,,,,,,44.887,-97.0859,Watertown,TRUE,,SD,,1000 17th Street Southeast,25,24,,,terminal,57201,,,,
+id,name,type,latitude,longitude,owner_id,operator_id,operational,terminaling_capacity,storage_capacity,pipeline_access,rail_access,truck_access,marine_access,truck_bays,rack_capacity,contact_name,contact_phone,contact_fax,contact_role,contact_email,street,city,state,zip,irs_motor_fuel_terminal_id
+1,Mount Vernon TMP,terminal,37.1898,-93.7775,25,28,TRUE,,218000,both,,both,,,,,,,,,15376 Highway 96,,MO,65712,T-43-MO-3727
+2,Oklahoma City TMP,terminal,35.4775,-97.4336,41,41,TRUE,,158000,both,,both,,,,,,,,,951 North Vickie Drive,,  ,73117,T-73-OK-2614
+3,Amarillo NUS,terminal,35.265085,-101.88681,29,30,TRUE,,,,,,,,,,,,,,4200 West Cliffside,Amarillo,TX,79124,T-75-TX-2653
+4,Bettendorf MPL,terminal,41.5321,-90.4695,24,25,TRUE,,170000,in,,out,in,,,Matthew Stevenson,(563) 355-2931,(563) 355-0962,,matthew.stevenson@magellanlp.com,312 South Bellingham Street ,Riverdale,IA,52722,T-42-IA-3471
+5,Bettendorf BPL,terminal,41.5253,-90.4894,4,5,TRUE,,237400,both,,both,both,,,,(563) 529-4023,,,kboslett@buckeye.com,75 South 31st Street ,Bettendorf,IA,52722,T-42-IA-3450
+6,Carthage,terminal,37.3136,-94.3043,24,25,TRUE,,100000,in,,out,,,,,(417) 394-2700,(417) 394-3140,,,18195 Country Road 138 ,Carthage,MO,64755,T-43-MO-3707
+7,Columbia,terminal,38.8862,-92.2655,24,25,TRUE,,300000,in,,out,,,,,(573) 443-1619,(573) 449-1192,,,5531 Hwy 63 South ,Columbia,MO,65201,T-43-MO-3708
+8,Columbus,terminal,41.4374,-97.2446,29,30,TRUE,,171000,in,,both,,2,,Bruce Myers,(402) 564-3332,(402) 564-8889,Terminal Contact,bruce.myers@nustarenergy.com,147 Road D ,Columbus,NE,68601,T-47-NE-3600
+9,Concordia,terminal,39.364,-97.6284,29,30,TRUE,,79000,in,,both,,2,,Tracy Wallick,(785) 243-2771,(785) 243-7186,Terminal Contact,tracy.wallick@nustarenergy.com,1612 Deer Road - US HWY 24 ,Delphos,KS,67436,T-48-KS-3652
+10,Council Bluffs BPL,terminal,41.214,-95.832,4,5,TRUE,,544000,in,,out,,,,Scott Newhard,(712) 366-9461,,Terminal Contact,kboslett@buckeye.com,829 Tank Farm Road ,Council Bluffs,IA,51503,T-42-IA-3454
+11,Denver MPL,terminal,39.7582,-104.813,24,25,TRUE,,600000,in,,both,,4,,,(303) 344-1511,(303) 344-1512,,,15000 E. Smith Rd. ,Aurora,CO,80011,T-84-CO-4100
+12,Des Moines MPL,terminal,41.5595,-93.5282,24,25,TRUE,,2100000,in,,both,,,,Steve Seward,(515) 261-6698,(515) 261-6691,Terminal Contact,steve.seward@magellanlp.com,2503 Southeast 43rd Street ,Des Moines,IA,50317,T-42-IA-3457
+13,Des Moines BPL,terminal,41.6043,-93.7348,4,5,TRUE,,380800,in,,out,,,,,(515) 226-4017,,,dlmontoya@buckeye.com,1501 Northwest 86th Street ,Des Moines,IA,50325,T-42-IA-3456
+14,Doniphan,terminal,40.7522,-98.3769,24,25,TRUE,,500000,in,,both,,,,Irene Wirit,(402) 744-3711,(402) 744-3781,Terminal Contact,irene.wirit@magellanlp.com,12275 South U.S. Hwy 281 ,Doniphan,NE,68832,T-47-NE-3602
+15,Dubuque,terminal,42.4122,-90.7327,24,25,TRUE,,100000,in,,both,,,,Jeff Selvidge,(563) 588-3311,(563) 588-4210,Terminal Contact,jeff.selvidge@magellanlp.com,8038 St. Joe's Prairie Road ,Dubuque,IA,52003,T-42-IA-3460
+16,East St. Louis,terminal,38.582,-90.1882,35,34,TRUE,78000,2085000,,both,both,,6,,,(618) 337-6066,,,,3300 Mississippi Avenue ,Cahokia,IL,62206,T-37-IL-3366
+17,Enid,terminal,36.411,-97.8362,24,25,TRUE,,300000,in,,out,,,,Jeff Selvidge,(580) 234-6748,(580) 234-0148,Terminal Contact,jeff.selvidge@magellanlp.com,1401 North 30th Street ,Enid,OK,73701,T-73-OK-2606
+18,Fort Dodge,terminal,42.4981,-94.0208,24,25,TRUE,,100000,,,,,,,,(515) 543-4563,(515) 543-4564,,,3140 Two Hundred Street ,Fort Dodge,IA,50532,
+19,Fort Smith,terminal,35.3091,-94.395,24,25,TRUE,,,,,,,,,Terry Gill,(501) 646-1721,(501) 646-1649,Operator,,8101 Highway 71 South ,Fort Smith,AK,0,T-71-AR-2453
+20,Geneva,terminal,40.5503,-97.5952,29,30,TRUE,,649000,in,,both,,2,,Larry Loseke,(402) 759-3162,(402) 759-3023,Terminal Contact,larry.loseke@nustarenergy.com,1479 North 13th Street ,Geneva,NE,68361,T-47-NE-3601
+21,Glenpool North,terminal,36.013,-95.9942,35,34,TRUE,,366000,,,both,,2,19000,Terry Redleaf,(918) 299-2911,,Operator,,10600 South Elwood ,Jenks,OK,74037,T-73-OK-2608
+22,Glenpool EXP,terminal,35.9777,-96.0067,14,14,TRUE,,,,,,,,,,,,,,1312 West 126th ,Glenpool,OK,74037,
+23,Glenpool South,terminal,35.9752,-96.0039,35,34,TRUE,,261000,,,,,0,,Thomas Petty,,,Pipeline Operator,,917 West 131st Street South null,Glenpool,OK,74037,
+24,Great Bend,terminal,38.3689,-98.692,24,25,TRUE,,600000,in,,out,,,,Jeff Binstock,(620) 792-4707,(620) 792-3757,Terminal Contact,jeff.binstock@magellanlp.com,1/4 mile N Jct. Hwy 56/Hwy 156 ,Great Bend,KS,67530,T-48-KS-3655
+25,Hartford P66,terminal,38.812,-90.094,35,34,TRUE,,1075000,,,both,both,3,25000,,(618) 251-2780,,,,2150 South Delmar Avenue ,Hartford,IL,62048,T-37-IL-3353
+26,Hartford BPL,terminal,38.8335,-90.0901,4,5,TRUE,,585000,both,,both,,,,,(618) 255-1100,,,,220 East Hawthorne Street ,Hartford,IL,62048,T-37-IL-3356
+27,Iowa City,terminal,41.6831,-91.567,24,25,TRUE,,600000,in,,both,,,,,(319) 354-3976,(319) 354-8643,,,912 First Avenue ,Coralville,IA,52241,T-42-IA-3463
+28,Jefferson City,terminal,38.5481,-92.2148,35,34,TRUE,16000,110000,,,both,,2,,Bill Maloney,(573) 636-4984,,,,2116 Idlewood ,Jefferson City,MO,65109,T-43-MO-3709
+29,Kansas City MPL,terminal,39.1401,-94.6027,24,25,TRUE,,1780000,in,,out,,,,Jeff Myers,(913) 281-0771,(913) 281-1623,Terminal Manager,jeff.myers@magellanlp.com,401 East Donovan Road ,Kansas City,KS,66115,T-48-KS-3659
+30,Kansas City P66,terminal,39.1257,-94.6092,35,34,TRUE,66000,1294000,,,both,,5,,Jay Guarino,(913) 342-0510,,Terminal Contact,jay.v.guarino@p66.com,2029 Fairfax Trafficway ,Kansas City,KS,66115,T-43-KS-3672
+31,Lincoln MPL,terminal,40.6979,-96.6929,24,25,TRUE,,100000,in,,both,,,,Irene Wirit,(402) 434-3234,(402) 421-7042,Terminal Contact,irene.wirit@magellanlp.com,2000 Saltillo Road ,Roca,NE,68430,T-47-NE-3605
+32,Lincoln P66,terminal,40.6973,-96.7016,35,34,TRUE,,219000,,,both,,2,21000,Scott Bartek,(402) 423-6111,,Terminal Contact,dave.a.stallwitz@p66.com,1345 Saltillo Road ,Roca,NE,68430,T-47-NE-3603
+33,Mason City,terminal,43.1394,-93.3535,24,25,TRUE,,600000,,,,,,,John Riley,(641) 357-2124,(641) 357-5130,Terminal Contact,john.riley@magellanlp.com,2810 East Main Avenue ,Clear Lake,IA,50428,T-42-IA-3465
+34,Milford NUS,terminal,43.3271,-95.167,29,30,TRUE,,168000,,,both,,2,,Dan Klinetobe,(712) 338-4732,(712) 338-2295,Terminal Contact,dan.klinetobe@nustarenergy.com,2127 220th Street ,Milford,IA,51351,T-42-IA-3466
+35,Milford MPL,terminal,43.2923,-95.1514,24,25,TRUE,,200000,in,,both,,,,Alan Paul,(712) 338-2241,(712) 338-2471,Terminal Contact,alan.paul@magellanlp.com,2451 Highway 71 ,Milford,IA,51351,T-42-IA-3467
+36,Mount Vernon P66,terminal,37.1888,-93.7823,35,34,TRUE,,363000,,,both,,4,46000,William Maloney,(417) 452-3761,,Terminal Contact,,15138 MO-96 ,Mount Vernon,MO,65712,T-43-MO-3713
+37,Norfolk,terminal,42.0896,-97.4252,29,30,TRUE,,179600,in,,both,,2,,Bruce Myers,(402) 371-3150,(402) 371-9790,Terminal Contact,bruce.myers@nustarenergy.com,4708 North 13th Street ,Norfolk,NE,68701,T-47-NE-3606
+38,North Platte,terminal,40.9771,-100.755,29,30,TRUE,,240000,in,,both,,3,,Jeff Stone,(308) 534-2540,(308) 534-9441,Terminal Contact,jeff.stone@nustarenergy.com,17504 South Highway 83 ,North Platte,NE,69101,T-47-NE-3607
+39,Oklahoma City MPL,terminal,35.4663,-97.4466,24,25,TRUE,,300000,in,,out,,,,Fred Neely,(405) 670-2015,(405) 672-8903,Terminal Contact,,251 North Sunnylane Road ,Oklahoma City,OK,73117,T-73-OK-2613
+40,Oklahoma City P66,terminal,35.4782,-97.432,35,34,TRUE,,352000,,,both,,4,48000,Neal Purdy,(405) 670-0804,,Terminal Contact,,4700 NE 10th Street ,Oklahoma City,OK,73111,T-73-OK-2612
+41,Omaha,terminal,41.2767,-95.9211,24,25,TRUE,,,in,in,both,,,,Travis Hussman,(402) 342-5476,,Terminal Contact,,2205 North 11th St ,Omaha,NE,68110,T-47-NE-3608
+42,Osceola,terminal,41.191,-97.5217,29,30,TRUE,,79000,in,,both,,2,,Larry Loseke,(402) 371-3150,(402) 371-9790,Terminal Contact,bruce.myers@nustarenergy.com,4708 North 13th Street ,Norfolk,NE,68701,T-47-NE-3610
+43,Palmyra,terminal,39.877,-91.5261,24,25,TRUE,,200000,in,,out,,,,,(573) 769-4802,(573) 769-4162,,,6789 Country Road 312 ,Palmyra,MO,63461,T-43-MO-3716
+44,Paola,terminal,38.5075,-94.886,35,36,TRUE,,750000,in,,,,0,,Kyle Spencer,(913) 294-2911,,Pipeline/Tank Farm Operator,,25760 West 343rd Street ,Paola,KS,66071,
+45,Pleasant Hill,terminal,41.5686,-93.5271,35,34,TRUE,,,,,,,,,Weston Newell,(515) 262-5454,,Terminal Contact,,4500 Vandalia Road ,Pleasant Hill,IA,50327,T-42-IA-3470
+46,Ponca City P66,terminal,36.6881,-97.0931,35,34,TRUE,,51000,,,,,2,23000,,(580) 767-6326,,,,South Highway 60 ,Ponca City,OK,74601,T-73-OK-2617
+47,Salina,terminal,38.8412,-97.6419,29,30,TRUE,,91000,in,,out,,3,,Tracy Wallick,(785) 827-3854,(785) 827-7432,Terminal Contact,tracy.wallick@nustarenergy.com,2137 West Old Highway 40 ,Salina,KS,67401,T-48-KS-3663
+48,Scott City,terminal,38.5994,-100.906,24,25,TRUE,,300000,in,,out,,,,Stan Rogers,(620) 872-2086,(620) 872-2952,Terminal Contact,stan.rogers@magellanlp.com,100 Hwy 4 ,Scott City,KS,67871,T-48-KS-3664
+49,Sioux City,terminal,42.5389,-96.3575,24,25,TRUE,,600000,,,,,,,Alan Paul,(712) 239-2533,(712) 239-1854,Terminal Contact,alan.paul@magellanlp.com,4300 41st Street ,Sioux City,IA,51108,T-42-IA-3473
+50,Sioux Falls MPL,terminal,43.5448,-96.7919,24,25,TRUE,,600000,in,,both,,3,,,(605) 338-5771,(605) 335-0075,,,5300 West 12th Street ,Sioux Falls,SD,57107,T-46-SD-3554
+51,Sioux Falls NUS,terminal,43.5111,-96.7421,29,30,TRUE,,374000,in,,both,,2,,Ron Kleinsasser,(605) 336-3158,(605) 334-1362,Terminal Contact,ron.kleinsasser@nustarenergy.com,3721 South Grange Avenue ,Sioux Falls,SD,57105,T-46-SD-3553
+52,Springfield,terminal,37.159,-93.4239,24,25,TRUE,,300000,in,,out,,,,,(417) 865-3489,(417) 865-1767,,,2550 North Brookline Avenue ,Brookline,MO,65619,T-43-MO-3718
+53,St Louis North,terminal,38.6794,-90.2001,4,5,TRUE,,85000,both,,both,,,,,(314) 231-2000,,,,239 East Prarie Avenue ,St Louis,MO,63147,T-43-MO-3725
+54,Sugar Creek,terminal,39.1203,-94.4435,4,5,TRUE,,,both,,both,,,,,(816) 836-6000,,,,1000 North Sterling Avenue ,Sugar Creek,MO,64054,T-43-MO-3720
+55,Topeka,terminal,38.9215,-95.6863,24,25,TRUE,,100000,in,,out,,,,Jon Jacobs,(785) 862-1602,,Terminal Contact,jon.jacobs@magellanlp.com,8050 SW Topeka Boulevard ,Wakarusa,KS,66546,T-48-KS-3665
+56,Valley Center,terminal,37.8185,-97.3703,24,25,TRUE,,,,,,,2,,Robb Barnes,(316) 755-1201,(316) 755-1202,Terminal Contact,robb.barnes@magellanlp.com,1120 South Meridian Avenue ,Valley Center,KS,67147,T-48-KS-3666
+57,Waterloo,terminal,42.4375,-92.4222,24,25,TRUE,,400000,in,,both,,,,John Riley,(319) 988-3269,(319) 988-3681,Terminal Contact,john.riley@magellanlp.com,5360 Eldora Road ,Waterloo,IA,50701,T-42-IA-3474
+58,West Tulsa,terminal,36.1329,-96.031,24,25,TRUE,,2600000,in,,out,,,,Jeff Selvidge,(918) 574-7478,(918) 574-7598,Terminal Contact,jeff.selvidge@magellanlp.com,2120 South 33rd West Avenue ,Tulsa,OK,74107,T-73-OK-2622
+59,Wichita North,terminal,37.7548,-97.3077,35,34,TRUE,19000,679000,,,both,,2,19000,Jay Guarino,(316) 838-3411,,Terminal Contact,jay.v.guarino@p66.com,2400 East 37th Street North ,Wichita,KS,67219,T-48-KS-3671
+60,Wichita South,terminal,37.6495,-97.2434,35,34,TRUE,,255000,both,,,,4,,Jed Morse,(316) 681-2081,,Operator,,8000-8114 E Oak Knoll Road ,Wichita,KS,67207,T-48-KS-3670
+61,Medford,terminal,36.8069,-97.7333,34,34,TRUE,,,,,,,,,,,,,,RR2 Box 147A ,Medford,OK,73759,
+62,Hutchinson,terminal,38.0438,-97.8745,29,30,TRUE,,114000,in,,both,,2,,Tracy Wallick,(620) 662-7561,(620) 662-6579,Terminal Contact,tracy.wallick@nustarenergy.com,3300 East Avenue ,Hutchinson,KS,67501,T-48-KS-3656
+63,Olathe,terminal,38.8831,-94.7454,24,25,TRUE,,,,,,,,,Jon Jacobs,,,Terminal Contact,jon.jacobs@magellanlp.com,13745 West 135th Street ,Olathe,KS,66062,T-48-KS-3661
+64,Bettendorf USO,terminal,41.5232,-90.4917,42,42,TRUE,,,in,,out,in,,,Rick Jensen,(920) 831-8898,,Terminal Manager,rjensen@usoil.com,2925 Depot Street ,Bettendorf,IA,52722,T-42-IA-3452
+65,Rock Rapids,terminal,43.4325,-96.1905,29,30,TRUE,,223000,in,,both,,2,,Dan Klinetobe,(712) 472-2575,(712) 472-3150,Terminal Contact,dan.klinetobe@nustarenergy.com,3025 Highway 9 Street ,Rock Rapids,IA,51246,T-42-IA-3472
+66,Rogers,terminal,36.3585,-94.1618,41,25,TRUE,,189000,,,,,,,,,,,,2801 West Hudson (Hwy 102),None,AR,72756,T-71-AR-2467
+67,Council Bluffs CHS,terminal,41.2168,-95.8344,8,8,TRUE,,,,,,,,,,,,,,825 Tank Farm Road ,Council Bluffs,IA,51503,T-42-IA-3455
+68,McPherson NUS,terminal,38.3341,-97.6672,29,30,TRUE,,,,,,,,,Jay Guarino,(620) 241-2641,,Terminal Contact,jay.v.guarino@p66.com,1152 14th Avenue ,McPherson,KS,67460,
+69,Hammond BPL,terminal,41.6101,-87.4711,4,5,TRUE,,1322000,in,,both,,,,Kathy Boslet,(219) 397-6666,,,,2400 Michigan Street,Hammond,IL,46320,T-35-IN-3228
+70,Yankton,terminal,42.8814,-97.3504,29,30,TRUE,,236000,in,,both,,2,,,,,,,2608 East Highway 50,Yankton,SD,57078,T-46-SD-3557
+71,Mankato,terminal,44.1537,-94.0679,24,25,TRUE,,,,,,,,,,,,,,55199 State Highway 68,Mankato,MN,56001,T-41-MN-3413
+72,Rochester,terminal,44.0007,-92.2504,24,25,TRUE,,,,,,,,,,,,,,1331 Highway 42 Southeast,Rochester,MN,55934,T-41-MN-3416
+73,Albuquerque NUS,terminal,34.9915,-106.658,29,30,TRUE,,245000,in,,both,,3,,,,,,,6348 Desert Road,Albuquerque,NM,87105,T-85-NM-4253
+74,Albuquerque P66,terminal,34.9914,-106.66,35,34,TRUE,,244000,in,,both,,3,,,,,,,6356 Desert Road,Albuquerque,NM,87105,T-85-NM-4254
+75,Amarillo P66,terminal,35.26552,-101.891148,35,34,TRUE,,277000,both,,both,,5,,,,,,,4300 Cliffside Dr,Amarillo,TX,79124,T-75-TX-2654
+76,El Paso NUS,terminal,31.8223,-106.259,29,30,TRUE,,499000,both,,both,,6,,,,,,,4200 Justice Drive,El Paso,TX,79938,T-74-TX-2750
+77,Southlake,terminal,32.918,-97.1222,29,30,TRUE,,445792,both,,both,,4,,,,,,,1700 Mustang Court,Grapevine,TX,76092,T-75-TX-2680
+78,Watertown,terminal,44.887,-97.0859,24,25,TRUE,,,,,,,,,,,,,,1000 17th Street Southeast,Watertown,SD,57201,T-46-SD-3555

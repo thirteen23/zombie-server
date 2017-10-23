@@ -24,5 +24,6 @@ CREATE TABLE web.terminals (
   street VARCHAR,
   city VARCHAR,
   state CHAR(2),
-  zip VARCHAR(5)
+  zip VARCHAR(5),
+  irs_motor_fuel_terminal_id VARCHAR
 );

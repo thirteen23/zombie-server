@@ -1,7 +1,7 @@
 const {node, parallel} = require('fluture');
 const sqlt = require('sqlt');
 const S = require('../../sanctuary');
-const {compose, curry2, curry3, equals, filter, lift3, map} = S;
+const {compose, curry2, curry3, equals, filter, join, lift3, map} = S;
 const {head, assoc} = require('ramda');
 
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
@@ -14,6 +14,7 @@ const qGetTerminalRundowns = sqlt(__dirname + '/queries/get_terminal_rundowns.sq
 const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_forecast_rundowns.sql');
 const qGetTerminalInventory = sqlt(__dirname + '/queries/get_terminal_inventory.sql');
 const qGetTerminalTanks = sqlt(__dirname + '/queries/get_terminal_tanks.sql');
+const qGetTerminalOverages = sqlt(__dirname + '/queries/get_terminal_overages.sql');
 
 // sortPipelines :: [Pipeline] -> Obj
 const sortPipelines = (pipelines) => {
@@ -101,7 +102,7 @@ exports.getTerminalRundowns = (client, terminal_id, grade_id, start, end) => {
   });
 };
 
-// getTerminalForecastRundowns :: DB -> Int -> Int -> Future [Forecast]
+// getTerminalForecastRundowns :: DB -> Int -> Int -> Date -> Date ->Future [Forecast]
 exports.getTerminalForecastRundowns = (client, terminal_id, grade_id, start, end) => {
   return node((done) => {
     qGetTerminalForecastRundowns(client, [terminal_id, grade_id, start, end], (err, res) => {
@@ -117,4 +118,21 @@ exports.getTerminalInventory = (client, terminal_id, grade_id, day) => {
       done(err, res.rows);
     });
   }));
+};
+
+// getTerminalOverages :: DB -> Int -> Date -> Date -> Future
+exports.getTerminalOverages = (client, terminal_id, start, end) => {
+  return node((done) => {
+    qGetTerminalGrades(client, [terminal_id], (err, res) => {
+      return done(err, res.rows);
+    });
+  }).chain((grades) => {
+    return parallel(10, grades.map((grade) => {
+      return node((done) => {
+        return qGetTerminalOverages(client, [terminal_id, grade.id, start, end], (err, res) => {
+          return done(err, res.rows);
+        });
+      });
+    }));
+  }).map(join);
 };
