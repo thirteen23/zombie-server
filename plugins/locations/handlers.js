@@ -7,10 +7,14 @@ const { getTerminals,
         getTerminalRundowns,
         getTerminalForecastRundowns,
         getTerminalInventory,
-        getTerminalOverages } = require('./terminals');
+        getTerminalOverages,
+        getTerminalShortages } = require('./terminals');
 const {getSegments, getSegment} = require('./segments');
 const {getPipelines, getPipeline} = require('./pipelines');
 const {getStations, getStation} = require('./stations');
+
+const S = require('../../sanctuary');
+const { concat, curry2, lift2 } = S;
 
 exports.getLocations = (req, rep) => {
   const refineries = getRefineries(req.server.pg);
@@ -67,6 +71,22 @@ exports.getTerminalOverages = (req, rep) => {
   getTerminalOverages(req.server.pg, req.params.t_id, req.query.start, req.query.end)
     .fork((err) => rep(err), (res) => rep(res));
 };
+
+exports.getTerminalShortages = (req, rep) => {
+  getTerminalShortages(req.server.pg, req.params.t_id, req.query.start, req.query.end)
+    .fork((err) => rep(err), (res) => rep(res));
+};
+
+exports.getTerminalWarnings = (req, rep) => {
+  const fOverages = getTerminalOverages(req.server.pg, req.params.t_id, req.query.start, req.query.end);
+  const fShortages = getTerminalShortages(req.server.pg, req.params.t_id, req.query.start, req.query.end);
+  return lift2(curry2((overages, shortages) => {
+    return concat(
+      overages.map(overage => Object.assign(overage, {type: 'overage'})),
+      shortages.map(shortage => Object.assign(shortage, {type: 'shortage'}))
+    );
+  }), fOverages, fShortages).fork(err => rep(err), res => rep(res));
+}
 
 exports.getPipelines = (req, rep) => {
   getPipelines(req.server.pg)

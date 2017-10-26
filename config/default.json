@@ -7,7 +7,7 @@
     "schema": "web",
     "host": "dev.cczrjcntqihi.us-east-2.rds.amazonaws.com",
     "port": 5432,
-    "max": 50,
+    "max": 10,
     "ssl": true
   },
   "redis": {

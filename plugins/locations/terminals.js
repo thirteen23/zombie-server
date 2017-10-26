@@ -15,6 +15,7 @@ const qGetTerminalForecastRundowns = sqlt(__dirname + '/queries/get_terminal_for
 const qGetTerminalInventory = sqlt(__dirname + '/queries/get_terminal_inventory.sql');
 const qGetTerminalTanks = sqlt(__dirname + '/queries/get_terminal_tanks.sql');
 const qGetTerminalOverages = sqlt(__dirname + '/queries/get_terminal_overages.sql');
+const qGetTerminalShortages = sqlt(__dirname + '/queries/get_terminal_shortages.sql');
 
 // sortPipelines :: [Pipeline] -> Obj
 const sortPipelines = (pipelines) => {
@@ -130,6 +131,22 @@ exports.getTerminalOverages = (client, terminal_id, start, end) => {
     return parallel(10, grades.map((grade) => {
       return node((done) => {
         return qGetTerminalOverages(client, [terminal_id, grade.id, start, end], (err, res) => {
+          return done(err, res.rows);
+        });
+      });
+    }));
+  }).map(join);
+};
+
+exports.getTerminalShortages = (client, terminal_id, start, end) => {
+  return node((done) => {
+    qGetTerminalGrades(client, [terminal_id], (err, res) => {
+      return done(err, res.rows);
+    });
+  }).chain((grades) => {
+    return parallel(10, grades.map((grade)=> {
+      return node((done) => {
+        return qGetTerminalShortages(client, [terminal_id, grade.id, start, end], (err, res) => {
           return done(err, res.rows);
         });
       });
