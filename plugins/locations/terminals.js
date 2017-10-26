@@ -1,7 +1,7 @@
 const {node, parallel} = require('fluture');
 const sqlt = require('sqlt');
 const S = require('../../sanctuary');
-const {compose, curry2, curry3, equals, filter, join, lift3, map} = S;
+const {compose, concat, curry2, curry3, equals, filter, join, lift2, lift3, map} = S;
 const {head, assoc} = require('ramda');
 
 const qGetTerminals = sqlt(__dirname + '/queries/get_terminals.sql');
@@ -29,6 +29,40 @@ const sortPipelines = (pipelines) => {
 const addArray = curry3((key, arr, obj) => {
   return assoc(key, arr, obj)
 });
+
+// getTerminalOverages :: DB -> Int -> Future Overage
+const getTerminalOverages = (client, terminal_id) => {
+  return node((done) => {
+    qGetTerminalGrades(client, [terminal_id], (err, res) => {
+      return done(err, res.rows);
+    });
+  }).chain((grades) => {
+    return parallel(10, grades.map((grade) => {
+      return node((done) => {
+        return qGetTerminalOverages(client, [terminal_id, grade.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      });
+    }));
+  }).map(join);
+};
+
+// getTerminalShortages :: DB -> Int -> Future
+const getTerminalShortages = (client, terminal_id) => {
+  return node((done) => {
+    qGetTerminalGrades(client, [terminal_id], (err, res) => {
+      return done(err, res.rows);
+    });
+  }).chain((grades) => {
+    return parallel(10, grades.map((grade)=> {
+      return node((done) => {
+        return qGetTerminalShortages(client, [terminal_id, grade.id], (err, res) => {
+          return done(err, res.rows);
+        });
+      });
+    }));
+  }).map(join);
+};
 
 // getTerminals :: DB -> Future [Terminal]
 exports.getTerminals = (client) => {
@@ -59,6 +93,16 @@ exports.getTerminals = (client) => {
           return done(err, res.rows);
         });
       }).map(tanks => Object.assign({tanks}, terminal));
+    }));
+  }).chain((terminals) => {
+    return parallel(10, terminals.map((terminal) => {
+      return lift2(curry2((overages, shortages) => {
+        return concat(
+          overages.map(overage => Object.assign(overage, {type: 'overage'})),
+          shortages.map(shortage => Object.assign(shortage, {type: 'shortage'}))
+        );
+      }), getTerminalOverages(client, terminal.id), getTerminalShortages(client, terminal.id))
+        .map(warnings => Object.assign({warnings}, terminal));
     }));
   });
 };
@@ -119,37 +163,4 @@ exports.getTerminalInventory = (client, terminal_id, grade_id, day) => {
       done(err, res.rows);
     });
   }));
-};
-
-// getTerminalOverages :: DB -> Int -> Date -> Date -> Future
-exports.getTerminalOverages = (client, terminal_id, start, end) => {
-  return node((done) => {
-    qGetTerminalGrades(client, [terminal_id], (err, res) => {
-      return done(err, res.rows);
-    });
-  }).chain((grades) => {
-    return parallel(10, grades.map((grade) => {
-      return node((done) => {
-        return qGetTerminalOverages(client, [terminal_id, grade.id, start, end], (err, res) => {
-          return done(err, res.rows);
-        });
-      });
-    }));
-  }).map(join);
-};
-
-exports.getTerminalShortages = (client, terminal_id, start, end) => {
-  return node((done) => {
-    qGetTerminalGrades(client, [terminal_id], (err, res) => {
-      return done(err, res.rows);
-    });
-  }).chain((grades) => {
-    return parallel(10, grades.map((grade)=> {
-      return node((done) => {
-        return qGetTerminalShortages(client, [terminal_id, grade.id, start, end], (err, res) => {
-          return done(err, res.rows);
-        });
-      });
-    }));
-  }).map(join);
 };

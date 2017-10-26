@@ -46,10 +46,6 @@ module.exports = [{
   handler: Handlers.getTerminalShortages
 }, {
   method: 'GET',
-  path: '/terminals/{t_id}/warnings',
-  handler: Handlers.getTerminalWarnings
-}, {
-  method: 'GET',
   path: '/pipelines',
   handler: Handlers.getPipelines,
 }, {

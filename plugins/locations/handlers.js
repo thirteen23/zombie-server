@@ -77,17 +77,6 @@ exports.getTerminalShortages = (req, rep) => {
     .fork((err) => rep(err), (res) => rep(res));
 };
 
-exports.getTerminalWarnings = (req, rep) => {
-  const fOverages = getTerminalOverages(req.server.pg, req.params.t_id, req.query.start, req.query.end);
-  const fShortages = getTerminalShortages(req.server.pg, req.params.t_id, req.query.start, req.query.end);
-  return lift2(curry2((overages, shortages) => {
-    return concat(
-      overages.map(overage => Object.assign(overage, {type: 'overage'})),
-      shortages.map(shortage => Object.assign(shortage, {type: 'shortage'}))
-    );
-  }), fOverages, fShortages).fork(err => rep(err), res => rep(res));
-}
-
 exports.getPipelines = (req, rep) => {
   getPipelines(req.server.pg)
     .fork((err) => rep(err), (res) => rep(res));
