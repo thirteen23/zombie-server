@@ -18,6 +18,10 @@ The application is being run under ~/2da-bayzyen-server. From that directory you
 
 ## Importing data into the database
 
+You can seamlessly pull down the latest CSVs from S3:
+
+`%> aws s3 sync s3://data.bayzyen.com seed`
+
 We are using [flyway](https://flywaydb.org) to maintain database migrations. You will have to change flyway.conf to point to the appropriate database.
 
 You can find the URI for each database in the [RDS section](https://us-east-2.console.aws.amazon.com/rds/home?region=us-east-2#dbinstances:) in the console. For p66, for example:
@@ -39,7 +43,3 @@ When you want to populate or re-populate a database run those commands first. Th
 ```
 
 This will use the seed/p66 directory to load CSVs and import them into the database. Importing segment coordinates is a little different. These are loaded from a segments.txt file because of the coordinates format.
-
-You can set up the [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) to make the process go a little faster. That will allow you to issue a single command to pull data down from S3.
-
-`%> aws s3 sync s3://data.bayzyen.com seed`
