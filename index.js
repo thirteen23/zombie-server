@@ -34,6 +34,7 @@ module.exports = function(callback) {
 
   server.register([
     require('hapi-auth-jwt2'),
+    require('h2o2'),
     {
       register: require('./plugins/auth'),
     },

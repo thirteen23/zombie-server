@@ -1,17 +1,17 @@
-company_id,url,type
-29,http://nustock.nustarenergy.com,nomination system
-29,http://nustarenergy.com/en-us/OurBusiness/Pipelines/Documents/Central%20East%20Spec%20Manual%201.15.17.pdf,product specifications
-29,http://nustarenergy.com/en-us/OurBusiness/Pipelines/Pages/Tariffs.aspx,tariffs
-29,http://nustock.nustarenergy.com/,terminal operations
-25,https://portal.magellanlp.com/portal/processlogin.aspx,nomination system
-25,https://www.magellanlp.com/WhatWeDo/ProductSpecs.aspx,product specifications
-25,https://www.magellanlp.com/WhatWeDo/LiquidPipelineTariffs.aspx,tariffs
-36,https://trac66.ephillips66.com/,nomination system
-36,http://www.phillips66midstream.com/EN/Pages/pipeline-specs.aspx,product specifications
-36,http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx,tariffs
-47,https://bms-cis.oneok.com/,nomination system
-47,http://www.phillips66midstream.com/EN/Documents/heartland-pipeline-specs.pdf,product specifications
-47,http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx,tariffs
-14,https://www.transport4.com/T4PublicWeb/index.html,nomination system
-14,http://www.expl.com/Media/manuals/Section3-10012016.pdf,product specifications
-14,http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx,tariffs
+"id","company_id","url","type"
+1,29,"http://nustock.nustarenergy.com","nomination system"
+2,29,"http://nustarenergy.com/en-us/OurBusiness/Pipelines/Documents/Central%20East%20Spec%20Manual%201.15.17.pdf","product specifications"
+3,29,"http://nustarenergy.com/en-us/OurBusiness/Pipelines/Pages/Tariffs.aspx","tariffs"
+4,29,"http://nustock.nustarenergy.com/","terminal operations"
+5,25,"https://portal.magellanlp.com/portal/processlogin.aspx","nomination system"
+6,25,"https://www.magellanlp.com/WhatWeDo/ProductSpecs.aspx","product specifications"
+7,25,"https://www.magellanlp.com/WhatWeDo/LiquidPipelineTariffs.aspx","tariffs"
+8,36,"https://trac66.ephillips66.com/","nomination system"
+9,36,"http://www.phillips66midstream.com/EN/Pages/pipeline-specs.aspx","product specifications"
+10,36,"http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx","tariffs"
+11,47,"https://bms-cis.oneok.com/","nomination system"
+12,47,"http://www.phillips66midstream.com/EN/Documents/heartland-pipeline-specs.pdf","product specifications"
+13,47,"http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx","tariffs"
+14,14,"https://www.transport4.com/T4PublicWeb/index.html","nomination system"
+15,14,"http://www.expl.com/Media/manuals/Section3-10012016.pdf","product specifications"
+16,14,"http://www.phillips66midstream.com/EN/Pages/search-by-origin-destination.aspx","tariffs"

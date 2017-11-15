@@ -1,143 +1,143 @@
 id,name,type,latitude,longitude,owner_id,operator_id,processing_capacity,pipeline_access,rail_access,truck_access,marine_access,contact_name,contact_phone,contact_fax,contact_role,contact_email,street,city,state,zip,operational
-1,Ardmore,refinery,34.2038,-97.1048,44,43,90000,,,,,,(580) 223-0534,,,,One Valero Way ,Admore,OK,73401,TRUE
-2,Borger,refinery,35.6983,-101.362,34,34,146000,both,both,both,,Marilyn Goff,(806) 275-2550,,,marilyn.r.goff@p66.com,Spur 119 North ,Borger,TX,79007,TRUE
-3,Canton,refinery,40.7727,-81.4138,26,27,80000,both,both,both,,,(330) 478-5000,,,,2408 Gambrinus Avenue SW ,Canton,OH,44706,TRUE
-4,Catlettsburg,refinery,38.3753,-82.5967,26,27,242000,both,both,both,both,,(606) 921-3333,,,,11631 US Route 23 ,Catlettsburg,KY,41129,TRUE
-5,Coffeyville,refinery,37.0476,-95.6061,10,13,115000,,,,,John Ditmore,(620) 251-4000,,Puiblic Contact,mrpuddy@cvrenergy.com,400 North Linden Street ,Coffeyville,KS,67337,TRUE
-6,Detroit,refinery,42.2806,-83.1579,26,27,123000,both,both,both,,,(313) 843-9100,,,,1300 South Fort Street ,Detroit,MI,48217,TRUE
-7,Dickinson,refinery,46.855,-102.91,38,38,20000,both,,,,,(877) 924-4677,,,,3815 116th Avenue SW ,Dickinson,ND,58601,TRUE
-8,El Dorado HOL,refinery,37.7977,-96.8724,19,18,138000,,,,,Jim Stump,(316) 321-2200,,Terminal Contact,jim.stump@hollyfrontier.com,South Haverhill Road ,El Dorado,KS,67042,TRUE
-9,Joliet,refinery,41.4146,-88.1832,16,15,238600,,,,,,(815) 423-5571,,,,Arsenal Road & Interstate 55 ,Channahon,IL,60410,TRUE
-10,Lemont,refinery,41.6541,-88.049,33,32,176000,,,,,,(630) 257-7761,,,,New Avenue & East Romeo Road ,Lockport,IL,60441,TRUE
-11,Lima,refinery,40.719,-84.1229,23,21,152000,,,,,,(419) 226-2300,,,,1150 South Metcalf Street ,Lima,OH,45804,TRUE
-12,Mandan,refinery,46.8502,-100.883,39,38,74000,both,both,both,,,(701) 667-2400,,,,900 Old Red Trail NE ,Mandan,ND,58554,TRUE
-13,Memphis,refinery,35.0853,-90.0835,37,43,190000,,,,,,(901) 774-3100,,,,543 West Mallory Avenue ,Memphis,TN,38109,TRUE
-14,Mount Vernon,refinery,37.9418,-87.9106,12,12,30000,,,,,,,,,,1200 Refinery Road ,Mount Vernon,IN,47620,TRUE
-15,Ponca City,refinery,36.6819,-97.0906,34,34,210000,both,both,both,,Diane Anderson,(580) 767-3456,,,g.diane.anderson@p66.com,1000 South Pine Street ,Ponca City,OK,74601,TRUE
-16,Robinson,refinery,38.997,-87.7169,26,27,212000,both,both,both,,,(618) 544-2121,,,,400 South Marathon Avenue ,Robinson,IL,62454,TRUE
-17,Somerset,refinery,37.0714,-84.6093,11,11,5500,,,,,,,,,,300 Refinery Road ,Somerset,KY,42501,TRUE
-18,Superior,refinery,46.6905,-92.0673,6,7,38000,,,,,,(715) 398-3533,,,,2407 Stinson Avenue ,Superior,WI,54880,TRUE
-19,Toledo BP,refinery,40.719,-84.1229,2,2,153000,,,,,,(419) 226-2300,,,,1150 South Metcalf Street ,Lima,OH,45804,TRUE
-20,Toledo PBF,refinery,41.6793,-83.4538,40,31,160000,,,,,,(419) 698-6600,,,,1819 Woodville Road ,Oregon,OH,43616,TRUE
-21,Tulsa East,refinery,36.1196,-96.0013,20,18,70300,,,,,Mark Cunningham,(918) 594-6000,,,mark.cunningham@hollyenergy.com,902 West 25th Street ,Tulsa,OK,74107,TRUE
-22,Tulsa West,refinery,36.1368,-96.0234,20,18,85000,,,,,Mark Cunningham,(918) 594-6000,,,mark.cunningham@hollyenergy.com,1700 South Union Avenue ,Tulsa,OK,74107,TRUE
-23,Whiting,refinery,41.6661,-87.4807,2,1,413500,,,,,,(219) 473-3500,,,,2815 Indianapolis Boulevard ,Whiting,IN,46394,TRUE
-24,Wood River,refinery,38.8373,-90.0649,45,34,336000,both,both,both,both,Melissa Erker,(618) 255-2763,,,melissa.a.erker@p66.com,111 Madison Avenue ,Roxana,IL,62084,TRUE
-25,Wynnewood,refinery,34.632,-97.1678,46,13,70000,,,,,,,,,,906 South Powell Avenue ,Wynnewood,OK,73098,TRUE
-26,McPherson CHS,refinery,38.3443,-97.6753,9,8,100000,,,,,,(620) 241-2340,,,,1391 Iron House Road ,McPherson,KS,67460,TRUE
-27,Pine Bend,refinery,44.7659,-93.0402,17,22,320000,,,,,,(651) 437-0700,,,,12555 Clark Road ,Rosemount,MN,55068,TRUE
-28,Saint Paul Park,refinery,44.8514,-93.0019,38,38,102000,,,,,,(651) 459-9771,,,,301 St Paul Park Road ,St Paul Park,MN,55071,TRUE
-29,McKee,refinery,35.9547,-101.882,37,43,200000,both,,,,,(806) 935-2141,,,,6701 FM 119,Sunray,TX,79086,TRUE
-30,Port Arthur TOT,refinery,29.998606,-93.984414,484,484,245000,,,,,,,,,,,,,,TRUE
-31,Big Spring,refinery,32.270992,-101.415073,402,402,74000,,,,,,,,,,,,,,TRUE
-32,Los Angeles ANDV,refinery,33.818578,-118.236677,480,38,276000,,,,,,,,,,,,,,TRUE
-33,Cherry Point,refinery,48.884624,-122.734766,408,2,236000,,,,,,,,,,,,,,TRUE
-34,Prudhoe Bay COP,refinery,70.324832,-149.604069,423,423,16000,,,,,,,,,,,,,,TRUE
-35,Prudhoe Bay BP,refinery,70.253586,-148.37813,406,2,8000,,,,,,,,,,,,,,TRUE
-36,Princeton,refinery,32.59107,-93.511874,6,6,8700,,,,,,,,,,,,,,TRUE
-37,Cotton Valley,refinery,32.798531,-93.411128,6,6,14000,,,,,,,,,,,,,,TRUE
-38,Laurel,refinery,45.658374,-108.7681,416,416,61100,,,,,,,,,,,,,,TRUE
-39,El Segundo,refinery,33.911422,-118.410994,105,105,290500,,,,,,,,,,,,,,TRUE
-40,Richmond,refinery,37.94978,-122.398665,105,105,257200,,,,,,,,,,,,,,TRUE
-41,Kapolei ISL,refinery,21.303644,-158.088117,448,448,57000,,,,,,,,,,,,,,TRUE
-42,El Paso,refinery,31.767512,-106.395613,492,38,134000,,,,,,,,,,,,,,TRUE
-43,Salt Lake City CVX,refinery,40.824744,-111.923936,105,105,56000,,,,,,,,,,,,,,TRUE
-44,Pascagoula,refinery,30.344744,-88.489914,105,105,370000,,,,,,,,,,,,,,TRUE
-45,Tyler,refinery,32.360432,-95.281964,429,429,75000,,,,,,,,,,,,,,TRUE
-46,Pasadena,refinery,29.721442,-95.206799,461,461,115700,,,,,,,,,,,,,,TRUE
-47,Woods Cross SER,refinery,40.867508,-111.910603,474,474,15700,,,,,,,,,,,,,,TRUE
-48,San Antonio,refinery,29.347637,-98.459995,6,6,21000,,,,,,,,,,,,,,TRUE
-49,Vicksburg,refinery,32.385998,-90.907845,431,431,27300,,,,,,,,,,,,,,TRUE
-50,Baton Rouge,refinery,30.486272,-91.169797,16,16,523200,,,,,,,,,,,,,,TRUE
-51,Billings XOM,refinery,45.814531,-108.434778,16,16,62900,,,,,,,,,,,,,,TRUE
-52,Baytown,refinery,29.761431,-94.976798,16,16,584000,,,,,,,,,,,,,,TRUE
-53,Benicia,refinery,38.072007,-122.138319,488,43,149000,,,,,,,,,,,,,,TRUE
-54,North Salt Lake,refinery,40.838556,-111.920665,405,405,33000,,,,,,,,,,,,,,TRUE
-55,Gallup,refinery,35.488468,-108.427359,392,38,26000,,,,,,,,,,,,,,TRUE
-56,Artesia,refinery,32.844821,-104.390979,442,18,115000,,,,,,,,,,,,,,TRUE
-57,Great Falls,refinery,47.523212,-111.295316,414,414,35000,,,,,,,,,,,,,,TRUE
-58,Tuscaloosa,refinery,33.200487,-87.611011,446,446,40000,,,,,,,,,,,,,,TRUE
-59,Wilmington VLO Asphalt,refinery,33.798301,-118.236861,488,43,6500,,,,,,,,,,,,,,TRUE
-60,Bakersfield KERN,refinery,35.294719,-118.917953,449,449,27000,,,,,,,,,,,,,,TRUE
-61,Corpus Christi FHR,refinery,27.832974,-97.525965,17,17,304000,,,,,,,,,,,,,,TRUE
-62,Saraland,refinery,30.7886,-88.0562,472,472,95500,,,,,,,,,,,,,,TRUE
-63,Wilmington VLO,refinery,33.779055,-118.233663,488,43,87000,,,,,,,,,,,,,,TRUE
-64,Paulsboro PBF,refinery,39.840304,-75.257767,462,31,166000,,,,,,,,,,,,,,TRUE
-65,Beaumont,refinery,30.111321,-94.106796,16,16,377400,,,,,,,,,,,,,,TRUE
-66,Torrance,refinery,33.853208,-118.332317,483,31,157800,,,,,,,,,,,,,,TRUE
-67,Chalmette,refinery,29.935151,-89.974393,417,31,197000,,,,,,,,,,,,,,TRUE
-68,Meraux,refinery,29.933813,-89.941198,43,43,128000,,,,,,,,,,,,,,TRUE
-69,Shreveport,refinery,32.467561,-93.792592,415,415,60000,,,,,,,,,,,,,,TRUE
-70,Sweeny,refinery,29.077881,-95.747538,34,34,260000,,,,,,,,,,,,,,TRUE
-71,Woods Cross HFC,refinery,40.886581,-111.904823,444,18,41400,,,,,,,,,,,,,,TRUE
-72,Port Allen,refinery,30.477376,-91.210811,468,468,82500,,,,,,,,,,,,,,TRUE
-73,Newell,refinery,40.610826,-80.629399,432,432,23000,,,,,,,,,,,,,,TRUE
-74,Bakersfield SJR,refinery,35.38733,-119.047922,470,470,25000,,,,,,,,,,,,,,TRUE
-75,Norco MOT,refinery,30.001717,-90.40413,264,264,250000,,,,,,,,,,,,,,TRUE
-76,Anacortes ANDV,refinery,48.494369,-122.562522,39,38,125000,,,,,,,,,,,,,,TRUE
-77,Martinez RDS,refinery,38.019952,-122.111017,473,473,158000,,,,,,,,,,,,,,TRUE
-78,Alliance,refinery,29.684405,-89.979839,34,34,260000,,,,,,,,,,,,,,TRUE
-79,Galveston Bay,refinery,29.374692,-94.933456,26,27,481000,,,,,,,,,,,,,,TRUE
-80,Salt Lake City ANDV,refinery,40.792315,-111.905455,39,38,63000,,,,,,,,,,,,,,TRUE
-81,Philadelphia,refinery,39.910061,-75.203061,466,466,350000,,,,,,,,,,,,,,TRUE
-82,Kenai,refinery,60.682335,-151.376675,479,38,72000,,,,,,,,,,,,,,TRUE
-83,Bakersfield ALON,refinery,35.439492,-118.986971,400,400,0,,,,,,,,,,,,,,FALSE
-84,Anacortes RDS,refinery,48.470693,-122.556244,473,473,149000,,,,,,,,,,,,,,TRUE
-85,Wilmington ANDV,refinery,33.801089,-118.231229,480,38,107000,,,,,,,,,,,,,,TRUE
-86,Tacoma,refinery,47.255786,-122.397126,486,486,42000,,,,,,,,,,,,,,TRUE
-87,Martinez ANDV,refinery,38.023026,-122.063905,480,38,170000,,,,,,,,,,,,,,TRUE
-88,Ferndale,refinery,48.830501,-122.696618,34,34,107500,,,,,,,,,,,,,,TRUE
-89,Bayway,refinery,40.635876,-74.22235,34,34,256400,,,,,,,,,,,,,,TRUE
-90,Trainer,refinery,39.819143,-75.403896,262,262,208000,,,,,,,,,,,,,,TRUE
-91,Commerce City East,refinery,39.801794,-104.944705,478,478,38000,,,,,,,,,,,,,,TRUE
-92,Rodeo,refinery,38.043474,-122.255632,34,34,128000,,,,,,,,,,,,,,TRUE
-93,Los Angeles P66,refinery,33.810856,-118.243473,34,34,147000,,,,,,,,,,,,,,TRUE
-94,Bill Greehey VLO,refinery,27.816758,-97.484505,490,43,300000,,,,,,,,,,,,,,TRUE
-95,Bradford,refinery,41.966715,-78.629424,403,403,11800,,,,,,,,,,,,,,TRUE
-96,Newcastle,refinery,43.848521,-104.213903,439,439,18500,,,,,,,,,,,,,,TRUE
-97,Ely,refinery,38.621486,-115.617898,436,436,5000,,,,,,,,,,,,,,TRUE
-98,Kapolei PAR,refinery,21.309493,-158.110927,438,438,95000,,,,,,,,,,,,,,TRUE
-99,Smackover,refinery,33.363209,-92.712123,426,426,7700,,,,,,,,,,,,,,TRUE
-100,Deer Park,refinery,29.731441,-95.126797,427,473,340000,,,,,,,,,,,,,,TRUE
-102,Three Rivers,refinery,28.45921,-98.188265,43,43,91000,,,,,,,,,,,,,,TRUE
-103,Commerce City West,refinery,39.803311,-104.946497,478,478,72500,,,,,,,,,,,,,,TRUE
-104,Westlake P66,refinery,30.241215,-93.271135,34,34,273000,,,,,,,,,,,,,,TRUE
-105,Billings P66,refinery,45.78057,-108.490143,34,34,63400,,,,,,,,,,,,,,TRUE
-106,Saint Rose,refinery,29.939755,-90.330328,473,473,46000,,,,,,,,,,,,,,TRUE
-107,Cheyenne,refinery,41.127132,-104.78975,440,440,52000,,,,,,,,,,,,,,TRUE
-108,Port Arthur VLO,refinery,29.958382,-93.889234,37,43,415000,,,,,,,,,,,,,,TRUE
-109,El Dorado LION,refinery,33.199731,-92.673774,237,237,85000,,,,,,,,,,,,,,TRUE
-110,Houston LYB,refinery,29.701556,-95.251761,445,496,296300,,,,,,,,,,,,,,TRUE
-111,Paramount,refinery,33.899551,-118.146627,460,460,90000,,,,,,,,,,,,,,TRUE
-112,North Pole,refinery,64.85276,-147.748499,464,464,22500,,,,,,,,,,,,,,TRUE
-113,Valdez,refinery,61.081919,-146.381762,464,464,60000,,,,,,,,,,,,,,TRUE
-114,Lake Charles CGO,refinery,30.181174,-93.332596,109,109,440000,,,,,,,,,,,,,,TRUE
-115,Corpus Christi CGO,refinery,27.809474,-97.428434,421,109,163500,,,,,,,,,,,,,,TRUE
-116,Paulsboro AXE,refinery,39.841426,-75.228352,64,64,78000,,,,,,,,,,,,,,TRUE
-117,Santa Maria Asphalt,refinery,34.930191,-120.51108,471,471,10000,,,,,,,,,,,,,,TRUE
-118,Sinclair,refinery,41.780163,-107.109511,475,475,90000,,,,,,,,,,,,,,TRUE
-119,Evansville,refinery,42.858453,-106.242437,454,454,25500,,,,,,,,,,,,,,TRUE
-120,Krotz Springs,refinery,30.526508,-91.748001,401,401,83000,,,,,,,,,,,,,,TRUE
-121,Houston VLO,refinery,29.722805,-95.255585,490,43,197000,,,,,,,,,,,,,,TRUE
-122,Texas City VLO,refinery,29.378096,-94.895337,490,43,231000,,,,,,,,,,,,,,TRUE
-123,Convent,refinery,30.107774,-90.892547,264,264,260000,,,,,,,,,,,,,,TRUE
-124,Delaware City,refinery,39.587733,-75.631323,428,31,190200,,,,,,,,,,,,,,TRUE
-125,Port Arthur MOT,refinery,29.860001,-93.969224,264,264,635000,,,,,,,,,,,,,,TRUE
-126,Lake Charles CRC,refinery,30.132389,-93.320068,411,411,105000,,,,,,,,,,,,,,TRUE
-127,Silsbee,refinery,30.398348,-94.228208,476,476,0,,,,,,,,,,,,,,TRUE
-128,St Charles VLO,refinery,30.002368,-90.423202,491,43,220000,,,,,,,,,,,,,,TRUE
-129,Warren,refinery,41.832187,-79.128024,375,375,70000,,,,,,,,,,,,,,TRUE
-130,Nixon,refinery,29.261622,-97.787248,451,451,15000,,,,,,,,,,,,,,TRUE
-131,Texas City MPC,refinery,29.366542,-94.910472,26,27,89500,,,,,,,,,,,,,,TRUE
-132,Garyville,refinery,30.060139,-90.595952,26,26,580000,,,,,,,,,,,,,,TRUE
-133,Sandersville,refinery,31.814884,-89.009189,182,182,12500,,,,,,,,,,,,,,TRUE
-134,South Gate,refinery,33.946372,-118.166647,455,455,10000,,,,,,,,,,,,,,TRUE
-135,Evanston,refinery,41.261142,-110.806321,474,474,3400,,,,,,,,,,,,,,TRUE
-136,Atmore,refinery,31.072,-87.363,437,437,5000,,,,,,,,,,,,,,TRUE
-137,Westlake EXCL,refinery,30.188295,-93.339019,433,433,0,,,,,,,,,,,,,,TRUE
-138,Channelview,refinery,29.82338,-95.113566,430,430,0,,,,,,,,,,,,,,TRUE
-139,Galena Park,refinery,29.733018,-95.219682,450,450,100000,,,,,,,,,,,,,,TRUE
-140,Houston PTMX,refinery,29.75377,-95.123221,465,465,27500,,,,,,,,,,,,,,TRUE
-141,Corpus Christi BPL,refinery,27.817895,-97.505532,410,410,50000,,,,,,,,,,,,,,TRUE
-142,Corpus Christi MPL,refinery,27.806936,-97.439103,456,456,50000,,,,,,,,,,,,,,TRUE
-143,Santa Maria P66,refinery,35.038937,-120.589638,34,34,41800,,,,,,,,,,,,,,TRUE
+1,Ardmore,refinery,34.2038,-97.1048,547,545,90000,,,,,,(580) 223-0534,,,,One Valero Way ,Admore,OK,73401,TRUE
+2,Borger,refinery,35.6983,-101.362,475,475,146000,both,both,both,,Marilyn Goff,(806) 275-2550,,,marilyn.r.goff@p66.com,Spur 119 North ,Borger,TX,79007,TRUE
+3,Canton,refinery,40.7727,-81.4138,3,555,80000,both,both,both,,,(330) 478-5000,,,,2408 Gambrinus Avenue SW ,Canton,OH,44706,TRUE
+4,Catlettsburg,refinery,38.3753,-82.5967,3,555,242000,both,both,both,both,,(606) 921-3333,,,,11631 US Route 23 ,Catlettsburg,KY,41129,TRUE
+5,Coffeyville,refinery,37.0476,-95.6061,492,558,115000,,,,,John Ditmore,(620) 251-4000,,Puiblic Contact,mrpuddy@cvrenergy.com,400 North Linden Street ,Coffeyville,KS,67337,TRUE
+6,Detroit,refinery,42.2806,-83.1579,521,555,123000,both,both,both,,,(313) 843-9100,,,,1300 South Fort Street ,Detroit,MI,48217,TRUE
+7,Dickinson,refinery,46.855,-102.91,538,538,20000,both,,,,,(877) 924-4677,,,,3815 116th Avenue SW ,Dickinson,ND,58601,TRUE
+8,El Dorado HOL,refinery,37.7977,-96.8724,509,30,138000,,,,,Jim Stump,(316) 321-2200,,Terminal Contact,jim.stump@hollyfrontier.com,South Haverhill Road ,El Dorado,KS,67042,TRUE
+9,Joliet,refinery,41.4146,-88.1832,503,16,238600,,,,,,(815) 423-5571,,,,Arsenal Road & Interstate 55 ,Channahon,IL,60410,TRUE
+10,Lemont,refinery,41.6541,-88.049,525,559,176000,,,,,,(630) 257-7761,,,,New Avenue & East Romeo Road ,Lockport,IL,60441,TRUE
+11,Lima,refinery,40.719,-84.1229,321,560,152000,,,,,,(419) 226-2300,,,,1150 South Metcalf Street ,Lima,OH,45804,TRUE
+12,Mandan,refinery,46.8502,-100.883,540,538,74000,both,both,both,,,(701) 667-2400,,,,900 Old Red Trail NE ,Mandan,ND,58554,TRUE
+13,Memphis,refinery,35.0853,-90.0835,90,545,190000,,,,,,(901) 774-3100,,,,543 West Mallory Avenue ,Memphis,TN,38109,TRUE
+14,Mount Vernon,refinery,37.9418,-87.9106,107,107,30000,,,,,,,,,,1200 Refinery Road ,Mount Vernon,IN,47620,TRUE
+15,Ponca City,refinery,36.6819,-97.0906,475,475,210000,both,both,both,,Diane Anderson,(580) 767-3456,,,g.diane.anderson@p66.com,1000 South Pine Street ,Ponca City,OK,74601,TRUE
+16,Robinson,refinery,38.997,-87.7169,521,555,212000,both,both,both,,,(618) 544-2121,,,,400 South Marathon Avenue ,Robinson,IL,62454,TRUE
+17,Somerset,refinery,37.0714,-84.6093,494,494,5500,,,,,,,,,,300 Refinery Road ,Somerset,KY,42501,TRUE
+18,Superior,refinery,46.6905,-92.0673,139,557,38000,,,,,,(715) 398-3533,,,,2407 Stinson Avenue ,Superior,WI,54880,TRUE
+19,Toledo BP,refinery,40.719,-84.1229,52,52,153000,,,,,,(419) 226-2300,,,,1150 South Metcalf Street ,Lima,OH,45804,TRUE
+20,Toledo PBF,refinery,41.6793,-83.4538,541,554,160000,,,,,,(419) 698-6600,,,,1819 Woodville Road ,Oregon,OH,43616,TRUE
+21,Tulsa East,refinery,36.1196,-96.0013,235,30,70300,,,,,Mark Cunningham,(918) 594-6000,,,mark.cunningham@hollyenergy.com,902 West 25th Street ,Tulsa,OK,74107,TRUE
+22,Tulsa West,refinery,36.1368,-96.0234,235,30,85000,,,,,Mark Cunningham,(918) 594-6000,,,mark.cunningham@hollyenergy.com,1700 South Union Avenue ,Tulsa,OK,74107,TRUE
+23,Whiting,refinery,41.6661,-87.4807,52,561,413500,,,,,,(219) 473-3500,,,,2815 Indianapolis Boulevard ,Whiting,IN,46394,TRUE
+24,Wood River,refinery,38.8373,-90.0649,552,475,336000,both,both,both,both,Melissa Erker,(618) 255-2763,,,melissa.a.erker@p66.com,111 Madison Avenue ,Roxana,IL,62084,TRUE
+25,Wynnewood,refinery,34.632,-97.1678,553,558,70000,,,,,,,,,,906 South Powell Avenue ,Wynnewood,OK,73098,TRUE
+26,McPherson CHS,refinery,38.3443,-97.6753,489,51,100000,,,,,,(620) 241-2340,,,,1391 Iron House Road ,McPherson,KS,67460,TRUE
+27,Pine Bend,refinery,44.7659,-93.0402,14,562,320000,,,,,,(651) 437-0700,,,,12555 Clark Road ,Rosemount,MN,55068,TRUE
+28,Saint Paul Park,refinery,44.8514,-93.0019,538,538,102000,,,,,,(651) 459-9771,,,,301 St Paul Park Road ,St Paul Park,MN,55071,TRUE
+29,McKee,refinery,35.9547,-101.882,90,545,200000,both,,,,,(806) 935-2141,,,,6701 FM 119,Sunray,TX,79086,TRUE
+30,Port Arthur TOT,refinery,29.998606,-93.984414,543,543,245000,,,,,,,,,,,,,,TRUE
+31,Big Spring,refinery,32.270992,-101.415073,480,480,74000,,,,,,,,,,,,,,TRUE
+32,Los Angeles ANDV,refinery,33.818578,-118.236677,539,538,276000,,,,,,,,,,,,,,TRUE
+33,Cherry Point,refinery,48.884624,-122.734766,484,52,236000,,,,,,,,,,,,,,TRUE
+34,Prudhoe Bay COP,refinery,70.324832,-149.604069,493,493,16000,,,,,,,,,,,,,,TRUE
+35,Prudhoe Bay BP,refinery,70.253586,-148.37813,483,52,8000,,,,,,,,,,,,,,TRUE
+36,Princeton,refinery,32.59107,-93.511874,139,139,8700,,,,,,,,,,,,,,TRUE
+37,Cotton Valley,refinery,32.798531,-93.411128,139,139,14000,,,,,,,,,,,,,,TRUE
+38,Laurel,refinery,45.658374,-108.7681,487,487,61100,,,,,,,,,,,,,,TRUE
+39,El Segundo,refinery,33.911422,-118.410994,130,130,290500,,,,,,,,,,,,,,TRUE
+40,Richmond,refinery,37.94978,-122.398665,130,130,257200,,,,,,,,,,,,,,TRUE
+41,Kapolei ISL,refinery,21.303644,-158.088117,514,514,57000,,,,,,,,,,,,,,TRUE
+42,El Paso,refinery,31.767512,-106.395613,550,538,134000,,,,,,,,,,,,,,TRUE
+43,Salt Lake City CVX,refinery,40.824744,-111.923936,130,130,56000,,,,,,,,,,,,,,TRUE
+44,Pascagoula,refinery,30.344744,-88.489914,130,130,370000,,,,,,,,,,,,,,TRUE
+45,Tyler,refinery,32.360432,-95.281964,498,498,75000,,,,,,,,,,,,,,TRUE
+46,Pasadena,refinery,29.721442,-95.206799,523,523,115700,,,,,,,,,,,,,,TRUE
+47,Woods Cross SER,refinery,40.867508,-111.910603,533,533,15700,,,,,,,,,,,,,,TRUE
+48,San Antonio,refinery,29.347637,-98.459995,139,139,21000,,,,,,,,,,,,,,TRUE
+49,Vicksburg,refinery,32.385998,-90.907845,500,500,27300,,,,,,,,,,,,,,TRUE
+50,Baton Rouge,refinery,30.486272,-91.169797,503,503,523200,,,,,,,,,,,,,,TRUE
+51,Billings XOM,refinery,45.814531,-108.434778,503,503,62900,,,,,,,,,,,,,,TRUE
+52,Baytown,refinery,29.761431,-94.976798,503,503,584000,,,,,,,,,,,,,,TRUE
+53,Benicia,refinery,38.072007,-122.138319,546,545,149000,,,,,,,,,,,,,,TRUE
+54,North Salt Lake,refinery,40.838556,-111.920665,482,482,33000,,,,,,,,,,,,,,TRUE
+55,Gallup,refinery,35.488468,-108.427359,551,538,26000,,,,,,,,,,,,,,TRUE
+56,Artesia,refinery,32.844821,-104.390979,510,30,115000,,,,,,,,,,,,,,TRUE
+57,Great Falls,refinery,47.523212,-111.295316,261,261,35000,,,,,,,,,,,,,,TRUE
+58,Tuscaloosa,refinery,33.200487,-87.611011,513,513,40000,,,,,,,,,,,,,,TRUE
+59,Wilmington VLO Asphalt,refinery,33.798301,-118.236861,546,545,6500,,,,,,,,,,,,,,TRUE
+60,Bakersfield KERN,refinery,35.294719,-118.917953,515,515,27000,,,,,,,,,,,,,,TRUE
+61,Corpus Christi FHR,refinery,27.832974,-97.525965,14,14,304000,,,,,,,,,,,,,,TRUE
+62,Saraland,refinery,30.7886,-88.0562,532,532,95500,,,,,,,,,,,,,,TRUE
+63,Wilmington VLO,refinery,33.779055,-118.233663,546,545,87000,,,,,,,,,,,,,,TRUE
+64,Paulsboro PBF,refinery,39.840304,-75.257767,524,554,166000,,,,,,,,,,,,,,TRUE
+65,Beaumont,refinery,30.111321,-94.106796,503,503,377400,,,,,,,,,,,,,,TRUE
+66,Torrance,refinery,33.853208,-118.332317,542,554,157800,,,,,,,,,,,,,,TRUE
+67,Chalmette,refinery,29.935151,-89.974393,488,554,197000,,,,,,,,,,,,,,TRUE
+68,Meraux,refinery,29.933813,-89.941198,545,545,128000,,,,,,,,,,,,,,TRUE
+69,Shreveport,refinery,32.467561,-93.792592,486,486,60000,,,,,,,,,,,,,,TRUE
+70,Sweeny,refinery,29.077881,-95.747538,475,475,260000,,,,,,,,,,,,,,TRUE
+71,Woods Cross HFC,refinery,40.886581,-111.904823,511,30,41400,,,,,,,,,,,,,,TRUE
+72,Port Allen,refinery,30.477376,-91.210811,529,529,82500,,,,,,,,,,,,,,TRUE
+73,Newell,refinery,40.610826,-80.629399,501,501,23000,,,,,,,,,,,,,,TRUE
+74,Bakersfield SJR,refinery,35.38733,-119.047922,530,530,25000,,,,,,,,,,,,,,TRUE
+75,Norco MOT,refinery,30.001717,-90.40413,10,10,250000,,,,,,,,,,,,,,TRUE
+76,Anacortes ANDV,refinery,48.494369,-122.562522,540,538,125000,,,,,,,,,,,,,,TRUE
+77,Martinez RDS,refinery,38.019952,-122.111017,18,18,158000,,,,,,,,,,,,,,TRUE
+78,Alliance,refinery,29.684405,-89.979839,475,475,260000,,,,,,,,,,,,,,TRUE
+79,Galveston Bay,refinery,29.374692,-94.933456,521,555,481000,,,,,,,,,,,,,,TRUE
+80,Salt Lake City ANDV,refinery,40.792315,-111.905455,540,538,63000,,,,,,,,,,,,,,TRUE
+81,Philadelphia,refinery,39.910061,-75.203061,528,528,350000,,,,,,,,,,,,,,TRUE
+82,Kenai,refinery,60.682335,-151.376675,537,538,72000,,,,,,,,,,,,,,TRUE
+83,Bakersfield ALON,refinery,35.439492,-118.986971,478,478,0,,,,,,,,,,,,,,FALSE
+84,Anacortes RDS,refinery,48.470693,-122.556244,18,18,149000,,,,,,,,,,,,,,TRUE
+85,Wilmington ANDV,refinery,33.801089,-118.231229,539,538,107000,,,,,,,,,,,,,,TRUE
+86,Tacoma,refinery,47.255786,-122.397126,544,544,42000,,,,,,,,,,,,,,TRUE
+87,Martinez ANDV,refinery,38.023026,-122.063905,539,538,170000,,,,,,,,,,,,,,TRUE
+88,Ferndale,refinery,48.830501,-122.696618,475,475,107500,,,,,,,,,,,,,,TRUE
+89,Bayway,refinery,40.635876,-74.22235,475,475,256400,,,,,,,,,,,,,,TRUE
+90,Trainer,refinery,39.819143,-75.403896,133,133,208000,,,,,,,,,,,,,,TRUE
+91,Commerce City East,refinery,39.801794,-104.944705,536,536,38000,,,,,,,,,,,,,,TRUE
+92,Rodeo,refinery,38.043474,-122.255632,475,475,128000,,,,,,,,,,,,,,TRUE
+93,Los Angeles P66,refinery,33.810856,-118.243473,475,475,147000,,,,,,,,,,,,,,TRUE
+94,Bill Greehey VLO,refinery,27.816758,-97.484505,548,545,300000,,,,,,,,,,,,,,TRUE
+95,Bradford,refinery,41.966715,-78.629424,481,481,11800,,,,,,,,,,,,,,TRUE
+96,Newcastle,refinery,43.848521,-104.213903,507,507,18500,,,,,,,,,,,,,,TRUE
+97,Ely,refinery,38.621486,-115.617898,504,504,5000,,,,,,,,,,,,,,TRUE
+98,Kapolei PAR,refinery,21.309493,-158.110927,506,506,95000,,,,,,,,,,,,,,TRUE
+99,Smackover,refinery,33.363209,-92.712123,495,495,7700,,,,,,,,,,,,,,TRUE
+100,Deer Park,refinery,29.731441,-95.126797,496,18,340000,,,,,,,,,,,,,,TRUE
+102,Three Rivers,refinery,28.45921,-98.188265,545,545,91000,,,,,,,,,,,,,,TRUE
+103,Commerce City West,refinery,39.803311,-104.946497,536,536,72500,,,,,,,,,,,,,,TRUE
+104,Westlake P66,refinery,30.241215,-93.271135,475,475,273000,,,,,,,,,,,,,,TRUE
+105,Billings P66,refinery,45.78057,-108.490143,475,475,63400,,,,,,,,,,,,,,TRUE
+106,Saint Rose,refinery,29.939755,-90.330328,18,18,46000,,,,,,,,,,,,,,TRUE
+107,Cheyenne,refinery,41.127132,-104.78975,508,508,52000,,,,,,,,,,,,,,TRUE
+108,Port Arthur VLO,refinery,29.958382,-93.889234,90,545,415000,,,,,,,,,,,,,,TRUE
+109,El Dorado LION,refinery,33.199731,-92.673774,126,126,85000,,,,,,,,,,,,,,TRUE
+110,Houston LYB,refinery,29.701556,-95.251761,512,556,296300,,,,,,,,,,,,,,TRUE
+111,Paramount,refinery,33.899551,-118.146627,522,522,90000,,,,,,,,,,,,,,TRUE
+112,North Pole,refinery,64.85276,-147.748499,526,526,22500,,,,,,,,,,,,,,TRUE
+113,Valdez,refinery,61.081919,-146.381762,526,526,60000,,,,,,,,,,,,,,TRUE
+114,Lake Charles CGO,refinery,30.181174,-93.332596,490,490,440000,,,,,,,,,,,,,,TRUE
+115,Corpus Christi CGO,refinery,27.809474,-97.428434,491,490,163500,,,,,,,,,,,,,,TRUE
+116,Paulsboro AXE,refinery,39.841426,-75.228352,136,136,78000,,,,,,,,,,,,,,TRUE
+117,Santa Maria Asphalt,refinery,34.930191,-120.51108,531,531,10000,,,,,,,,,,,,,,TRUE
+118,Sinclair,refinery,41.780163,-107.109511,534,534,90000,,,,,,,,,,,,,,TRUE
+119,Evansville,refinery,42.858453,-106.242437,518,518,25500,,,,,,,,,,,,,,TRUE
+120,Krotz Springs,refinery,30.526508,-91.748001,479,479,83000,,,,,,,,,,,,,,TRUE
+121,Houston VLO,refinery,29.722805,-95.255585,548,545,197000,,,,,,,,,,,,,,TRUE
+122,Texas City VLO,refinery,29.378096,-94.895337,548,545,231000,,,,,,,,,,,,,,TRUE
+123,Convent,refinery,30.107774,-90.892547,10,10,260000,,,,,,,,,,,,,,TRUE
+124,Delaware City,refinery,39.587733,-75.631323,497,554,190200,,,,,,,,,,,,,,TRUE
+125,Port Arthur MOT,refinery,29.860001,-93.969224,10,10,635000,,,,,,,,,,,,,,TRUE
+126,Lake Charles CRC,refinery,30.132389,-93.320068,485,485,105000,,,,,,,,,,,,,,TRUE
+127,Silsbee,refinery,30.398348,-94.228208,535,535,0,,,,,,,,,,,,,,TRUE
+128,St Charles VLO,refinery,30.002368,-90.423202,549,545,220000,,,,,,,,,,,,,,TRUE
+129,Warren,refinery,41.832187,-79.128024,62,62,70000,,,,,,,,,,,,,,TRUE
+130,Nixon,refinery,29.261622,-97.787248,517,517,15000,,,,,,,,,,,,,,TRUE
+131,Texas City MPC,refinery,29.366542,-94.910472,521,555,89500,,,,,,,,,,,,,,TRUE
+132,Garyville,refinery,30.060139,-90.595952,521,521,580000,,,,,,,,,,,,,,TRUE
+133,Sandersville,refinery,31.814884,-89.009189,251,251,12500,,,,,,,,,,,,,,TRUE
+134,South Gate,refinery,33.946372,-118.166647,519,519,10000,,,,,,,,,,,,,,TRUE
+135,Evanston,refinery,41.261142,-110.806321,533,533,3400,,,,,,,,,,,,,,TRUE
+136,Atmore,refinery,31.072,-87.363,505,505,5000,,,,,,,,,,,,,,TRUE
+137,Westlake EXCL,refinery,30.188295,-93.339019,502,502,0,,,,,,,,,,,,,,TRUE
+138,Channelview,refinery,29.82338,-95.113566,499,499,0,,,,,,,,,,,,,,TRUE
+139,Galena Park,refinery,29.733018,-95.219682,516,516,100000,,,,,,,,,,,,,,TRUE
+140,Houston PTMX,refinery,29.75377,-95.123221,527,527,27500,,,,,,,,,,,,,,TRUE
+141,Corpus Christi BPL,refinery,27.817895,-97.505532,223,223,50000,,,,,,,,,,,,,,TRUE
+142,Corpus Christi MPL,refinery,27.806936,-97.439103,520,520,50000,,,,,,,,,,,,,,TRUE
+143,Santa Maria P66,refinery,35.038937,-120.589638,475,475,41800,,,,,,,,,,,,,,TRUE

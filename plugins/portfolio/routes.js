@@ -11,7 +11,14 @@ module.exports = [{
 }, {
   method: 'POST',
   path: '/terminals/forecasts/edits',
-  handler: Handlers.getTerminalsForecastEditsInventory
+  handler: {
+    proxy: {
+      passThrough: true,
+      host: '127.0.0.1',
+      port: '5000',
+      protocol: 'http'
+    }
+  }
 }, {
   method: 'GET',
   path: '/portfolio/grades',

@@ -1,94 +1,270 @@
-id,capacity,diameter,length,name,operational,pipeline_id,destination_id,origin_id
-1,660000,{28},452,Eastern Main,TRUE,3,87,12
-2,55000,"{10, 12}",287,East,TRUE,1,101,111
-3,46000,{8},90,South,TRUE,1,105,111
-4,120000,,273,BWG - Borger-Wichita Gold,TRUE,4,124,36
-5,120000,,0,WPG - Wichita-Paola Gold,TRUE,4,109,124
-6,53000,"{8, 12}",265,PSG - Paola-St Louis Gold,TRUE,4,81,109
-7,0,{8},121,"Humboldt - Springfield #6-8""",TRUE,6,117,17
-8,0,{12},174,"Barnsdall - Kansas City #4-12""",TRUE,6,95,15
-9,83000,{8},76,North,TRUE,1,125,13
-10,83000,{10},29,North,TRUE,1,13,111
-11,72000,{18},92,Standish,TRUE,7,124,51
-12,26400,{8},53,PKE - Paola-Kansas City 8 Inch,TRUE,4,95,109
-13,76800,{10},53,PKT - Paola-Kansas City 10 Inch,TRUE,4,95,109
-14,0,{6},81,"Enid - Oklahoma City #1-6""",TRUE,6,105,82
-15,0,{6},46,"Enid - Ponca City #1-6""",TRUE,6,82,18
-16,30000,"{6, 8}",419,East,TRUE,5,110,133
-17,0,{14},23,St Louis Spur,TRUE,2,81,60
-18,0,{24},403,Eastern Main,TRUE,2,60,87
-19,0,{12},249,Chase Pipeline,TRUE,8,113,14
-20,0,{},0,Heavener Junction - Heavener,TRUE,6,7,6
-21,0,{8},35,"Drumright -Tulsa #1-8""",TRUE,6,123,19
-22,0,{8},131,"Nebraska City - Doniphan #1-8""",TRUE,6,79,23
-23,0,{6},0,"Albert Lea - Mankato #3-6""",TRUE,6,136,10
-24,0,{8},0,"Rosemount - Rochester #5-8""",TRUE,6,137,11
-25,0,{10},47,"Independence - Humboldt #10-10""",TRUE,6,17,16
-26,0,{12},34,"Tulsa to Barnsdall #1-12""",TRUE,6,15,123
-27,0,{16},94,"Barnsdall - El Dorardo #7-16""",TRUE,6,14,15
-28,0,{8},188,Western Extension,TRUE,9,103,85
-29,0,{12},0,"Cushing - OK/KS ST Line #3-12""",TRUE,6,14,30
-30,0,{},0,Hutchinson Spur,TRUE,9,127,133
-31,40000,{8},49,"8"" Amarillo Products",TRUE,10,68,65
-32,0,{16},181,"El Dorado - Wathena Junction #7-16""",TRUE,6,5,14
-33,0,{12},120,"Allen - Fort Smith #2-12""",TRUE,6,84,20
-34,0,{},0,Augusta - Potwin,TRUE,9,33,34
-35,0,{8},87,"Kansas City - Irvington #3-8""",TRUE,6,22,94
-36,0,{12},34,"Tulsa to Barnsdall #4-12""",TRUE,6,15,123
-37,0,{},0,"MO/IL ST Line - Wilmington #3-12""",TRUE,6,31,72
-38,0,{12},0,"Rosemount - Willmar #6-12""",TRUE,6,11,25
-39,30000,{8},67,Razorback,TRUE,6,131,50
-40,0,"{8, 12}",355,Borger to Denver Products,TRUE,10,76,65
-41,0,{12},67,"Wynnewood - OKC (Reno) #3-12""",TRUE,6,104,61
-42,0,{},0,Council Bluffs Spur,TRUE,5,75,133
-43,0,{10},167,"El Dorado - Kansas City #6-10""",TRUE,6,95,14
-44,0,{8},98,"El Dorardo - Humboldt #1-8""",TRUE,6,17,14
-45,0,{8},55,"Oklahoma City - Cushing Junction #2-8""",TRUE,6,29,104
-46,0,{12},0,"Des Moines - Mason City #7-12""",TRUE,6,98,77
-47,0,{8},12,"Irvington - Omaha #1-8""",TRUE,6,106,22
-48,0,{12},87,"Kansas City - Irvington #5-12""",TRUE,6,22,94
-49,0,{12},276,"Tulsa - Columbia Junction #3-12""",TRUE,6,72,123
-50,0,{},0,"KS/MO ST Line - MO/IL ST Line #3-12""",TRUE,6,72,123
-51,0,{6},89,"Columbia - Palmyra #1-6""",TRUE,6,108,72
-52,32000,{8},0,"Coffeyville - Caney Junction #2-8""",TRUE,6,32,41
-53,0,{28},13,Tulsa Spur,TRUE,3,123,87
-54,0,{8},0,"Grinnell - Waterloo #1-8""",TRUE,6,122,9
-55,0,{8},44,"Cushing - Tulsa #2-8""",TRUE,6,123,30
-56,0,{8},84,"Allen - Drumright #3-8""",TRUE,6,19,20
-57,25000,{6},49,"6"" Amarillo Products",TRUE,10,68,65
-58,0,{},0,Duncan - Allen,TRUE,6,20,4
-59,0,{},0,Lincoln Spur,TRUE,5,97,133
-60,0,{16},151,"Wathena Junction - Des Moines #7-16""",TRUE,6,77,5
-61,0,{12},190,"Kansas City - Des Moines #6-12""",TRUE,6,77,95
-62,0,{12},54,"Ponca City - Barnsdall #5-12""",TRUE,6,15,18
-63,0,{6},0,"Roland - Fort Dodge #8-6""",TRUE,6,83,24
-64,0,{12},166,"Irvington - Sioux Falls #5-12""",TRUE,6,115,22
-65,0,{8},15,"Coffeyville - Independence #1-8""",TRUE,6,16,41
-66,0,{8},0,"Bettendorf Junction - Bettendorf #1-8""",TRUE,6,69,27
-67,34400,{10},292,Amarillo to Albuquerue Products,TRUE,10,138,68
-68,0,{6},121,Eastern Extension,TRUE,9,99,135
-69,0,{},0,Eastern Extension,TRUE,9,116,75
-70,0,{6},41,Eastern Extension,TRUE,9,130,26
-71,27300,{8},360,Southlake Products,TRUE,10,65,142
-72,59700,{10},408,El Paso Products,TRUE,10,141,85
-73,0,{12},240,"Des Moines - Minneapolis #4-12""",TRUE,6,11,77
-74,0,{},0,Sioux Falls - Willmar,TRUE,6,25,115
-75,0,{6},70,"Iowa City - Dubuque #1-6""",TRUE,6,80,92
-76,0,"{8, 12}",0,"Des Moines - Mississippi River #6-12"", #5-8""",TRUE,6,27,77
-77,0,{},0,El Dorado - Denver,TRUE,8,76,14
-78,0,{},0,McPherson - Mt Hope,TRUE,8,3,62
-79,0,{},0,Wichita North - Augusta,TRUE,9,34,124
-80,0,{},0,El Dorado - McPherson,TRUE,9,133,21
-81,0,{6},0,"Marshall - Watertown #1-6""",TRUE,6,143,35
-82,0,{6},81,"Sioux City - Milford #1-6""",TRUE,6,100,114
-83,0,{},0,Capehart Junction - Council Bluffs,TRUE,6,75,66
-84,0,{},0,Arkansas City - Augusta,TRUE,9,34,13
-85,0,{},0,Augusta - Potwin,TRUE,9,33,34
-86,0,{},0,Potwin - McPherson,TRUE,9,133,33
-87,0,{16},155,McPherson - Geneva,TRUE,9,85,133
-88,0,{6},423,Geneva - Yankton,TRUE,9,135,85
-89,0,{},0,Cushing - Glenpool,TRUE,6,67,30
-90,0,{},0,Glenpool South Spur,TRUE,3,88,87
-91,0,{},0,Glenpool - Tulsa,TRUE,6,123,67
-92,0,{},0,Cushing Junction - Cushing Station,TRUE,6,28,29
-93,0,{},0,El Dorado,TRUE,6,8,14
+id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_id
+1,4,Buckeye,TRUE,,,,,
+2,4,Buckeye,TRUE,,,,,
+3,4,Buckeye,TRUE,,,,,
+4,4,Buckeye,TRUE,,,,,
+5,4,Buckeye,TRUE,,,,,
+6,4,Buckeye,TRUE,,,,,
+7,4,Buckeye,TRUE,,,,,
+8,4,Buckeye,TRUE,,,,,
+9,4,Buckeye,TRUE,,,,,
+10,4,Buckeye,TRUE,,,,,
+11,4,Buckeye,TRUE,,,,,
+12,4,Buckeye,TRUE,,,,,
+13,4,Buckeye,TRUE,,,,,
+14,4,Buckeye,TRUE,,,,,
+15,4,Buckeye,TRUE,,,,,
+16,4,Buckeye,TRUE,,,,,
+17,4,Buckeye,TRUE,,,,,
+18,4,Buckeye,TRUE,,,,,
+19,12,Connecticut,TRUE,,,,1138,946
+20,12,Connecticut,TRUE,,,,946,946
+21,4,Buckeye,TRUE,,,,,
+22,4,Buckeye,TRUE,,,,,
+23,4,Buckeye,TRUE,,,,,
+24,4,Buckeye,TRUE,,,,,
+25,4,Buckeye,TRUE,,,,,
+26,4,Buckeye,TRUE,,,,,
+27,4,Buckeye,TRUE,,,,,
+28,4,Buckeye,TRUE,,,,,
+29,4,Buckeye,TRUE,,,,,
+30,4,Buckeye,TRUE,,,,,
+31,4,Buckeye,TRUE,,,,,
+32,4,Buckeye,TRUE,,,,,
+33,4,Buckeye,TRUE,,,,,
+34,4,Buckeye,TRUE,,,,,
+35,36,Salt Lake Products,TRUE,,,,1620,1492
+36,36,Salt Lake Products,TRUE,,,,234,1320
+37,7,CENEX,TRUE,,,,1887,540
+38,11,Colonial,TRUE,,,,,
+39,11,Colonial,TRUE,,,,,
+40,11,Colonial,TRUE,,,,,
+41,11,Colonial,TRUE,,,,,
+42,11,Colonial,TRUE,,,,,
+43,11,Colonial,TRUE,,,,,
+44,11,Colonial,TRUE,,,,,
+45,11,Colonial,TRUE,,,,,
+46,11,Colonial,TRUE,,,,,
+47,11,Colonial,TRUE,,,,,
+48,11,Colonial,TRUE,,,,,
+49,11,Colonial,TRUE,,,,,
+50,11,Colonial,TRUE,,,,,
+51,11,Colonial,TRUE,,,,,
+52,11,Colonial,TRUE,,,,,
+53,11,Colonial,TRUE,,,,,
+54,11,Colonial,TRUE,,,,,
+55,11,Colonial,TRUE,,,,,
+56,11,Colonial,TRUE,,,,,
+57,11,Colonial,TRUE,,,,,
+58,11,Colonial,TRUE,,,,,
+59,11,Colonial,TRUE,,,,,
+60,11,Colonial,TRUE,,,,,
+61,11,Colonial,TRUE,,,,,
+62,11,Colonial,TRUE,,,,,
+63,11,Colonial,TRUE,,,,,
+64,11,Colonial,TRUE,,,,,
+65,11,Colonial,TRUE,,,,,
+66,11,Colonial,TRUE,,,,595,1146
+67,25,Olympic,TRUE,,,,1882,914
+68,40,Southern Lights,TRUE,,,,,
+69,43,Tinsley,TRUE,,,,,
+70,40,Southern Lights,TRUE,,,,,
+71,42,TEPPCO,TRUE,,,,,
+72,42,TEPPCO,TRUE,,,,,
+73,42,TEPPCO,TRUE,,,,,
+74,42,TEPPCO,TRUE,,,,,
+75,42,TEPPCO,TRUE,,,,,
+76,42,TEPPCO,TRUE,,,,,
+77,42,TEPPCO (Mainline),TRUE,,,,1879,78
+78,42,TEPPCO,TRUE,,,,,
+79,42,TEPPCO,TRUE,,,,,
+80,42,TEPPCO,TRUE,,,,,
+81,42,TEPPCO (Calvert City Spur),TRUE,,,,1248,1248
+82,42,TEPPCO (Memphis Spur),TRUE,,,,1793,1793
+83,1,Carrollton - Dallas,TRUE,,,,416,414
+84,1,Grapevine - Fort Worth,TRUE,,,,565,416
+85,1,Greenville - Grapevine,TRUE,,,,237,416
+86,1,Houston - Ardmore,TRUE,,,,743,58
+87,1,Houston - Wood River,TRUE,,,,866,690
+88,1,Wood River - Hammond,TRUE,,,,690,676
+89,1,Wood River - St. Louis,TRUE,,,,690,505
+90,54,East Providence - Springfield,TRUE,,,,502,1639
+91,30,Plantation,TRUE,,,,,
+92,30,Plantation,TRUE,,,,,
+93,30,Plantation,TRUE,,,,,
+94,30,Plantation,TRUE,,,,,
+95,30,Plantation,TRUE,,,,,
+96,30,Plantation,TRUE,,,,,
+97,30,Plantation,TRUE,,,,,
+98,30,Plantation,TRUE,,,,1899,1152
+99,38,North Line,TRUE,,,,1926,1609
+100,38,North Line,TRUE,,,,1464,328
+101,38,North Line,TRUE,,,,1926,1510
+102,38,North Line,TRUE,,,,1926,1512
+103,38,North Line,TRUE,,,,1926,1464
+104,38,North Line,TRUE,,,,1719,102
+105,39,West & East Lines,TRUE,,,,48,357
+106,39,West Spur,TRUE,,,,768,768
+107,6,CALNEV,TRUE,,,,184,876
+108,6,CALNEV Edwards AFB Spur,TRUE,,,{6},876,876
+109,39,West Line,TRUE,,,,,
+110,39,San Diego Line,TRUE,,135,,1255,1507
+111,38,North Line,TRUE,,,,581,581
+112,46,TransMountain,TRUE,,,,,
+113,38,Oregon Line,TRUE,,114,,525,914
+114,9,"16""",TRUE,,110,{16},1683,1676
+115,9,"10""",TRUE,,85,{10},1683,1676
+116,8,Centenial,TRUE,,,,135,508
+117,50,"Wabash 12"" Products",TRUE,,,,1865,276
+118,34,Robinson - Louisville - Lexington,TRUE,,,,1865,894
+119,48,Two Rivers,TRUE,,,,1865,1865
+120,48,Two Rivers,TRUE,,,,1865,1094
+121,48,Two Rivers,TRUE,,,,1865,1218
+122,21,Kenova - Columbus,TRUE,,,,1853,372
+123,19,Heath - Dayton,TRUE,,,,702,422
+124,15,East Sparta - Heath,TRUE,,,,702,1031
+125,20,Heath - Findlay,TRUE,,,,702,702
+126,23,Marathon,TRUE,,,,,
+127,23,Marathon,TRUE,,,,,
+128,23,Marathon,TRUE,,,,,
+129,23,Marathon,TRUE,,,,,
+130,50,"Wabash 12"" Products",TRUE,,,,1104,692
+131,44,Toledo - Steubenville,TRUE,,,,,
+132,22,Magellan,TRUE,,,,,
+133,22,Magellan,TRUE,,,,,
+134,22,Magellan,TRUE,,,,,
+135,22,Magellan,TRUE,,,,,
+136,22,Magellan,TRUE,,,,,
+137,22,Magellan,TRUE,,,,,
+138,22,Magellan,TRUE,,,,,
+139,22,Magellan,TRUE,,,,,
+140,22,Magellan,TRUE,,,,,
+141,22,Magellan,TRUE,,,,,
+142,22,Magellan,TRUE,,,,,
+143,22,Magellan,TRUE,,,,,
+144,22,Magellan,TRUE,,,,,
+145,22,Magellan,TRUE,,,,,
+146,22,Magellan,TRUE,,,,,
+147,22,Magellan,TRUE,,,,,
+148,22,Magellan,TRUE,,,,,
+149,22,Magellan,TRUE,,,,,
+150,22,Magellan,TRUE,,,,,
+151,22,Magellan,TRUE,,,,,
+152,22,Magellan,TRUE,,,,,
+153,22,Magellan,TRUE,,,,,
+154,22,Magellan,TRUE,,,,,
+155,22,Magellan,TRUE,,,,,
+156,22,Magellan,TRUE,,,,,
+157,22,Magellan,TRUE,,,,,
+158,22,Magellan,TRUE,,,,,
+159,22,Magellan,TRUE,,,,,
+160,22,Magellan,TRUE,,,,,
+161,22,Magellan,TRUE,,,,,
+162,22,Magellan,TRUE,,,,,
+163,22,Magellan,TRUE,,,,,
+164,22,Magellan,TRUE,,,,,
+165,22,Magellan,TRUE,,,,,
+166,22,Magellan,TRUE,,,,,
+167,22,Magellan,TRUE,,,,,
+168,22,Magellan,TRUE,,,,,
+169,22,Magellan,TRUE,,,,,
+170,22,Magellan,TRUE,,,,,
+171,22,Magellan,TRUE,,,,,
+172,22,Magellan,TRUE,,,,,
+173,22,Magellan,TRUE,,,,,
+174,22,Magellan,TRUE,,,,,
+175,22,Magellan,TRUE,,,,,
+176,22,Magellan,TRUE,,,,,
+177,22,Magellan,TRUE,,,,,
+178,22,Magellan,TRUE,,,,,
+179,22,Magellan,TRUE,,,,,
+180,22,Magellan,TRUE,,,,,
+181,22,Magellan,TRUE,,,,,
+182,22,Magellan,TRUE,,,,,
+183,22,Magellan,TRUE,,,,,
+184,22,Magellan,TRUE,,,,,
+185,22,Magellan,TRUE,,,,,
+186,22,Magellan,TRUE,,,,,
+187,22,Magellan,TRUE,,,,,
+188,22,Magellan,TRUE,,,,,
+189,22,Magellan,TRUE,,,,,
+190,22,Magellan,TRUE,,,,,
+191,22,Magellan,TRUE,,,,,
+192,22,Magellan,TRUE,,,,,
+193,22,Magellan,TRUE,,,,,
+194,22,Magellan,TRUE,,,,,
+195,22,Magellan,TRUE,,,,,
+196,22,Magellan,TRUE,,,,,
+197,22,Magellan,TRUE,,,,,
+198,22,Magellan,TRUE,,,,,
+199,22,Magellan,TRUE,,,,,
+200,22,Magellan,TRUE,,,,,
+201,22,Magellan,TRUE,,,,,
+202,22,Magellan,TRUE,,,,,
+203,22,Magellan,TRUE,,,,,
+204,10,Central West Refined Products Pipeline System,TRUE,,,,,
+205,10,Central West Refined Products Pipeline System,TRUE,,,,,
+206,10,Central West Refined Products Pipeline System,TRUE,,,,,
+207,10,Central West Refined Products Pipeline System,TRUE,,,,,
+208,10,Central West Refined Products Pipeline System,TRUE,,,,1895,507
+209,10,Central West Refined Products Pipeline System,TRUE,,,,226,507
+210,10,Central West Refined Products Pipeline System,TRUE,,,,1465,507
+211,10,Central West Refined Products Pipeline System,TRUE,,,,,
+212,10,Central West Refined Products Pipeline System,TRUE,,,,,
+213,10,Central West Refined Products Pipeline System,TRUE,,,,,
+214,10,Central West Refined Products Pipeline System,TRUE,,,,,
+215,14,East Refined Products Pipeline System,TRUE,,,,,
+216,14,East Refined Products Pipeline System,TRUE,,,,,
+217,14,East Refined Products Pipeline System,TRUE,,,,,
+218,14,East Refined Products Pipeline System,TRUE,,,,,
+219,14,East Refined Products Pipeline System,TRUE,,,,,
+220,14,East Refined Products Pipeline System,TRUE,,,,,
+221,14,East Refined Products Pipeline System,TRUE,,,,,
+222,14,East Refined Products Pipeline System,TRUE,,,,,
+223,24,North Refined Products Pipelines System,TRUE,,,,1861,1463
+224,3,Borger-Denver,TRUE,,405,"{6, 12}",38,436
+225,17,Gold Line,TRUE,,681,"{8, 16}",38,505
+226,53,Yellowstone,TRUE,,710,"{6, 10}",1087,1618
+227,53,Yellowstone,TRUE,,710,"{6, 10}",163,1050
+228,53,Yellowstone,TRUE,,710,"{6, 10}",705,631
+229,37,Seminoe,TRUE,,342,"{6, 10}",163,1573
+230,33,Richmond,TRUE,,14,{6},1941,1411
+231,27,Pioneer,TRUE,,562,"{8, 12}",1573,1207
+232,29,Plains,TRUE,,,,,
+233,35,Rocky Mountain Products,TRUE,,,,264,1380
+234,35,Rocky Mountain Products,TRUE,,,,264,572
+235,35,Rocky Mountain Products,TRUE,,,,319,1201
+236,5,Reading - Buffalo,TRUE,,,"{8, 14}",1384,1715
+237,5,Reading - Buffalo,TRUE,,,"{8, 14}",1384,1715
+238,31,Reading - Kingston,TRUE,,,"{6, 8}",1384,847
+239,47,Twin Oaks - Newark,TRUE,,,"{12, 14}",1736,1144
+240,47,Twin Oaks - Newark,TRUE,,,"{12, 14}",1736,1144
+241,18,Harbor,TRUE,,,{16},1830,912
+242,26,Philadelphia - Reading,TRUE,,,"{8, 12, 16}",1384,1384
+243,16,Fullerton,TRUE,,,"{8, 12, 16}",534,1803
+244,26,Philadelphia - Reading,TRUE,,,"{8, 12, 16}",1384,1384
+245,32,Reading - Pittsburgh,TRUE,,,"{8, 12}",1384,1311
+246,28,Pittsburgh - Toledo,TRUE,,,"{8, 10}",1236,1311
+247,28,Toledo - Salina,TRUE,,,"{8, 10}",1855,1236
+248,41,Tampa Airport Pipeline,TRUE,,,,1686,1682
+249,13,Diamondback,TRUE,,,,228,226
+250,13,Diamondback,TRUE,,,,228,226
+251,49,UNEV,TRUE,,,,1492,1189
+252,49,UNEV Cedar City Spur,TRUE,,,,272,272
+253,51,West Shore System,TRUE,,,,892,637
+254,2,Badger System,TRUE,,,,,
+255,2,Badger System,TRUE,,,,,
+256,2,Badger System,FALSE,,,,,
+257,2,Badger System,TRUE,,,,,
+258,51,West Shore System,TRUE,,,,,
+259,51,West Shore System,TRUE,,,,,
+260,2,Badger System,TRUE,,,,63,1859
+261,51,West Shore System,TRUE,,,,,
+262,52,Mainline,TRUE,,,,790,678
+263,52,Spartan,TRUE,,,,790,128
+264,52,Spartan,TRUE,,,,128,873
+265,52,Extension,TRUE,,,,1164,547
+266,52,Loop,TRUE,,,,1164,678
+267,52,Hammond,TRUE,,,,1859,678
+268,52,Hammond,TRUE,,,,1858,678
+269,52,Hammond,TRUE,,,,1858,678

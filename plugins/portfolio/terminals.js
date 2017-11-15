@@ -28,31 +28,3 @@ exports.getTerminalsForecastInventory = (client, grade, terminals, start, end) =
     });
   });
 };
-
-exports.getTerminalsForecastEditsInventory = (client, edits) => {
-  const cid = uuid();
-  const e = map(edit => assoc('day', format(edit.day, 'YYYY-MM-DD'), edit), edits);
-  const message = {
-    id: cid,
-    task: 'update_forecasts_user',
-    args: [e],
-    kwargs: {},
-    retries: 0,
-  };
-  return node((done) => {
-    amqp.connect('amqp://bayzyenfe:CAp84pwQUxaYp2WK@ec2-18-220-89-1.us-east-2.compute.amazonaws.com', (err, conn) => {
-      conn.createChannel((err, chan) => {
-        chan.consume('analytics', (msg) => {
-          const forecasts = JSON.parse(msg.content.toString()).data.data;
-          conn.close();
-          return done(null, JSON.parse(JSON.stringify(forecasts)));
-        });
-        chan.sendToQueue('analytics', new Buffer(JSON.stringify(message)), {
-          correlationId: cid,
-          contentType: 'application/json',
-          replyTo: 'analytics'
-        });
-      });
-    });
-  });
-};

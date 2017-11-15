@@ -1,11 +1,54 @@
 id,name,operator_id,owner_id
-1,Cherokee,36,36
-2,Explorer Northern,14,14
-3,Explorer Southern,14,14
-4,Gold Line,36,36
-5,Heartland,47,47
-6,MPL Central,25,25
-7,Standish,36,36
-8,MPL Mountain,25,25
-9,East,29,29
-10,Central West,29,29
+1,Explorer,456,456
+2,Badger System,41,41
+3,Borger-Denver,7,7
+4,Buckeye,563,563
+5,Reading - Buffalo,5,5
+6,CALNEV,567,567
+7,CENEX,51,51
+8,Centenial,555,555
+9,Central Florida,567,567
+10,Central West,6,6
+11,Colonial,417,417
+12,Connecticut,563,563
+13,Diamondback,8,8
+14,East,6,6
+15,East Sparta - Heath,555,555
+16,Fullerton,5,5
+17,Gold Line,7,7
+18,Harbor,5,5
+19,Heath - Dayton,555,555
+20,Heath - Findlay,555,555
+21,Kenova - Columbus,555,555
+22,Magellan,477,477
+23,Marathon,555,555
+24,North,6,6
+25,Olympic,565,565
+26,Philadelphia - Reading,5,5
+27,Pioneer,7,7
+28,Mariner West,5,5
+29,Plains,568,568
+30,Plantation,240,240
+31,Reading - Kingston,5,5
+32,Mariner East,5,5
+33,Richmond,7,7
+34,Robinson - Louisville - Lexington,555,555
+35,Rocky Mountain Products,477,477
+36,Salt Lake Products,564,564
+37,Seminoe,7,7
+38,SFPP North,567,567
+39,SFPP South,567,567
+40,Southern Lights,565,565
+41,Tampa Airport Pipeline,569,569
+42,TEPPCO,23,23
+43,Tinsley,565,565
+44,Toledo - Steubenville,555,555
+46,TransMountain,567,567
+47,Twin Oaks - Newark,5,5
+48,Two Rivers,555,555
+49,UNEV,119,119
+50,"Wabash 12"" Products",555,555
+51,West Shore System,41,41
+52,Wolverine,5,306
+53,Yellowstone,7,7
+54,East Providence - Springfield,566,566
