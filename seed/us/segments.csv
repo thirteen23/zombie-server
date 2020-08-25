@@ -19,7 +19,7 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 18,4,Buckeye,TRUE,,,,,
 19,12,Connecticut,TRUE,,,,1138,946
 20,12,Connecticut,TRUE,,,,946,946
-21,4,Buckeye,TRUE,,,,,
+21,4,Buckeye,TRUE,,,,475,1662
 22,4,Buckeye,TRUE,,,,,
 23,4,Buckeye,TRUE,,,,,
 24,4,Buckeye,TRUE,,,,,
@@ -33,8 +33,8 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 32,4,Buckeye,TRUE,,,,,
 33,4,Buckeye,TRUE,,,,,
 34,4,Buckeye,TRUE,,,,,
-35,36,Salt Lake Products,TRUE,,,,1620,1492
-36,36,Salt Lake Products,TRUE,,,,234,1320
+35,36,Northwest,TRUE,,,,1620,1492
+36,36,Northwest,TRUE,,,,234,1320
 37,7,CENEX,TRUE,,,,1887,540
 38,11,Colonial,TRUE,,,,,
 39,11,Colonial,TRUE,,,,,
@@ -107,14 +107,14 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 106,39,West Spur,TRUE,,,,768,768
 107,6,CALNEV,TRUE,,,,184,876
 108,6,CALNEV Edwards AFB Spur,TRUE,,,{6},876,876
-109,39,West Line,TRUE,,,,,
-110,39,San Diego Line,TRUE,,135,,1255,1507
+109,39,West Line,TRUE,,,,254,358
+110,39,San Diego Line,TRUE,,135,,254,1507
 111,38,North Line,TRUE,,,,581,581
 112,46,TransMountain,TRUE,,,,,
 113,38,Oregon Line,TRUE,,114,,525,914
 114,9,"16""",TRUE,,110,{16},1683,1676
 115,9,"10""",TRUE,,85,{10},1683,1676
-116,8,Centenial,TRUE,,,,135,508
+116,8,Centennial,TRUE,,,,135,508
 117,50,"Wabash 12"" Products",TRUE,,,,1865,276
 118,34,Robinson - Louisville - Lexington,TRUE,,,,1865,894
 119,48,Two Rivers,TRUE,,,,1865,1865
@@ -130,35 +130,35 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 129,23,Marathon,TRUE,,,,,
 130,50,"Wabash 12"" Products",TRUE,,,,1104,692
 131,44,Toledo - Steubenville,TRUE,,,,,
-132,22,Magellan,TRUE,,,,,
-133,22,Magellan,TRUE,,,,,
-134,22,Magellan,TRUE,,,,,
+132,22,MPL Mountain,TRUE,,,,630,1536
+133,22,MPL Mountain,TRUE,,,,1747,1536
+134,22,MPL Mountain,TRUE,,,,1747,630
 135,22,Magellan,TRUE,,,,,
 136,22,Magellan,TRUE,,,,,
 137,22,Magellan,TRUE,,,,,
 138,22,Magellan,TRUE,,,,,
 139,22,Magellan,TRUE,,,,,
 140,22,Magellan,TRUE,,,,,
-141,22,Magellan,TRUE,,,,,
-142,22,Magellan,TRUE,,,,,
-143,22,Magellan,TRUE,,,,,
-144,22,Magellan,TRUE,,,,,
-145,22,Magellan,TRUE,,,,,
+141,22,MPL Central,TRUE,,,,443,323
+142,22,MPL Central,TRUE,,,,443,1781
+143,22,MPL Central,TRUE,,,,785,474
+144,22,MPL Central,TRUE,,,,443,156
+145,22,MPL Central,TRUE,,,,443,986
 146,22,Magellan,TRUE,,,,,
 147,22,Magellan,TRUE,,,,,
 148,22,Magellan,TRUE,,,,,
 149,22,Magellan,TRUE,,,,,
 150,22,Magellan,TRUE,,,,,
-151,22,Magellan,TRUE,,,,,
-152,22,Magellan,TRUE,,,,,
-153,22,Magellan,TRUE,,,,,
+151,22,MPL Central,TRUE,,,,1461,1577
+152,22,MPL Central,TRUE,,,,1461,23
+153,22,MPL Central,TRUE,,,,979,1783
 154,22,Magellan,TRUE,,,,,
 155,22,Magellan,TRUE,,,,,
 156,22,Magellan,TRUE,,,,,
-157,22,Magellan,TRUE,,,,,
-158,22,Magellan,TRUE,,,,,
+157,22,MPL Central,TRUE,,,,986,1209
+158,22,MPL Central,TRUE,,,,986,967
 159,22,Magellan,TRUE,,,,,
-160,22,Magellan,TRUE,,,,,
+160,22,MPL Central,TRUE,,,,1461,1435
 161,22,Magellan,TRUE,,,,,
 162,22,Magellan,TRUE,,,,,
 163,22,Magellan,TRUE,,,,,
@@ -201,26 +201,26 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 200,22,Magellan,TRUE,,,,,
 201,22,Magellan,TRUE,,,,,
 202,22,Magellan,TRUE,,,,,
-203,22,Magellan,TRUE,,,,,
+203,22,MPL Mountain,TRUE,,,,1536,91
 204,10,Central West Refined Products Pipeline System,TRUE,,,,,
-205,10,Central West Refined Products Pipeline System,TRUE,,,,,
-206,10,Central West Refined Products Pipeline System,TRUE,,,,,
-207,10,Central West Refined Products Pipeline System,TRUE,,,,,
+205,10,Central West Refined Products Pipeline System,TRUE,,,,1878,515
+206,10,Central West Refined Products Pipeline System,TRUE,,,,37,943
+207,10,Central West Refined Products Pipeline System,TRUE,,,,1878,1607
 208,10,Central West Refined Products Pipeline System,TRUE,,,,1895,507
 209,10,Central West Refined Products Pipeline System,TRUE,,,,226,507
 210,10,Central West Refined Products Pipeline System,TRUE,,,,1465,507
 211,10,Central West Refined Products Pipeline System,TRUE,,,,,
 212,10,Central West Refined Products Pipeline System,TRUE,,,,,
 213,10,Central West Refined Products Pipeline System,TRUE,,,,,
-214,10,Central West Refined Products Pipeline System,TRUE,,,,,
-215,14,East Refined Products Pipeline System,TRUE,,,,,
-216,14,East Refined Products Pipeline System,TRUE,,,,,
-217,14,East Refined Products Pipeline System,TRUE,,,,,
-218,14,East Refined Products Pipeline System,TRUE,,,,,
-219,14,East Refined Products Pipeline System,TRUE,,,,,
-220,14,East Refined Products Pipeline System,TRUE,,,,,
-221,14,East Refined Products Pipeline System,TRUE,,,,,
-222,14,East Refined Products Pipeline System,TRUE,,,,,
+214,10,Central West Refined Products Pipeline System,TRUE,,,,37,436
+215,14,East Refined Products Pipeline System,TRUE,,,,1843,1034
+216,14,East Refined Products Pipeline System,TRUE,,,,1843,1442
+217,14,East Refined Products Pipeline System,TRUE,,,,1843,1578
+218,14,East Refined Products Pipeline System,TRUE,,,,609,1202
+219,14,East Refined Products Pipeline System,TRUE,,,,609,365
+220,14,East Refined Products Pipeline System,TRUE,,,,1811,764
+221,14,East Refined Products Pipeline System,TRUE,,,,64,764
+222,14,Mainline,TRUE,,,,764,804
 223,24,North Refined Products Pipelines System,TRUE,,,,1861,1463
 224,3,Borger-Denver,TRUE,,405,"{6, 12}",38,436
 225,17,Gold Line,TRUE,,681,"{8, 16}",38,505
@@ -249,7 +249,7 @@ id,pipeline_id,name,operational,capacity,length,diameter,origin_id,destination_i
 248,41,Tampa Airport Pipeline,TRUE,,,,1686,1682
 249,13,Diamondback,TRUE,,,,228,226
 250,13,Diamondback,TRUE,,,,228,226
-251,49,UNEV,TRUE,,,,1492,1189
+251,49,UNEV,TRUE,118000,427,{12},1492,1189
 252,49,UNEV Cedar City Spur,TRUE,,,,272,272
 253,51,West Shore System,TRUE,,,,892,637
 254,2,Badger System,TRUE,,,,,

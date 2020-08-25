@@ -1,23 +1,20 @@
 {
   "pg": {
     "driver": "pg",
-    "user": "bayzyen",
-    "password": "nrC-t4D-fwn-XMD",
-    "database": "dev",
-    "schema": "web",
-    "host": "dev.cczrjcntqihi.us-east-2.rds.amazonaws.com",
+    "user": "postgres",
+    "password": "postgres",
+    "database": "postgres",
+    "host": "bayzyen.c42qepk9zkbt.us-west-2.rds.amazonaws.com",
     "port": 5432,
-    "max": 10,
-    "ssl": true
+    "max": 10
   },
   "redis": {
     "location": "127.0.0.1",
-    "port": 6379,
-    "password": "thirteen23"
+    "port": 6379
   },
   "twilio": {
-    "sid": "AC9f2ccb40d6f21efd9b93de34ab88c22d",
-    "secret": "0e8e5ad3057fe34d03d1cbfd38fba4b3",
-    "phone": "+16144124943"
+    "sid": "AC276a954567e327f68368d79668e409be",
+    "secret": "b83b67fe0f52f58daf9d06c722d3f4aa",
+    "phone": "+17377779252"
   }
 }

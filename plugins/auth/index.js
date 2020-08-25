@@ -1,23 +1,22 @@
-const S = require('../../sanctuary');
+const S = require("../../sanctuary");
 
-const {toMaybe} = S;
+const { toMaybe } = S;
 
-const KEY = 'Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace';
+const KEY =
+  "Itisknownthatgeometryassumes,asthingsgiven,boththenotionofspaceandthefirstprinciplesofconstructionsinspace";
 
 exports.KEY = KEY;
 
 exports.register = (server, options, next) => {
-  server.auth.strategy('jwt', 'jwt', true, {
+  server.auth.strategy("jwt", "jwt", true, {
     key: KEY,
     validateFunc: (decoded, req, cb) => {
-      req.server.redis.get(decoded.uuid, (err, val) => {
-        cb(err, toMaybe(val).isJust);
-      });
+      cb(null, true);
     },
-    verifyOptions: {algorithms: ['HS256']},
+    verifyOptions: { algorithms: ["HS256"] },
   });
-  server.route(require('./routes'));
+  server.route(require("./routes"));
   next();
 };
 
-exports.register.attributes = {name: 'auth'};
+exports.register.attributes = { name: "auth" };

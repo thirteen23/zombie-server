@@ -161,9 +161,9 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 160,Big Sandy,Big Sandy,,,,,,32.58764,-95.108032,TRUE,,TX,,Highway 155 and Sabine River,42,42,,,terminal,75755,,,,,T-76-TX-2784
 161,Big Sandy - Asphalt,Catlettsburg,,,,,,38.4338,-82.606,TRUE,,KY,, ,3,3,,,terminal,41129,,,,,0
 162,Big Spring,Big Spring,,,,,,32.27328,-101.373968,TRUE,,TX,,East IS-20 & Refinery Rd,177,177,,,terminal,79720,,,,,T-75-TX-2656
-163,Billings,Billings,,,,,,45.7823,-108.4951,TRUE,,MT,88000,23rd & Fourth Ave South,7,475,,3,terminal,59101,,,,,T-81-MT-4000
-164,Billings,Billings,,,,,,45.8066,-108.4335,TRUE,,MT,,607 Exxon Rd.,16,16,,,terminal,59101,,,,,T-81-MT-4007
-165,Billings Plant,Billings,,,,,,45.6866,-108.7029,TRUE,,MT,, ,302,302,,,terminal,59106,,,,,0
+163,Billings P66,Billings,,,,,,45.7823,-108.4951,TRUE,,MT,88000,23rd & Fourth Ave South,7,475,,3,terminal,59101,,,,,T-81-MT-4000
+164,Billings XOM,Billings,,,,,,45.8066,-108.4335,TRUE,,MT,,607 Exxon Rd.,16,16,,,terminal,59101,,,,,T-81-MT-4007
+165,Billings Asphalt,Billings,,,,,,45.6866,-108.7029,TRUE,,MT,, ,302,302,,,terminal,59106,,,,,0
 166,Birmingham,Birmingham,,,,,,33.461271,-86.87784,TRUE,,AL,,2200 25th St Southwest,9,9,,,terminal,35211,,,,,T-63-AL-2302
 167,Birmingham CVX,Birmingham,,,,,,33.459668,-86.878425,TRUE,,AL,,2400 28th St Southwest,12,12,,,terminal,35211,,,,,T-63-AL-2301
 168,Birmingham MRO,Birmingham,,,,,,33.455208,-86.87853,TRUE,,AL,,2704 28th St Southwest,3,3,,,terminal,35211,,,,,T-63-AL-2306
@@ -186,9 +186,8 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 185,Bloomington,Bloomington,,,,,,34.063905,-117.37703,TRUE,,CA,,19700 Slover Ave. PL25000,25,25,,,terminal,92316,,,,,T-33-CA-4794
 186,Blue Island,Blue Island,,,,,,41.65472,-87.714162,TRUE,,IL,,3600 W 131st Street,66,66,,,terminal,60406,,,,,T-36-IL-3300
 187,Blue Island,Blue Island,robert.latz@nustarenergy.com,7083711550,Robert Latz,7083885801,Terminal Contact,41.65816,-87.700204,TRUE,,IL,722000,3210 West 131st Street,6,6,,1,terminal,60406,,,,,T-36-IL-3310
-188,Boise,Boise,,,,,,43.607751,-116.25404,TRUE,,ID,,321 North Curtis Road,40,40,,,terminal,83706,,,,,T-82-ID-4150
-189,Boise,Boise,,,,,,43.606655,-116.248875,TRUE,,ID,,201 N. Phillipi,17,17,,,terminal,83706,,,,,T-82-ID-4151
-190,Boise,Boise,,,,,,43.605304,-116.24834,TRUE,,ID,,70 North Philipi Road,430,430,,,terminal,83706,,,,,T-82-ID-4152
+188,Boise SIN,Boise,,,,,,43.607751,-116.25404,TRUE,,ID,,321 North Curtis Road,40,40,,,terminal,83706,,,,,T-82-ID-4150
+189,Boise ANDV,Boise,,,,,,43.606655,-116.248875,TRUE,,ID,,201 N. Phillipi,17,17,,,terminal,83706,,,,,T-82-ID-4151
 191,Boise Asphalt,Boise,,,,,,43.5635,-116.1834,TRUE,,ID,, ,77,77,,,terminal,83716,,,,,0
 192,Boligee,Boligee,,,,,,32.737366,-87.967724,TRUE,,AL,,2081 County Rd 89,438,438,,,terminal,35443,,,,,T-76-AL-0001
 193,Boligee,Gainesville,,,,,,32.7837,-88.0485,TRUE,,AL,, ,288,288,,,terminal,35464,,,,,0
@@ -231,8 +230,8 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 230,Bucksport,Bucksport,,,,,,44.600448,-68.773241,TRUE,,ME,,Drawer CC River Road,190,190,,,terminal,4416,,,,,T-01-ME-1012
 231,Buda,Buda,,,,,,30.038238,-97.674325,TRUE,,TX,,1165 East Lone Star Drive,397,397,,,terminal,78610,,,,,T-74-TX-2758
 232,Buffalo,Buffalo,,,,,,42.865668,-78.830913,TRUE,,NY,,625 Elk St.,1,1,,,terminal,14210,,,,,T-16-NY-1458
-233,Burley,Burley,,,,,,42.516394,-113.705502,TRUE,,ID,,421 East Highway 81,17,17,,,terminal,83318,,,,,T-82-ID-4155
-234,Burley,Burley,,,,,,42.516396,-113.705535,TRUE,,ID,,425 East Hwy 81 PO Box 233,40,40,,,terminal,83318,,,,,T-82-ID-4157
+233,Burley ANDV,Burley,,,,,,42.516394,-113.705502,TRUE,,ID,,421 East Highway 81,17,17,,,terminal,83318,,,,,T-82-ID-4155
+234,Burley SIN,Burley,,,,,,42.516396,-113.705535,TRUE,,ID,,425 East Hwy 81 PO Box 233,40,40,,,terminal,83318,,,,,T-82-ID-4157
 235,Burlington,Burlington,,,,,,44.4558,-73.2219,TRUE,,VT,, ,20,20,,,terminal,5401,,,,,0
 236,Bushton,Geneseo,,,,,,38.5218,-98.3538,TRUE,,KS,, ,84,84,,,terminal,67444,,,,,0
 237,Caddo Mills,Caddo Mills,,,,,,33.031473,-96.191233,TRUE,,TX,,2738 County Rd 2168,291,291,,,terminal,75135,,,,,T-75-TX-2659
@@ -253,15 +252,14 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 252,Carrington,Carrington,,,,,,47.4571,-98.9253,TRUE,,ND,, ,4,4,,,terminal,58421,,,,,0
 253,Carrollton,Carrollton,,,,,,39.405818,-93.425127,TRUE,,MO,,"RR4, Box 48",40,40,,,terminal,64633,,,,,T-43-MO-3728
 254,Carson,Long Beach,,,,,,33.802691,-118.231339,TRUE,,CA,4692601,2000 East Sepulveda Blvd.,4,4,,,terminal,90810,both,none,both,both,T-33-CA-4751
-255,Carson,Harbor City,,,,,,33.786594,-118.298662,TRUE,,CA,,2149 E. Sepulreda Blvd.,17,17,,,terminal,90710,,,,,T-33-CA-4769
+255,Carson ANDV,Harbor City,,,,,,33.786594,-118.298662,TRUE,,CA,850000,2149 E. Sepulreda Blvd.,17,17,,,terminal,90710,,,,,T-33-CA-4769
 256,Carson Sopus Rack,Long Beach,,,,,,33.8395,-118.2367,TRUE,,CA,, ,18,18,,,terminal,90810,,,,,0
-257,Carson,Long Beach,,,,,,33.8055,-118.226,TRUE,,CA,, ,327,327,,,terminal,90810,,,,,0
 258,Carteret KMI 1,Carteret,,7325415856,Jeff Essig,7325415161,Terminal Manager,40.588932,-74.226498,TRUE,,NJ,7833080,760 Roosevelt Avenue,4,470,,,terminal,7008,,,,,T-22-NJ-1506
 259,Carteret KMI 2,Carteret,,7325415856,Jeff Essig,7325415161,Terminal Manager,40.588995,-74.211864,TRUE,,NJ,7833080,78 Lafayette Street,4,470,,,terminal,7008,,,,,T-22-NJ-1507
 260,Carteret SPR,0,,,,,,40.5895,-71.2147,TRUE,,0,, ,64,64,,,terminal,0,,,,,0
 261,Carthage,Jasper,,(417) 394-3140,,(417) 394-2700,,37.3136,-94.3043,TRUE,,MO,100000,18195 Country Road 138 ,2,477,,,terminal,64755,in,,out,,T-43-MO-3707
 262,Casper,Casper,,,,,,42.863809,-106.40611,TRUE,,WY,,5700 E Hwy 20-26,360,360,,,terminal,82604,,,,,T-83-WY-4052
-263,Casper,Casper,,,,,,42.863809,-106.40611,TRUE,,WY,,5700 East Highway 20-26,40,40,,,terminal,82604,,,,,T-83-WY-4058
+263,Casper SIN,Casper,,,,,,42.863809,-106.40611,TRUE,,WY,,5700 East Highway 20-26,40,40,,,terminal,82604,,,,,T-83-WY-4058
 264,Casper,Casper,,,,,,42.854914,-106.249593,TRUE,,WY,281000,5090 East Lathrop Road,7,475,,2,terminal,82609,,,,,T-83-WY-4061
 265,Casper,Gillette,,,,,,44.0206,-105.4643,TRUE,,WY,, ,151,151,,,terminal,82718,,,,,0
 266,Catlettsburg,Catlettsburg,,,,,,38.335026,-82.588147,TRUE,,KY,,Old St Rt 23,3,3,,,terminal,41129,,,,,T-61-KY-3262
@@ -411,10 +409,10 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 410,Curtis Bay,Curtis Bay,,,,,,39.22935,-76.568995,TRUE,,MD,,2201 Southport Ave.,9,9,,,terminal,21226,,,,,T-52-MD-1562
 411,Custer,Fay,,,,,,35.6966,-98.6636,TRUE,,OK,, ,442,442,,,terminal,73646,,,,,0
 412,Cuyahoga,Cleveland,,,,,,41.427024,-81.657545,TRUE,,OH,,4850 E 49th Street,1,1,,,terminal,44125,,,,,T-34-OH-3144
-413,Dallas,Dallas,,2146881789,,2146881770,,32.778746,-96.888268,TRUE,,TX,,4200 Singleton Boulevard,2,2,,,terminal,75212,,,,,T-75-TX-2661
-414,Dallas,Dallas,,,,,,32.778757,-96.883986,TRUE,,TX,,3900 Singleton Blvd.,10,10,,,terminal,75212,,,,,T-75-TX-2662
-415,Dallas,Dallas,,,,,,32.851874,-96.858654,TRUE,,TX,,Love Field,15,15,,,terminal,75235,,,,,T-75-TX-2663
-416,Dallas,Dallas,,,,,,32.905216,-97.06652,TRUE,,TX,,2001 W. Airfield Dr. @ 20th St,426,426,,,terminal,75261,,,,,T-75-TX-2673
+413,Dallas MPL,Dallas,,2146881789,,2146881770,,32.778746,-96.888268,TRUE,,TX,,4200 Singleton Boulevard,2,2,,,terminal,75212,,,,,T-75-TX-2661
+414,Dallas MOT,Dallas,,,,,,32.778757,-96.883986,TRUE,,TX,,3900 Singleton Boulevard,10,10,,,terminal,75212,,,,,T-75-TX-2662
+415,Dallas ASI,Dallas,,,,,,32.851874,-96.858654,TRUE,,TX,,Love Field,15,15,,,terminal,75235,,,,,T-75-TX-2663
+416,Dallas ALLIED,Dallas,,,,,,32.905216,-97.06652,TRUE,,TX,,2001 W. Airfield Dr. @ 20th St,426,426,,,terminal,75261,,,,,T-75-TX-2673
 417,Davenport,Davenport,,,,,,41.4683,-90.6769,TRUE,,IA,, ,406,406,,,terminal,52804,,,,,0
 418,Davenport Asphalt,Davenport,,,,563-324-3766,,41.4635,-90.6813,TRUE,,IA,,501 East Front Street,14,14,,,terminal,52804,,,,,0
 419,Dayton,Dayton,,,James Malloy,,Terminal Manager,39.785597,-84.161213,TRUE,,OH,274000,621 Brandt Pike,4,470,,,terminal,45404,in,,,,T-31-OH-3106
@@ -435,7 +433,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 434,Denton,Denton,,,,,,35.6134,-80.1778,TRUE,,NC,, ,154,154,,,terminal,27239,,,,,0
 435,Denver,Commerce City,danny.mccrory@nustarenergy.com,3032989013,Danny McCrory,3032979212,Terminal Contact,39.798567,-104.944006,TRUE,,CO,105000,3601 East 56th Street,6,6,,2,terminal,80022,in,none,out,none,T-84-CO-4103
 436,Denver,Commerce City,,,,,,39.7975,-104.939329,TRUE,,CO,310000,3960 East 56th Avenue,7,7,,5,terminal,80022,,,,,T-84-CO-4104
-437,Denver,Henderson,,,,,,39.871265,-104.887789,TRUE,,CO,,8581 East 96th Ave,40,40,,,terminal,80640,,,,,T-84-CO-4109
+437,Denver SIN,Henderson,,,,,,39.871265,-104.887789,TRUE,,CO,,8581 East 96th Ave,40,40,,,terminal,80640,,,,,T-84-CO-4109
 438,Denver,Denver,,,,,,39.897669,-104.67525,TRUE,,CO,,11110 Queensburg St.,15,15,,,terminal,80249,,,,,T-84-CO-4111
 439,Denver,Denver,,,,,,39.790885,-105.0039,TRUE,,CO,,1400 West 52nd Ave,25,25,,,terminal,80221,,,,,T-84-CO-4113
 440,Denver-C,Commerce City,,,,,,39.8039,-104.9363,TRUE,,CO,, ,29,29,,,terminal,80022,,,,,0
@@ -528,7 +526,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 527,Euless,Euless,,,,,,32.810899,-97.0939,TRUE,,TX,, ,265,265,,,terminal,76040,,,,,0
 528,Euless Loading Facility,Euless,,,,,,32.810899,-97.0972,TRUE,,TX,, ,4,472,,,terminal,76040,,,,,0
 529,Eureka,Eureka,,,,,,40.776324,-124.193496,TRUE,,CA,,3400 Christie Street,12,12,,,terminal,95501,,,,,T-68-CA-4606
-530,Evanston,Evanston,,,,,,41.274759,-110.963747,TRUE,,WY,,2990 County Rd. #180,358,358,,,terminal,82930,,,,,T-84-WY-4058
+530,Evanston,Evanston,,,,,,41.260754,-110.808212,TRUE,,WY,,2990 County Rd. #180,358,358,,,terminal,82930,,,,,T-84-WY-4058
 531,Evansville,Evansville,,,,,,37.970535,-87.604909,TRUE,,IN,,2500 Broadway,3,3,,,terminal,47712,,,,,T-35-IN-3207
 532,Evansville,Evansville,,,,8124235427,,37.96914,-87.605656,TRUE,,IN,245000,2630 Broadway,8,8,,3,terminal,47712,,,,,T-35-IN-3213
 533,Everett,Everett,,,,,,42.397257,-71.060518,TRUE,,MA,,52 Beacham Street,16,16,,,terminal,2149,,,,,T-04-MA-1156
@@ -599,7 +597,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 598,Gallup,Gallup,,,,,,35.517929,-108.795615,TRUE,,NM,,I-40 Exit 39,48,48,,,terminal,87301,,,,,T-85-NM-4258
 599,Galveston,Galveston,,,,,,29.195607,-94.981554,TRUE,,TX,,1300 Coastwide Drive,55,55,,,terminal,77554,,,,,T-76-TX-2839
 600,Galveston,Galveston,,,,,,29.318,-94.8151,TRUE,,TX,, ,310,310,,,terminal,77554,,,,,0
-601,Galveston - Pelican Island Terminal,Friendswood,,,,,,29.3248,-94.7872,TRUE,,TX,, ,13,13,,,terminal,77549,,,,,0
+601,Galveston Pelican Island,Friendswood,,,,,,29.3248,-94.7872,TRUE,,TX,, ,13,13,,,terminal,77549,,,,,0
 602,Galveston Dock,Friendswood,,,,,,29.3248,-94.7872,TRUE,,TX,, ,13,13,,,terminal,77549,,,,,0
 603,Garden City Plant,Savannah,,,,,,32.1052,-81.1338,TRUE,,GA,, ,11,11,,,terminal,31408,,,,,0
 604,Garyville,Garyville,,,,,,30.07095,-90.490101,TRUE,,LA,,Highway 61,3,3,,,terminal,70051,,,,,T-72-LA-2363
@@ -617,7 +615,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 616,Glenpool North,Jenks,,,Terry Redleaf,(918) 299-2911,Operator,36.013,-95.9942,TRUE,19000,OK,366000,10600 South Elwood ,7,475,,2,terminal,74037,both,,both,,T-73-OK-2608
 617,Glenpool South,Glenpool,,,Thomas Petty,,Pipeline Operator,35.9752,-96.0039,TRUE,,OK,261000, 917 West 131st Street South,7,475,,0,terminal,74033,,,,,0
 618,Glenwood Landing,Glenwood Landing,,,,,,40.82367,-73.645699,TRUE,,NY,,Shore & Glenwood Rd,20,20,,,terminal,11547,,,,,T-11-NY-1309
-619,Gloucester City Nj,Gloucester City,,,,,,39.8955,-75.128,TRUE,,NJ,, ,29,29,,,terminal,8030,,,,,0
+619,Gloucester City,Gloucester City,,,,,,39.8955,-75.128,TRUE,,NJ,, ,29,29,,,terminal,8030,,,,,0
 620,Golden Meadow,Golden Meadow,,,,,,29.569111,-90.400213,TRUE,,LA,,300 Adam Ted Gisclair Rd,43,43,,,terminal,70357,,,,,T-72-LA-2407
 621,Grafton,Grafton,,,,,,41.304849,-82.020676,TRUE,,OH,,12545 S Avon Belden Rd,1,1,,,terminal,44044,,,,,T-34-OH-3145
 622,Grand Forks,Grand Forks,,7017757606,,7017756256,,47.933196,-97.084752,TRUE,,ND,,3930 Gateway Drive,2,2,,,terminal,58203,,,,,T-45-ND-3500
@@ -629,8 +627,8 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 628,Granite City,Granite City,,,,,,38.7156,-90.1667,TRUE,,IL,, ,27,27,,,terminal,62040,,,,,0
 629,Granville,Milwaukee,,,,,,43.182603,-88.044206,TRUE,,WI,,9101 North 107th Street,79,79,,,terminal,53224,,,,,T-39-WI-3062
 630,Great Bend,Great Bend,jeff.binstock@magellanlp.com,(620) 792-3757,Jeff Binstock,(620) 792-4707,Terminal Contact,38.3689,-98.692,TRUE,,KS,600000,48 NE Highway 156,2,477,,,terminal,67530,in,,out,,T-48-KS-3655
-631,Great Falls,Great Falls,,,,,,47.521321,-111.221099,TRUE,,MT,198000,1401 52nd N,7,475,,2,terminal,59405,,,,,T-81-MT-4002
-632,Great Falls,Great Falls,,,,,,47.493898,-111.274518,TRUE,,MT,,1900 10th Street,261,261,,,terminal,59405,,,,,T-81-MT-4011
+631,Great Falls CLMT,Great Falls,,,,,,47.521321,-111.221099,TRUE,,MT,198000,1401 52nd N,7,475,,2,terminal,59405,,,,,T-81-MT-4002
+632,Great Falls P66,Great Falls,,,,,,47.493898,-111.274518,TRUE,,MT,,1900 10th Street,261,261,,,terminal,59405,,,,,T-81-MT-4011
 633,Greater Cincinnati,Covington,,,,8593310900,,39.073605,-84.5873,TRUE,,KY,189000,700 River Road,8,8,,4,terminal,41017,,,,,T-61-KY-3264
 634,Green Bay,Green Bay,,,,,,44.528872,-88.012891,TRUE,,WI,,1124 North Broadway,19,19,,,terminal,54303,,,,,T-39-WI-3061
 635,Green Bay,Green Bay,,,,,,44.531589,-87.995218,TRUE,,WI,,2206 N Quincy St,19,19,,,terminal,54302,,,,,T-39-WI-3070
@@ -920,7 +918,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 919,Lockport CGO,Lockport,,,,,,41.640969,-88.048651,TRUE,,IL,,135th & New Avenue,9,9,,,terminal,60441,,,,,T-36-IL-3317
 920,Logan,Manhattan,,,,,,45.8844,-111.427,TRUE,,MT,, ,114,114,,,terminal,59741,,,,,0
 921,Long Beach RDS,Long Beach,,,,,,33.840415,-118.236418,TRUE,,CA,,20945 South Wilmington Ave,18,18,,,terminal,90810,,,,,T-33-CA-4746
-922,Long Beach ANDV,Long Beach,,,,,,33.862497,-118.161639,TRUE,,CA,,5905 Paramount Blvd.,17,17,,,terminal,90805,,,,,T-33-CA-4764
+922,Hynes,Long Beach,,,,,,33.862497,-118.161639,TRUE,,CA,19510000,5905 Paramount Blvd.,17,17,,,terminal,90805,,,,,T-33-CA-4764
 923,Long Beach,Long Beach,,,,,,33.874517,-118.163883,TRUE,,CA,,2400 E. Artesia Bl.,207,207,,,terminal,90805,,,,,T-33-CA-4765
 924,Long Beach,Long Beach,,,,,,33.805833,-118.226182,TRUE,,CA,,2365 E. Sepulveda Blvd.,337,337,,,terminal,90810,,,,,T-33-CA-4779
 925,Long Beach PDI,Long Beach,,,,,,33.776028,-118.220555,TRUE,,CA,,1920 Lugger Way,158,158,,,terminal,90813,,,,,T-33-CA-4767
@@ -991,7 +989,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 990,Mc Farland,Madison,,,,,,43.040462,-89.299853,TRUE,,WI,,4009 Triangle St Hwy 51 S,21,21,,,terminal,53718,,,,,T-39-WI-3083
 991,Mc Farland,Mc Farland,,,,,,43.029405,-89.302598,TRUE,,WI,,4606 Terminal Drive,9,9,,,terminal,53558,,,,,T-39-WI-3067
 992,Mc Grath,Mc Grath,,,,,,62.945716,-155.5712,TRUE,,AK,,Melspelt St.,32,32,,,terminal,99627,,,,,T-91-AK-4543
-993,Mccall Terminal Portland,Portland,,,,,,45.5616,-122.736,TRUE,,OR,, ,129,129,,,terminal,97210,,,,,0
+993,McCall Terminal Portland,Portland,,,,,,45.5616,-122.736,TRUE,,OR,, ,129,129,,,terminal,97210,,,,,0
 994,McFarland,Mc Farland,,1,,608-838-3370,,43.0332,-89.3028,TRUE,,WI,,4505 Terminal Drive,14,14,,,terminal,53558,,,,,T-39-WI-3072
 995,McFarland,McFarland,,,,,,43.030042,-89.302638,TRUE,,WI,,4508 Terminal Road,41,41,,,terminal,53558,,,,,T-72-WI-0002
 996,Mcgrath,Mc Grath,,,,,,62.9607,-155.5887,TRUE,,AK,, ,34,34,,,terminal,99627,,,,,0
@@ -1047,10 +1045,9 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1046,Minneapolis,Minneapolis,,,,,,44.874967,-93.211285,TRUE,,MN,,5001 Post Road,392,392,,,terminal,55450,,,,,T-41-MN-3419
 1047,Minneapolis,Minneapolis,,,,,,44.877612,-93.218937,TRUE,,MN,,3800 East 70th St.,96,96,,,terminal,55450,,,,,T-41-MN-3420
 1048,Minot,Minot,,,,,,48.229545,-101.295709,TRUE,,ND,,700 Second Street SW,51,51,,,terminal,58701,,,,,T-45-ND-3504
-1049,Missoula,Missoula,,,,,,46.900544,-114.03269,TRUE,,MT,,3576 Grand Creek Road,51,51,,,terminal,59808,,,,,T-41-MT-0001
-1050,Missoula,Missoula,,,,,,46.896372,-114.030311,TRUE,,MT,368000,3330 Raser Drive,7,475,,3,terminal,59808,,,,,T-81-MT-4004
+1049,Missoula CHS,Missoula,,,,,,46.900544,-114.03269,TRUE,,MT,,3576 Grand Creek Road,51,51,,,terminal,59808,,,,,T-41-MT-0001
+1050,Missoula P66,Missoula,,,,,,46.896372,-114.030311,TRUE,,MT,368000,3330 Raser Drive,7,475,,3,terminal,59808,,,,,T-81-MT-4004
 1051,Missoula,Missoula,,,,,,46.883145,-114.004774,TRUE,,MT,,1001 Defoe St.,137,137,,,terminal,59802,,,,,T-81-MT-4013
-1052,Missoula,Missoula,,,,,,46.9004,-114.0342,TRUE,,MT,, ,114,114,,,terminal,59808,,,,,0
 1053,Mitchell,Mitchell,ron.kleinsasser@nustarenergy.com,6059968321,Ron Kleinsasser,6059662361,Terminal Contact,43.703581,-97.925674,TRUE,,SD,63000,41408 SD Highway 38,6,6,,2,terminal,57301,in,none,both,none,T-46-SD-3551
 1054,Moberly,Cairo,,,,,,39.5203,-92.4363,TRUE,,MO,, ,24,24,,,terminal,65239,,,,,0
 1055,Mobile,Mobile,,,,,,30.701142,-88.103184,TRUE,,AL,,145 Cochran Causeway,116,116,,,terminal,36607,,,,,T-63-AL-2314
@@ -1204,8 +1201,8 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1203,North Pole,North Pole,,,,,,64.780765,-147.207748,TRUE,,AK,,1200 H & H Lane,47,47,,,terminal,99705,,,,,T-91-AK-4580
 1204,North Pole,North Pole,,,,907-488-2741,,64.780765,-147.207748,TRUE,,AK,,1100 H & H Lane,14,14,,,terminal,99705,,,,,T-92-AK-4503
 1205,North Port Arthur,Beauxart Gardens,,,,,,29.9352,-94.0046,TRUE,,TX,, ,424,424,,,terminal,77705,,,,,0
-1206,North Salt Lake,North Salt Lake,,,,,,40.842082,-111.928069,TRUE,,UT,,333 West Center St,274,274,,,terminal,84054,,,,,T-87-UT-4200
-1207,North Salt Lake,North Salt Lake,,,,,,40.862338,-111.905773,TRUE,,UT,657000,245 East 1100 North,7,475,,6,terminal,84054,,,,,T-87-UT-4204
+1206,North Salt Lake City FLYJ,North Salt Lake,,,,,,40.842082,-111.928069,TRUE,,UT,,333 West Center St,274,274,,,terminal,84054,,,,,T-87-UT-4200
+1207,North Salt Lake City P66,North Salt Lake,,,,,,40.862338,-111.905773,TRUE,,UT,657000,245 East 1100 North,7,475,,6,terminal,84054,,,,,T-87-UT-4204
 1208,Northbrook,Northbrook,,,,,,42.136397,-87.796572,TRUE,,IL,,Midway Airport,15,15,,,terminal,60062,,,,,T-36-IL-3376
 1209,Northtown,Minneapolis,,,,,,45.047367,-93.270092,TRUE,,MN,,"80-44th Ave, N.E.",33,33,,,terminal,55421,,,,,T-41-MN-3417
 1210,Northumberland,Northumberland,,,,,,40.90805,-76.784197,TRUE,,PA,,Rt 11 North RD 1,28,28,,,terminal,17857,,,,,T-23-PA-1728
@@ -1266,10 +1263,10 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1265,Pascagoula,Pascagoula,,,,,,30.381078,-88.500799,TRUE,,MS,,Industrial Road State Hwy 611,12,12,,,terminal,39581,,,,,T-64-MS-2416
 1266,Pascagoula,Pascagoula,,,,,,30.354694,-88.510028,TRUE,,MS,,5320 Ingalls Ave.,43,43,,,terminal,39581,,,,,T-72-MS-2420
 1267,Pascagoula,Pascagoula,,,,,,30.3549,-88.5086,TRUE,,MS,, ,13,13,,,terminal,39581,,,,,0
-1268,Pasco,Pasco,,,,,,46.202845,-119.045442,TRUE,,WA,,3000 Sacajawea Park Road,17,17,,,terminal,99302,,,,,T-91-WA-4402
-1269,Pasco,Pasco,,,,,,46.42066,-118.899447,TRUE,,WA,,Tank Farm Road,86,86,,,terminal,99301,,,,,T-91-WA-4420
-1270,Pasco,Pasco,,,,,,46.259,-119.094024,TRUE,,WA,,3490 N Railroad Avenue,33,33,,,terminal,99301,,,,,T-91-WA-4434
-1271,Pasco Plant,Pasco,,,,,,46.3276,-119.1201,TRUE,,WA,, ,77,77,,,terminal,99301,,,,,0
+1268,Pasco ANDV,Pasco,,,,,,46.215184,-119.030184,TRUE,,WA,,3000 Sacajawea Park Road,17,17,,,terminal,99302,,,,,T-91-WA-4402
+1269,Pasco TIDE,Pasco,,,,,,46.225051,-119.01692,TRUE,,WA,,671 Tank Farm Road,86,86,,,terminal,99301,,,,,T-91-WA-4420
+1270,Pasco BNSF,Pasco,,,,,,46.259,-119.094024,TRUE,,WA,,3490 N Railroad Avenue,33,33,,,terminal,99301,,,,,T-91-WA-4434
+1271,Pasco Asphalt,Pasco,,,,,,46.3276,-119.1201,TRUE,,WA,, ,77,77,,,terminal,99301,,,,,0
 1272,Paulsboro,Paulsboro,,,,,,39.845207,-75.249642,TRUE,,NJ,,825 Clonmell Rd.,5,5,,,terminal,8066,,,,,T-22-NJ-1517
 1273,Paulsboro,Paulsboro,,,,,,39.846063,-75.24426,TRUE,,NJ,,3rd St & Billingsport Road,38,38,,,terminal,8066,,,,,T-22-NJ-1525
 1274,Paulsboro,Paulsboro,rusty.wright@nustarenergy.com,8562248905,Rusty Wright,8562248903,Terminal Contact,39.83607,-75.243375,TRUE,,NJ,90800,7 North Delaware Street,6,6,,6,terminal,8066,in,none,out,none,T-22-NJ-1526
@@ -1318,7 +1315,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1317,Plattsmouth,Plattsmouth,,,,,,40.9836,-95.8967,TRUE,,NE,, ,39,39,,,terminal,68048,,,,,0
 1318,Pleasant Hill,Des Moines,,,Weston Newell,(515) 262-5454,Terminal Contact,41.5686,-93.5271,TRUE,,IA,206000,4500 Vandalia,7,475,,2,terminal,50317,,,,,T-42-IA-3470
 1319,Pleasanton,Pleasanton,,,,,,28.9669,-98.4789,TRUE,,TX,, ,11,11,,,terminal,78064,,,,,0
-1320,Pocatello,Pocatello,,,,,,42.916388,-112.532507,TRUE,,ID,,1189 Tank Farm Rd.,17,17,,,terminal,83204,,,,,T-82-ID-4159
+1320,Pocatello ANDV,Pocatello,,,,,,42.916388,-112.532507,TRUE,,ID,,1189 Tank Farm Rd.,17,17,,,terminal,83204,,,,,T-82-ID-4159
 1321,Pocatello,Pocatello,,,,,,42.872174,-112.461093,TRUE,,ID,,237 East Day St.,25,25,,,terminal,83204,,,,,T-84-ID-4153
 1322,Point Breeze,Philadelphia,,2153655758,John Wehrman,2153655791,Terminal Manager,39.899412,-75.226976,TRUE,,PA,580000,6310 Passyunk Avenue,4,472,,,terminal,19153,,,,none,T-23-PA-1731
 1323,Ponca City P66,Ponca City,,,,(580) 767-6326,,36.6881,-97.0931,TRUE,23000,OK,51000,South Highway 60,7,475,,2,terminal,74602,,,,,T-73-OK-2617
@@ -1381,7 +1378,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1380,Rapid City,Rapid City,,,,6053439764,,44.09616,-103.161996,TRUE,,SD,,3225 Eglin Street,2,2,,,terminal,57701,,,,,T-46-SD-3552
 1381,Raritan Bay,Perth Amboy,,,,,,40.512626,-74.290064,TRUE,,NJ,,Smith Street & Convery Blvd.,1,1,,,terminal,8861,,,,,T-22-NJ-1545
 1382,Raritan Bay,Perth Amboy,,,,,,40.5348,-74.2626,TRUE,,NJ,, ,64,64,,,terminal,8861,,,,,0
-1383,Rawlins,Rawlins,,,,,,41.786589,-107.2397,TRUE,,WY,,400 West Front St.,25,25,,,terminal,82301,,,,,T-84-WY-4059
+1383,Rawlins UNP,Rawlins,,,,,,41.786955,-107.235188,TRUE,,WY,,400 West Front St.,25,25,,,terminal,82301,,,,,T-84-WY-4059
 1384,Reading,Reading,,,,,,40.302592,-76.052672,TRUE,,PA,,Fritztown Road,5,5,,,terminal,19608,,,,,T-23-PA-1727
 1385,Reading,Reading,,,,,,40.3186,-76.036035,TRUE,,PA,,901 Mountain Home Rd,28,28,,,terminal,19608,,,,,T-23-PA-1742
 1386,Reading Plant,Reading,,,,,,40.3926,-75.9353,TRUE,,PA,, ,11,11,,,terminal,19605,,,,,0
@@ -1441,7 +1438,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1440,Rochester SUN,Rochester,,,,,,43.168004,-77.675142,TRUE,,NY,,1840 Lyell Avenue,5,5,,,terminal,14606,,,,,T-16-NY-1473
 1441,Rochester WPT,Rochester,,,,,,43.16348,-77.677973,TRUE,,NY,,1935 Lyell Avenue,27,27,,,terminal,14606,,,,,T-16-NY-1494
 1442,Rock Rapids,Rock Rapids,dan.klinetobe@nustarenergy.com,(712) 472-3150,Dan Klinetobe,(712) 472-2575,Terminal Contact,43.4325,-96.1905,TRUE,,IA,223000,3025 Highway 9 Street,6,476,,2,terminal,51246,in,none,both,none,T-42-IA-3472
-1443,Rock Springs,Rock Springs,,,,,,41.631408,-108.963931,TRUE,,WY,125000,90 Foot Hill Blvd,7,475,,2,terminal,82902,,,,,T-83-WY-4051
+1443,Rock Springs,Rock Springs,,,,,,41.56717,-109.292623,TRUE,,WY,125000,90 Foot Hill Blvd,7,475,,2,terminal,82902,,,,,T-83-WY-4051
 1444,Rockford,Rockford,,,,,,42.261985,-89.173708,TRUE,,IL,,1511 South Meridian Road,1,1,,,terminal,61102,,,,,T-36-IL-3306
 1445,Rockford,Rockford,,,,,,42.260007,-89.178735,TRUE,,IL,,7312 Cunningham Road,3,3,,,terminal,61102,,,,,T-36-IL-3308
 1446,Rockford,Rockford,,,,,,42.18859,-89.125271,TRUE,,IL,,3300 Airport Dr,222,222,,,terminal,61109,,,,,T-36-IL-3326
@@ -1470,7 +1467,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1469,Sacramento,Sacramento,,,,,,38.583679,-121.505439,TRUE,,CA,,2420 Front Street,12,12,,,terminal,95818,,,,,T-68-CA-4621
 1470,Sacramento,Sacramento,,,,,,38.568457,-121.517356,TRUE,,CA,141000,76 Broadway,7,7,,3,terminal,95817,,,,,T-68-CA-4624 
 1471,Sacramento,Sacramento,,,,,,38.699144,-121.59012,TRUE,,CA,,7330 Earhart Drive,113,113,,,terminal,95837,,,,,T-68-CA-4632
-1472,Saginaw Tx,Fort Worth,,,,,,32.8712,-97.3655,TRUE,,TX,, ,29,29,,,terminal,76179,,,,,0
+1472,Saginaw,Fort Worth,,,,,,32.8712,-97.3655,TRUE,,TX,, ,29,29,,,terminal,76179,,,,,0
 1473,Saint Albans,Saint Albans,,,,,,38.38565,-81.83624,TRUE,,WV,,1Terminal Rd,187,187,,,terminal,25177,,,,,T-55-WV-3184
 1474,Saint Clair,Saint Clair,,,,,,42.81332,-82.50621,TRUE,,MI,,1575 Fred Moore Hwy,50,50,,,terminal,48079,,,,,T-38-MI-3048
 1475,Saint George Island,Saint George Island,,,,,,56.58333,-169.58333,TRUE,,AK,,Water Front Building,376,376,,,terminal,99591,,,,,T-91-AK-4533
@@ -1488,10 +1485,10 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1487,Salina,Salina,,,,,,38.8526,-97.6204,TRUE,,KS,, ,11,11,,,terminal,67401,,,,,0
 1488,Salisbury,Salisbury,,,,,,38.362927,-75.616029,TRUE,,MD,,1030 Marine Road,287,287,,,terminal,21801,,,,,T-52-MD-1567
 1489,Salisbury,Salisbury,,,,,,38.357762,-75.624258,TRUE,,MD,,1134 Marine Road,186,186,,,terminal,21801,,,,,T-52-MD-1568
-1490,Salt Lake City,Salt Lake City,,,,,,40.686524,-111.854074,TRUE,,UT,,1070 North 3930 West,15,15,,,terminal,84124,,,,,T-84-UT-4207
-1491,Salt Lake City,Salt Lake City,,,,,,40.789215,-111.904947,TRUE,,UT,,474 West 900 N,17,17,,,terminal,84103,,,,,T-87-UT-4202
-1492,Salt Lake City,Salt Lake City,,,,,,40.818439,-111.921466,TRUE,,UT,,2350 North 1100 W,12,12,,,terminal,84116,,,,,T-87-UT-4203
-1493,Salt Lake City,North Salt Lake,,,,,,40.8616,-111.9144,TRUE,,UT,, ,11,11,,,terminal,84054,,,,,0
+1490,Salt Lake City ASI,Salt Lake City,,,,,,40.793625,-111.984921,TRUE,,UT,,1070 North 3930 West,15,15,,,terminal,84124,,,,,T-84-UT-4207
+1491,Salt Lake City ANDV,Salt Lake City,,,,,,40.789215,-111.904947,TRUE,,UT,,474 West 900 N,17,17,,,terminal,84103,,,,,T-87-UT-4202
+1492,Salt Lake City CVX,Salt Lake City,,,,,,40.818439,-111.921466,TRUE,,UT,,2350 North 1100 W,12,12,,,terminal,84116,,,,,T-87-UT-4203
+1493,North Salt Lake City Asphalt,North Salt Lake,,,,,,40.8616,-111.9144,TRUE,,UT,, ,11,11,,,terminal,84054,,,,,0
 1494,San Angelo,San Angelo,,,,,,31.441909,-100.301587,TRUE,,TX,,4008 U S Hwy 67N,42,42,,,terminal,76905,,,,,T-75-TX-2686
 1495,San Antonio,San Antonio,,,,,,29.43371,-98.402448,TRUE,,TX,,4851 Emil Road,9,9,,,terminal,78219,,,,,T-74-TX-2737
 1496,San Antonio,San Antonio,,,,,,29.347395,-98.459265,TRUE,,TX,,7811 S. Presa,263,263,,,terminal,78223,,,,,T-74-TX-2712
@@ -1531,7 +1528,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1530,Savannah,Rossignol Hill,,,,,,32.109699,-81.1261,TRUE,,GA,, ,136,136,,,terminal,31408,,,,,0
 1531,Savannah Lubricants,Savannah,,,,,,32.072699,-81.0504,TRUE,,GA,, ,7,7,,,terminal,31404,,,,,0
 1532,Savona,Savona,,,,,,42.305,-77.2592,TRUE,,NY,, ,194,194,,,terminal,14879,,,,,0
-1533,Sawtooth,Sugarville,,,,,,39.5131,-112.585,TRUE,,UT,, ,344,344,,,terminal,84624,,,,,0
+1533,Sawtooth NGL,Sugarville,,,,,,39.5131,-112.585,TRUE,,UT,, ,344,344,,,terminal,84624,,,,,0
 1534,Schaefferstown,Newmanstown,,,,,,40.277519,-76.296831,TRUE,,PA,, ,50,50,,,terminal,17073,,,,,0
 1535,Scott City,Scott City,,,,,,37.21672,-89.52453,TRUE,,MO,,"Rural Route 2, Hwy N",228,228,,,terminal,63780,,,,,T-43-MO-3705
 1536,Scott City,Scott City,stan.rogers@magellanlp.com,(620) 872-2952,Stan Rogers,(620) 872-2086,Terminal Contact,38.5994,-100.906,TRUE,,KS,300000,100 Highway 4,2,477,,,terminal,67871,in,,out,,T-48-KS-3664
@@ -1569,7 +1566,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1568,Shreveport Truck Rack,Bossier City,,,,,,32.5526,-93.6738,TRUE,,LA,, ,23,23,,,terminal,71111,,,,,0
 1569,Sidney,Sidney,,,,,,41.149256,-102.934135,TRUE,,NE,,11712 US Highway  30,30,30,,,terminal,69162,,,,,T-47-NE-3609
 1570,Sidney,Sidney,,,,,,47.655825,-104.195206,TRUE,,MT,,35251 South County Road 128,227,227,,,terminal,59270,,,,,T-81-MT-4017
-1571,Signal Hill,Signal Hill,,,,,,33.800026,-118.155436,TRUE,,CA,,2350 Hathaway Drive,17,17,,,terminal,90755,,,,,T-33-CA-4784
+1571,Hathaway,Signal Hill,,,,,,33.800026,-118.155436,TRUE,,CA,,2350 Hathaway Drive,17,17,,,terminal,90755,,,,,T-33-CA-4784
 1572,Signal Hill,Signal Hill,,,,,,33.800253,-118.152011,TRUE,,CA,,2457 Redondo Ave.,18,18,,,terminal,90755,,,,,T-33-CA-4785
 1573,Sinclair,Sinclair,,,,,,41.7791,-107.1166,TRUE,,WY,, ,166,166,,,terminal,82334,,,,,0
 1574,Sinking Spring,Reading,,,,,,40.3272,-76.0114,TRUE,,PA,, ,124,124,,,terminal,19608,,,,,0
@@ -1585,11 +1582,11 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1584,Solar Gas Inc,Mentor,,,,,,47.7254,-96.1831,TRUE,,MN,, ,150,150,,,terminal,56736,,,,,0
 1585,Soldotna,Soldotna,,,,,,60.4919,-151.1569,TRUE,,AK,, ,31,31,,,terminal,99669,,,,,0
 1586,Somerset,Somerset,,,,,,37.069387,-84.616917,TRUE,,KY,,600 Monticello Street,447,447,,,terminal,42501,,,,,T-61-KY-3281
-1587,Sorrento Ugs,Sorrento,,,,,,30.1842,-90.8592,TRUE,,LA,, ,22,22,,,terminal,70778,,,,,0
+1587,Sorrento UGS,Sorrento,,,,,,30.1842,-90.8592,TRUE,,LA,, ,22,22,,,terminal,70778,,,,,0
 1588,Sound,Tacoma,,,,,,47.277263,-122.385489,TRUE,,WA,,2628 Marine View Drive,276,276,,,terminal,98422,,,,,T-91-WA-4414
 1589,South Albany,Albany,,2294360004,,2294365551,,31.548896,-84.203226,TRUE,,GA,,1722 W Oakridge Drive,2,2,,,terminal,31707,,,,,T-58-GA-2501
 1590,South Bend,South Bend,,,,,,41.628576,-86.270723,TRUE,,IN,,20630 W. Ireland Rd.,1,1,,,terminal,46614,,,,,T-35-IN-3246
-1591,South Gate,South Gate,,,,,,33.952365,-118.167387,TRUE,,CA,,8601 S. Garfield Ave.,17,17,,,terminal,90280,,,,,T-95-CA-4807
+1591,Vinvale,South Gate,,,,,,33.952365,-118.167387,TRUE,,CA,850000,8601 S. Garfield Ave.,17,17,,,terminal,90280,,,,,T-95-CA-4807
 1592,South Houston,Houston,,,,,,29.668652,-95.39664,TRUE,,TX,,10501 East Almeda,16,16,,,terminal,77054,,,,,T-76-TX-2812
 1593,South Newburgh,New Windsor,,,,,,41.48155,-74.014252,TRUE,,NY,,1184 River Road,20,20,,,terminal,12553,,,,,T-14-NY-1414
 1594,South Philadelphia,Philadelphia,,,,,,39.9075,-75.2234,TRUE,,PA,, ,38,38,,,terminal,19153,,,,,0
@@ -1602,10 +1599,10 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1601,South Portland,South Portland,,,,,,43.638,-70.287,TRUE,,ME,, ,64,64,,,terminal,4106,,,,,0
 1602,South Williamsport,Williamsport,,,,,,41.24119,-76.963199,TRUE,,PA,,1466 Sylvan Dell Road,1,1,,,terminal,17702,,,,,T-23-PA-1743
 1603,South Williamsport,Williamsport,,,,,,41.241,-76.9856,TRUE,,PA,, ,49,49,,,terminal,17702,,,,,0
-1604,Southeast Emulsions Perry Asphal,Perry,,,,,,32.4575,-83.769,TRUE,,GA,, ,146,146,,,terminal,31069,,,,,0
-1605,Southeast Emulsions Union Asphal,Union,,,,,,34.7513,-81.6315,TRUE,,SC,, ,146,146,,,terminal,29379,,,,,0
-1606,Southlake,Grapevine,,8174883524,,8174811566,,32.915239,-97.125924,TRUE,,TX,,3100 Highway 26 West,2,2,,,terminal,76051,,,,,T-75-TX-2671
-1607,Southlake,Grapevine,ralph.wimp@nustarenergy.com,8174888260,Ralph Wimp,8174814977,Terminal Contact,32.918,-97.1222,TRUE,,TX,445792,1700 Hwy 26,6,476,,4,terminal,76051,both,none,both,none,T-75-TX-2680
+1604,Perry Asphalt,Perry,,,,,,32.4575,-83.769,TRUE,,GA,, ,146,146,,,terminal,31069,,,,,0
+1605,Union Asphalt,Union,,,,,,34.7513,-81.6315,TRUE,,SC,, ,146,146,,,terminal,29379,,,,,0
+1606,Southlake MPL,Grapevine,,8174883524,,8174811566,,32.922039,-97.115943,TRUE,,TX,,3100 Highway 26 West,2,2,,,terminal,76051,,,,,T-75-TX-2671
+1607,Southlake NUS,Grapevine,ralph.wimp@nustarenergy.com,8174888260,Ralph Wimp,8174814977,Terminal Contact,32.918,-97.1222,TRUE,,TX,445792,1700 Hwy 26,6,476,,4,terminal,76051,both,none,both,none,T-75-TX-2680
 1608,Sparks,Sparks,,,,,,39.53401,-119.749499,TRUE,,NV,,525 Nugget Avenue,457,457,,,terminal,89431,,,,,T-88-NV-4354
 1609,Sparks,Sparks,,,,,,39.541317,-119.650155,TRUE,,NV,,500 Ireland Drive,98,98,,,terminal,89434,,,,,T-88-NV-4364
 1610,Spartanburg,Spartanburg,,,,,,34.922787,-81.873087,TRUE,,SC,,2590 Southport Road,9,9,,,terminal,29302,,,,,T-57-SC-2077
@@ -1616,9 +1613,9 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1615,Spartanburg 2,Spartanburg,,8645910828,,8645852852,,34.929184,-81.876232,TRUE,,SC,,2430 Pine Street Ext,2,2,,,terminal,29302,,,,,T-57-SC-2076
 1616,Spartansburg,Spartanburg,,,,,,34.92409,-81.86432,TRUE,,SC,,680 Delmar Road,1,1,,,terminal,29302,,,,,T-57-SC-2052
 1617,Speedway,Indianapolis,,,,,,39.785233,-86.225765,TRUE,,IN,,1304 Olin Ave,3,3,,,terminal,46222,,,,,T-35-IN-3222
-1618,Spokane,Spokane,,,,,,47.668518,-117.26666,TRUE,,WA,351000,6317 East Sharp Avenue,7,475,,3,terminal,99206,,,,,T-91-WA-4410
-1619,Spokane,Spokane,,,,,,47.668665,-117.324203,TRUE,,WA,,6311 East Sharp Avenue,16,16,,,terminal,99212,,,,,T-91-WA-4411
-1620,Spokane,Spokane,,,,,,47.729328,-117.362854,TRUE,,WA,,3225 East Lincoln Road,30,30,,,terminal,99217,,,,,T-91-WA-4412
+1618,Spokane P66,Spokane,,,,,,47.668923,-117.318559,TRUE,,WA,351000,6317 East Sharp Avenue,7,475,,3,terminal,99206,,,,,T-91-WA-4410
+1619,Spokane XOM,Spokane,,,,,,47.669165,-117.321139,TRUE,,WA,,6311 East Sharp Avenue,16,16,,,terminal,99212,,,,,T-91-WA-4411
+1620,Spokane HFC,Spokane,,,,,,47.729328,-117.362854,TRUE,,WA,,3225 East Lincoln Road,30,30,,,terminal,99217,,,,,T-91-WA-4412
 1621,Spokane Hillyard,Spokane,,,,,,47.6975,-117.3611,TRUE,,WA,, ,77,77,,,terminal,99217,,,,,0
 1622,Spokane Valley,Spokane,,,,,,47.6975,-117.3611,TRUE,,WA,, ,77,77,,,terminal,99217,,,,,0
 1623,Spring Lake,Spring Lake,,,,,,43.082109,-86.2206,TRUE,,MI,,524 Third Street,9,9,,,terminal,49456,,,,,T-38-MI-3008
@@ -1695,8 +1692,8 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1694,Taylor,Taylor,,,,,,42.246587,-83.296722,TRUE,,MI,,7965 Holland,232,232,,,terminal,48180,,,,,T-38-MI-3012
 1695,Taylor East,Taylor,,,,,,42.254737,-83.274399,TRUE,,MI,,24501 Ecorse Rd,1,1,,,terminal,48180,,,,,T-38-MI-3014
 1696,Temple,Temple,,,,,,31.093454,-97.348951,TRUE,,TX,,610 West Avenue D,33,33,,,terminal,76504,,,,,T-76-TX-2824
-1697,Terminal 2,Long Beach,,,,,,33.7796,-118.2156,TRUE,,CA,, ,17,17,,,terminal,90813,,,,,0
-1698,Terminal 3,Long Beach,,,,,,33.7796,-118.2156,TRUE,,CA,, ,17,17,,,terminal,90813,,,,,0
+1697,Long Beach Terminal 2,Long Beach,,,,,,33.7796,-118.2156,TRUE,,CA,, ,17,17,,,terminal,90813,,,,,0
+1698,Long Beach Terminal 3,Long Beach,,,,,,33.7796,-118.2156,TRUE,,CA,336000, ,17,17,,,terminal,90813,,,,,0
 1699,Terminal Road,Providence,,,,,,41.7962,-71.3894,TRUE,,RI,, ,245,245,,,terminal,2905,,,,,0
 1700,Texas City,Texas City,,,,,,29.3646,-94.9191,TRUE,,TX,, ,441,441,,,terminal,77590,,,,,0
 1701,Texas City 1,Texas City,marcelo.cornejo@nustarenergy.com,4099484460,Marcelo Cornejo,4099483561,Terminal Contact,29.373724,94.891421,TRUE,,TX,2681000,201 Dock Road,6,6,,,terminal,77590,none,,,,T-76-TX-2796
@@ -1714,7 +1711,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1713,Toledo,Toledo,,,,,,41.678107,-83.496989,TRUE,,OH,,2844 Summit St,21,21,,,terminal,43611,,,,,T-34-OH-3169
 1714,Tonawanda,Tonawanda,,,,,,42.999063,-78.928621,TRUE,,NY,,4545 River Road,62,62,,,terminal,14150,,,,,T-16-NY-1457
 1715,Tonawanda,Tonawanda,,,,,,42.978596,-78.926605,TRUE,,NY,,3733 River Road,5,5,,,terminal,14150,,,,,T-16-NY-1484
-1716,Tooele,Tooele,,,,,,40.5308,-112.298,TRUE,,UT,, ,391,391,,,terminal,84074,,,,,0
+1716,Tooele Asphalt,Tooele,,,,,,40.5308,-112.298,TRUE,,UT,, ,391,391,,,terminal,84074,,,,,0
 1717,Topeka,Wakarusa,jon.jacobs@magellanlp.com,,Jon Jacobs,(785) 862-1602,Terminal Contact,38.9215,-95.6863,TRUE,,KS,100000,US Hwy 75 RFD 1,2,477,,,terminal,66546,in,,out,,T-48-KS-3665
 1718,Torrance,Torrance,,,,,,33.855478,-118.323209,TRUE,,CA,,3700 West 190th Street,416,416,,,terminal,90503,,,,,T-33-CA-4786
 1719,Tracy,Tracy,,,,,,37.751655,-121.349456,TRUE,,CA,,22888 S. Kasson Rd.,12,12,,,terminal,95376,,,,,T-68-CA-4604
@@ -1741,7 +1738,7 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1740,Unalaska,Unalaska,,,,,,53.899246,-166.535349,TRUE,,AK,,647 Ballyhoo Rd.,47,47,,,terminal,99685,,,,,T-91-AK-4510
 1741,Unalaska Capn Bay,Unalaska,,,,,,53.848219,-166.575533,TRUE,,AK,,1200 Captain's Bay Rd.,47,47,,,terminal,99685,,,,,T-91-AK-4509
 1742,Unalaska Westward ,Unalaska,,,,,,53.854934,-166.561089,TRUE,,AK,,2158 Captain's Bay Rd.,47,47,,,terminal,99685,,,,,T-91-AK-4508
-1743,Boise UTD,Boise,,,,,,43.6051,-116.2484,TRUE,,ID,, ,173,173,,,terminal,83706,,,,,0
+1743,Boise UTD,Boise,,,,,,43.6051,-116.2484,TRUE,,ID,, ,173,173,,,terminal,83706,,,,,T-82-ID-4152
 1744,Utica,Utica,,,,,,43.106722,-75.217458,TRUE,,NY,,37 Wurz Avenue,1,1,,,terminal,13502,,,,,T-16-NY-1486
 1745,Valdez,Valdez,,,,,,61.13083,-146.34833,TRUE,,AK,,402 West Egan,47,47,,,terminal,99686,,,,,T-91-AK-4507
 1746,Valdez,Valdez,,,,,,61.122804,-146.260051,TRUE,,AK,,Mile 2.5 Dayville Rd.,47,47,,,terminal,99686,,,,,T-91-AK-4581
@@ -1831,10 +1828,9 @@ id,name,city,contact_email,contact_fax,contact_name,contact_phone,contact_role,l
 1830,Woodbury,Paulsboro,,,,,,39.8224,-75.1807,TRUE,,NJ,,920 Kings Highway,44,44,,,terminal,8066,,,,,T-22-NJ-1540
 1831,Woodhaven,Trenton,,,,,,42.139378,-83.235406,TRUE,,MI,,20755 West Road,1,1,,,terminal,48183,,,,,T-38-MI-3024
 1832,Woodhaven,Trenton,,,,,,42.1308,-83.2282,TRUE,,MI,, ,3,3,,,terminal,48183,,,,,0
-1833,Woods Cross,Woods Cross,,,,,,40.866322,-111.911499,TRUE,,UT,,2355 South 1100 West,256,256,,,terminal,84087,,,,,T-87-UT-4205
-1834,Woods Cross,Woods Cross,,,,,,40.886189,-111.902582,TRUE,,UT,,393 South 800 West,30,30,,,terminal,84087,,,,,T-87-UT-4206
-1835,Woods Cross,Woods Cross,,,,,,40.886189,-111.902582,TRUE,,UT,,393 South 800 West,237,237,,,terminal,84087,,,,,T-87-UT-4208
-1836,Woods Cross Plant,Woods Cross,,,,,,40.8747,-111.9071,TRUE,,UT,, ,11,11,,,terminal,84087,,,,,0
+1833,Woods Cross SER,Woods Cross,,,,,,40.866322,-111.911499,TRUE,,UT,,2355 South 1100 West,256,256,,,terminal,84087,,,,,T-87-UT-4205
+1835,Woods Cross HFC,Woods Cross,,,,,,40.886189,-111.902582,TRUE,,UT,,393 South 800 West,237,237,,,terminal,84087,,,,,T-87-UT-4206/8
+1836,Woods Cross Asphalt,Woods Cross,,,,,,40.8747,-111.9071,TRUE,,UT,, ,11,11,,,terminal,84087,,,,,0
 1837,Wrangell,Wrangell,,,,,,56.463864,-132.383998,TRUE,,AK,,1427 Peninsula St.,31,31,,,terminal,99929,,,,,T-91-AK-4583
 1838,Wrangell,Wrangell,,,,,,56.464,-132.3842,TRUE,,AK,, ,36,36,,,terminal,99929,,,,,0
 1839,Wrenshall,Wrenshall,,2183843465,,2183843667,,46.633144,-92.39142,TRUE,,MN,,10 Broadway Street,2,2,,,terminal,55797,,,,,T-41-MN-3405
