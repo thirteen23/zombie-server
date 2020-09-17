@@ -2,7 +2,7 @@
   "pg": {
     "driver": "pg",
     "user": "postgres",
-    "password": "postgres",
+    "password": "magicshow",
     "database": "postgres",
     "host": "bayzyen.c42qepk9zkbt.us-west-2.rds.amazonaws.com",
     "port": 5432,
