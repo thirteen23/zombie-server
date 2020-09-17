@@ -13,6 +13,10 @@ const users = [
     username: "joe.lene",
     password: "magicshow",
   },
+  {
+    username: "doug.cook@thirteen23.com",
+    password: "magicshow",
+  },
 ];
 
 // findName :: String -> Maybe String
